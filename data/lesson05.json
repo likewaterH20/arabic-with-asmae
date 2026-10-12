@@ -1,0 +1,432 @@
+{
+ "n": 5,
+ "id": "q6koiC3tXSw",
+ "title": "I can learn Arabic fast",
+ "duration": 886,
+ "goal": "Say 'I can' / 'I can't' (yumkinunee / laa yumkinunee), ask a yes-no question with hal, and build 'I can't live here anymore'.",
+ "items": [
+  {
+   "t": 40,
+   "end": 77,
+   "kind": "word",
+   "ar": "يُمْكِنُني",
+   "tr": "yumkinunee",
+   "en": "I can (lit. it is possible for me)",
+   "syll": [
+    "yum",
+    "ki",
+    "nu",
+    "nee"
+   ],
+   "note": "يمكن (yumkin) = it is possible; add -nee (me) and it becomes 'it is possible for me' = I can.",
+   "mnemonic": "yum-ki-nu-NEE: 'YUMmy KIwi? NEEd it? I CAN.'"
+  },
+  {
+   "t": 77,
+   "end": 117,
+   "kind": "review",
+   "ar": "أن أتعلّم",
+   "tr": "an ata'allam",
+   "en": "to learn",
+   "parts": [
+    "أن",
+    "أتعلّم"
+   ],
+   "note": "أن (an) = 'to', as in lesson 1."
+  },
+  {
+   "t": 117,
+   "end": 138,
+   "kind": "phrase",
+   "ar": "يمكنني أن أتعلّم",
+   "tr": "yumkinunee an ata'allam",
+   "en": "I can learn",
+   "parts": [
+    "يمكنني",
+    "أن",
+    "أتعلّم"
+   ]
+  },
+  {
+   "t": 138,
+   "end": 171,
+   "kind": "word",
+   "ar": "بِسُرْعة",
+   "tr": "bisur'a",
+   "en": "fast / quickly (lit. with speed)",
+   "syll": [
+    "bi",
+    "sur",
+    "'a"
+   ],
+   "note": "بِ (bi) = with, سرعة (sur'a) = speed. 'With speed' = fast.",
+   "mnemonic": "bi-SUR-'a: 'BE SURe-a to go FAST.'"
+  },
+  {
+   "t": 171,
+   "end": 193,
+   "kind": "review",
+   "ar": "يمكنني أن أتعلّم",
+   "tr": "yumkinunee an ata'allam",
+   "en": "I can learn",
+   "parts": [
+    "يمكنني",
+    "أن",
+    "أتعلّم"
+   ]
+  },
+  {
+   "t": 193,
+   "end": 225,
+   "kind": "phrase",
+   "ar": "يمكنني أن أتعلّم بسرعة",
+   "tr": "yumkinunee an ata'allam bisur'a",
+   "en": "I can learn fast",
+   "parts": [
+    "يمكنني",
+    "أن",
+    "أتعلّم",
+    "بسرعة"
+   ]
+  },
+  {
+   "t": 225,
+   "end": 256,
+   "kind": "word",
+   "ar": "هل",
+   "tr": "hal",
+   "en": "is it...? (yes/no question word)",
+   "syll": [
+    "hal"
+   ],
+   "note": "Put هل at the start of almost any statement to turn it into a yes/no question; it literally means 'is it'.",
+   "mnemonic": "HAL: 'HALlo, is it...?' opens every yes/no question."
+  },
+  {
+   "t": 256,
+   "end": 307,
+   "kind": "phrase",
+   "ar": "هل يمكنني أن أتعلّم العربية بسرعة؟",
+   "tr": "hal yumkinunee an ata'allam al-'arabiyya bisur'a?",
+   "en": "Can I learn Arabic fast? (lit. is it possible for me to learn Arabic with speed?)",
+   "parts": [
+    "هل",
+    "يمكنني",
+    "أن",
+    "أتعلّم",
+    "العربية",
+    "بسرعة"
+   ]
+  },
+  {
+   "t": 307,
+   "end": 380,
+   "kind": "rule",
+   "ar": "أيمكنني أن أتعلّم العربية بسرعة؟",
+   "tr": "a-yumkinunee an ata'allam al-'arabiyya bisur'a?",
+   "en": "Can I learn Arabic quickly? (alternative question forms)",
+   "note": "She gives a second way to ask the same question, and says you can also simply say the statement with question intonation; both are correct.",
+   "uncertain": true
+  },
+  {
+   "t": 380,
+   "end": 413,
+   "kind": "word",
+   "ar": "أذهب",
+   "tr": "adh-hab",
+   "en": "I go",
+   "syll": [
+    "adh",
+    "hab"
+   ],
+   "note": "If another word follows, hook an 'u': أذهبُ (adh-habu). The pronoun أنا is optional.",
+   "mnemonic": "adh-HAB: 'I HAVe to GO.'"
+  },
+  {
+   "t": 413,
+   "end": 434,
+   "kind": "rule",
+   "ar": "أن أذهب",
+   "tr": "an adh-hab",
+   "en": "to go",
+   "note": "Same pattern as 'to learn': أن + the I-form. 'to go' = an adh-hab."
+  },
+  {
+   "t": 434,
+   "end": 468,
+   "kind": "phrase",
+   "ar": "يمكنني أن أذهب",
+   "tr": "yumkinunee an adh-hab",
+   "en": "I can go",
+   "parts": [
+    "يمكنني",
+    "أن",
+    "أذهب"
+   ]
+  },
+  {
+   "t": 468,
+   "end": 486,
+   "kind": "word",
+   "ar": "الآن",
+   "tr": "al-aan",
+   "en": "now / right now",
+   "syll": [
+    "al",
+    "aan"
+   ],
+   "mnemonic": "al-AAN: 'ALl ON, right NOW.'"
+  },
+  {
+   "t": 486,
+   "end": 512,
+   "kind": "phrase",
+   "ar": "يمكنني أن أذهبَ الآن",
+   "tr": "yumkinunee an adh-haba al-aan",
+   "en": "I can go now",
+   "parts": [
+    "يمكنني",
+    "أن",
+    "أذهبَ",
+    "الآن"
+   ]
+  },
+  {
+   "t": 512,
+   "end": 526,
+   "kind": "review",
+   "ar": "بسرعة",
+   "tr": "bisur'a",
+   "en": "fast / quickly (with speed)"
+  },
+  {
+   "t": 526,
+   "end": 559,
+   "kind": "phrase",
+   "ar": "يمكنني أن أذهبَ بسرعة",
+   "tr": "yumkinunee an adh-haba bisur'a",
+   "en": "I can go fast / quickly",
+   "parts": [
+    "يمكنني",
+    "أن",
+    "أذهبَ",
+    "بسرعة"
+   ]
+  },
+  {
+   "t": 559,
+   "end": 588,
+   "kind": "word",
+   "ar": "لا يمكنني",
+   "tr": "laa yumkinunee",
+   "en": "I can't",
+   "syll": [
+    "laa",
+    "yum",
+    "ki",
+    "nu",
+    "nee"
+   ],
+   "note": "لا (no) in front of يمكنني negates it: 'it is not possible for me'.",
+   "mnemonic": "LAA yumkinunee: 'NO, LAAter, I CAN'T.'"
+  },
+  {
+   "t": 588,
+   "end": 617,
+   "kind": "phrase",
+   "ar": "لا يمكنني أن أذهب",
+   "tr": "laa yumkinunee an adh-hab",
+   "en": "I can't go",
+   "parts": [
+    "لا",
+    "يمكنني",
+    "أن",
+    "أذهب"
+   ]
+  },
+  {
+   "t": 617,
+   "end": 655,
+   "kind": "phrase",
+   "ar": "لا يمكنني أن أذهبَ الآن",
+   "tr": "laa yumkinunee an adh-haba al-aan",
+   "en": "I can't go now",
+   "parts": [
+    "لا",
+    "يمكنني",
+    "أن",
+    "أذهبَ",
+    "الآن"
+   ]
+  },
+  {
+   "t": 655,
+   "end": 669,
+   "kind": "review",
+   "ar": "أنا أعيش",
+   "tr": "ana a'eesh",
+   "en": "I live",
+   "parts": [
+    "أنا",
+    "أعيش"
+   ],
+   "note": "From the previous lesson; أنا can be dropped: أعيش.",
+   "uncertain": true
+  },
+  {
+   "t": 669,
+   "end": 695,
+   "kind": "review",
+   "ar": "أعيشُ هنا",
+   "tr": "a'eeshu hunaa",
+   "en": "I live here",
+   "parts": [
+    "أعيشُ",
+    "هنا"
+   ],
+   "note": "هنا (hunaa) = here.",
+   "uncertain": true
+  },
+  {
+   "t": 695,
+   "end": 705,
+   "kind": "word",
+   "ar": "أحسنت",
+   "tr": "ahsant",
+   "en": "good job (lit. you did well)",
+   "syll": [
+    "ah",
+    "sant"
+   ],
+   "note": "Whenever she says أحسنت it means 'good job'.",
+   "mnemonic": "ah-SANT: 'AH, SANTa says good job.'"
+  },
+  {
+   "t": 705,
+   "end": 719,
+   "kind": "rule",
+   "ar": "أن أعيش",
+   "tr": "an a'eesh",
+   "en": "to live",
+   "note": "أن + أعيش = to live; when another word follows: أن أعيشَ (an a'eesha)."
+  },
+  {
+   "t": 719,
+   "end": 740,
+   "kind": "phrase",
+   "ar": "يمكنني أن أعيشَ هنا",
+   "tr": "yumkinunee an a'eesha hunaa",
+   "en": "I can live here",
+   "parts": [
+    "يمكنني",
+    "أن",
+    "أعيشَ",
+    "هنا"
+   ]
+  },
+  {
+   "t": 740,
+   "end": 754,
+   "kind": "review",
+   "ar": "لا يمكنني",
+   "tr": "laa yumkinunee",
+   "en": "I can't"
+  },
+  {
+   "t": 754,
+   "end": 782,
+   "kind": "phrase",
+   "ar": "لا يمكنني أن أعيشَ هنا",
+   "tr": "laa yumkinunee an a'eesha hunaa",
+   "en": "I can't live here",
+   "parts": [
+    "لا",
+    "يمكنني",
+    "أن",
+    "أعيشَ",
+    "هنا"
+   ]
+  },
+  {
+   "t": 782,
+   "end": 804,
+   "kind": "word",
+   "ar": "بعد الآن",
+   "tr": "ba'da al-aan",
+   "en": "anymore (lit. after now)",
+   "syll": [
+    "ba'",
+    "da",
+    "al",
+    "aan"
+   ],
+   "note": "بعد (ba'd) = after, الآن (al-aan) = now. 'After now' = anymore.",
+   "mnemonic": "BA'da al-AAN: 'BAD after NOW, not ANymore.'"
+  },
+  {
+   "t": 804,
+   "end": 837,
+   "kind": "phrase",
+   "ar": "لا يمكنني أن أعيشَ هنا بعد الآن",
+   "tr": "laa yumkinunee an a'eesha hunaa ba'da al-aan",
+   "en": "I can't live here anymore",
+   "parts": [
+    "لا",
+    "يمكنني",
+    "أن",
+    "أعيشَ",
+    "هنا",
+    "بعد",
+    "الآن"
+   ]
+  },
+  {
+   "t": 845,
+   "end": 857,
+   "kind": "review",
+   "ar": "أعيشُ هنا منذ وقت طويل",
+   "tr": "a'eeshu hunaa mundhu waqt taweel",
+   "en": "I've been living here for a long time (last lesson's quiz answer)",
+   "parts": [
+    "أعيشُ",
+    "هنا",
+    "منذ",
+    "وقت",
+    "طويل"
+   ],
+   "uncertain": true
+  }
+ ],
+ "dialogue": [
+  {
+   "who": "A",
+   "ar": "أنا أريدُ أن أذهبَ الآن.",
+   "tr": "ana ureedu an adh-haba al-aan.",
+   "en": "I want to go now."
+  },
+  {
+   "who": "B",
+   "ar": "لا، لا يمكنني أن أذهبَ الآن.",
+   "tr": "laa, laa yumkinunee an adh-haba al-aan.",
+   "en": "No, I can't go now."
+  },
+  {
+   "who": "A",
+   "ar": "لا يمكنني أن أعيشَ هنا بعد الآن.",
+   "tr": "laa yumkinunee an a'eesha hunaa ba'da al-aan.",
+   "en": "I can't live here anymore."
+  },
+  {
+   "who": "B",
+   "ar": "هل يمكنني أن أتعلّم العربية بسرعة؟",
+   "tr": "hal yumkinunee an ata'allam al-'arabiyya bisur'a?",
+   "en": "Can I learn Arabic fast?"
+  },
+  {
+   "who": "A",
+   "ar": "أحسنت! يمكنني أن أتعلّم بسرعة.",
+   "tr": "ahsant! yumkinunee an ata'allam bisur'a.",
+   "en": "Good job! I can learn fast."
+  }
+ ]
+}

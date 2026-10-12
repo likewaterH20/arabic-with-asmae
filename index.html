@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arabic with Asmae</title>
+<meta name="description" content="Asmae's speaking course, in order, ad-free, with the words on screen, recall drills and spaced review.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="brand-ar">العربية</span><span class="brand-en">with Asmae</span></div>
+  <nav class="tabs" id="tabs">
+    <button data-view="today" class="tab">Today</button>
+    <button data-view="lesson" class="tab">Lesson</button>
+    <button data-view="review" class="tab">Review <span class="pill" id="dueCount">0</span></button>
+    <button data-view="talk" class="tab">Talk</button>
+  </nav>
+</header>
+<main id="main"></main>
+<div id="toast" class="toast" hidden></div>
+<script src="app.js?v=8"></script>
+</body>
+</html>

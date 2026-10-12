@@ -1,0 +1,486 @@
+{
+ "n": 10,
+ "id": "VmXp9Q4l84I",
+ "title": "Where are you? I'm at home",
+ "duration": 801,
+ "goal": "Ask 'where are you (now)?' and answer with 'I am / I am not here, there, at home, at work', using في for 'at'.",
+ "items": [
+  {
+   "t": 43,
+   "end": 56,
+   "kind": "review",
+   "ar": "أين",
+   "tr": "ayna",
+   "en": "where",
+   "syll": [
+    "ay",
+    "na"
+   ],
+   "note": "The question word that opens today's conversation starter."
+  },
+  {
+   "t": 56,
+   "end": 62,
+   "kind": "review",
+   "ar": "أنتَ",
+   "tr": "anta",
+   "en": "you (addressing a male)",
+   "syll": [
+    "an",
+    "ta"
+   ]
+  },
+  {
+   "t": 62,
+   "end": 72,
+   "kind": "phrase",
+   "ar": "أين أنتَ؟",
+   "tr": "ayna anta?",
+   "en": "where are you?",
+   "parts": [
+    "أين",
+    "أنتَ"
+   ],
+   "note": "No word for 'are' is needed: just 'where' + 'you'."
+  },
+  {
+   "t": 72,
+   "end": 80,
+   "kind": "review",
+   "ar": "هنا",
+   "tr": "huna",
+   "en": "here",
+   "syll": [
+    "hu",
+    "na"
+   ]
+  },
+  {
+   "t": 80,
+   "end": 87,
+   "kind": "phrase",
+   "ar": "أنا هنا",
+   "tr": "ana huna",
+   "en": "I am here",
+   "parts": [
+    "أنا",
+    "هنا"
+   ],
+   "note": "Again no 'am': 'I' + 'here'."
+  },
+  {
+   "t": 87,
+   "end": 98,
+   "kind": "review",
+   "ar": "لستُ",
+   "tr": "lastu",
+   "en": "I am not",
+   "syll": [
+    "las",
+    "tu"
+   ],
+   "note": "She reminds you: 'I am not' is one word, lastu."
+  },
+  {
+   "t": 98,
+   "end": 115,
+   "kind": "phrase",
+   "ar": "أنا لستُ هنا",
+   "tr": "ana lastu huna",
+   "en": "I am not here",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "هنا"
+   ]
+  },
+  {
+   "t": 115,
+   "end": 131,
+   "kind": "rule",
+   "ar": "في",
+   "tr": "fee",
+   "en": "in / at",
+   "note": "في means 'in', and it is also the word for 'at' when you say where you are (at home, at work)."
+  },
+  {
+   "t": 131,
+   "end": 164,
+   "kind": "word",
+   "ar": "البيت",
+   "tr": "al-bayt",
+   "en": "the house / home",
+   "syll": [
+    "al",
+    "bayt"
+   ],
+   "note": "بيت bayt = house; with ال (al) it becomes 'the house', which is how Arabic says 'home'.",
+   "mnemonic": "al-BAYT: 'BAIT the fish and bring it HOME.'"
+  },
+  {
+   "t": 140,
+   "end": 178,
+   "kind": "phrase",
+   "ar": "في البيت",
+   "tr": "fee al-bayt",
+   "en": "at home (literally: in the house)",
+   "parts": [
+    "في",
+    "البيت"
+   ]
+  },
+  {
+   "t": 164,
+   "end": 178,
+   "kind": "rule",
+   "ar": "بيت / البيت",
+   "tr": "bayt / al-bayt",
+   "en": "house / the house",
+   "note": "Drop ال and you get the bare word بيت (a house); keep it and you get 'the house' = home."
+  },
+  {
+   "t": 178,
+   "end": 235,
+   "kind": "phrase",
+   "ar": "أنا في البيت",
+   "tr": "ana fee al-bayt",
+   "en": "I am at home",
+   "parts": [
+    "أنا",
+    "في",
+    "البيت"
+   ],
+   "note": "Repeated several times; 'I' + 'in' + 'the house'."
+  },
+  {
+   "t": 235,
+   "end": 259,
+   "kind": "review",
+   "ar": "الآن",
+   "tr": "al-aan",
+   "en": "now",
+   "syll": [
+    "al",
+    "aan"
+   ]
+  },
+  {
+   "t": 259,
+   "end": 281,
+   "kind": "phrase",
+   "ar": "أنا في البيت الآن",
+   "tr": "ana fee al-bayt al-aan",
+   "en": "I am at home now",
+   "parts": [
+    "أنا",
+    "في",
+    "البيت",
+    "الآن"
+   ],
+   "note": "'now' goes at the end of the sentence."
+  },
+  {
+   "t": 281,
+   "end": 300,
+   "kind": "review",
+   "ar": "أنا لستُ",
+   "tr": "ana lastu",
+   "en": "I am not",
+   "parts": [
+    "أنا",
+    "لستُ"
+   ]
+  },
+  {
+   "t": 300,
+   "end": 314,
+   "kind": "phrase",
+   "ar": "أنا لستُ في البيت",
+   "tr": "ana lastu fee al-bayt",
+   "en": "I am not at home",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "البيت"
+   ]
+  },
+  {
+   "t": 314,
+   "end": 356,
+   "kind": "phrase",
+   "ar": "أنا لستُ في البيت الآن",
+   "tr": "ana lastu fee al-bayt al-aan",
+   "en": "I am not at home now",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "البيت",
+    "الآن"
+   ],
+   "note": "She slows it down: ana / lastu / fee / al-bayt / al-aan."
+  },
+  {
+   "t": 356,
+   "end": 366,
+   "kind": "review",
+   "ar": "هناك",
+   "tr": "hunaak",
+   "en": "there",
+   "syll": [
+    "hu",
+    "naak"
+   ]
+  },
+  {
+   "t": 366,
+   "end": 386,
+   "kind": "phrase",
+   "ar": "أنا لستُ هناك",
+   "tr": "ana lastu hunaak",
+   "en": "I am not there",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "هناك"
+   ]
+  },
+  {
+   "t": 386,
+   "end": 410,
+   "kind": "phrase",
+   "ar": "أنا لستُ هناك الآن",
+   "tr": "ana lastu hunaak al-aan",
+   "en": "I am not there now",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "هناك",
+    "الآن"
+   ]
+  },
+  {
+   "t": 410,
+   "end": 435,
+   "kind": "phrase",
+   "ar": "أنتَ في البيت",
+   "tr": "anta fee al-bayt",
+   "en": "you are at home",
+   "parts": [
+    "أنتَ",
+    "في",
+    "البيت"
+   ],
+   "note": "Swap أنا for أنتَ and the sentence talks about you."
+  },
+  {
+   "t": 435,
+   "end": 451,
+   "kind": "review",
+   "ar": "أنا لستُ في البيت",
+   "tr": "ana lastu fee al-bayt",
+   "en": "I am not at home",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "البيت"
+   ]
+  },
+  {
+   "t": 451,
+   "end": 480,
+   "kind": "review",
+   "ar": "أين أنتَ؟",
+   "tr": "ayna anta?",
+   "en": "where are you?",
+   "parts": [
+    "أين",
+    "أنتَ"
+   ],
+   "note": "'Remember the word for where': أين."
+  },
+  {
+   "t": 480,
+   "end": 525,
+   "kind": "phrase",
+   "ar": "أين أنتَ الآن؟",
+   "tr": "ayna anta al-aan?",
+   "en": "where are you now?",
+   "parts": [
+    "أين",
+    "أنتَ",
+    "الآن"
+   ],
+   "note": "Listen and repeat: ayna / anta / al-aan."
+  },
+  {
+   "t": 525,
+   "end": 535,
+   "kind": "review",
+   "ar": "العمل",
+   "tr": "al-'amal",
+   "en": "the work / work",
+   "syll": [
+    "al",
+    "'a",
+    "mal"
+   ]
+  },
+  {
+   "t": 535,
+   "end": 572,
+   "kind": "phrase",
+   "ar": "في العمل",
+   "tr": "fee al-'amal",
+   "en": "at work (literally: in the work)",
+   "parts": [
+    "في",
+    "العمل"
+   ],
+   "note": "Same في as 'at home': في العمل = at work."
+  },
+  {
+   "t": 572,
+   "end": 587,
+   "kind": "phrase",
+   "ar": "أنا في العمل",
+   "tr": "ana fee al-'amal",
+   "en": "I am at work",
+   "parts": [
+    "أنا",
+    "في",
+    "العمل"
+   ]
+  },
+  {
+   "t": 587,
+   "end": 609,
+   "kind": "review",
+   "ar": "أنا لستُ في البيت",
+   "tr": "ana lastu fee al-bayt",
+   "en": "I am not at home",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "البيت"
+   ]
+  },
+  {
+   "t": 609,
+   "end": 640,
+   "kind": "review",
+   "ar": "أين أنتَ؟",
+   "tr": "ayna anta?",
+   "en": "where are you?",
+   "parts": [
+    "أين",
+    "أنتَ"
+   ],
+   "note": "'Remember the word for you': أنتَ, now ask 'where are you?'."
+  },
+  {
+   "t": 640,
+   "end": 660,
+   "kind": "review",
+   "ar": "أنا في البيت",
+   "tr": "ana fee al-bayt",
+   "en": "I am at home",
+   "parts": [
+    "أنا",
+    "في",
+    "البيت"
+   ]
+  },
+  {
+   "t": 660,
+   "end": 705,
+   "kind": "phrase",
+   "ar": "أنا لستُ في العمل",
+   "tr": "ana lastu fee al-'amal",
+   "en": "I am not at work",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "العمل"
+   ]
+  },
+  {
+   "t": 705,
+   "end": 728,
+   "kind": "review",
+   "ar": "أنا لستُ في العمل",
+   "tr": "ana lastu fee al-'amal",
+   "en": "I am not at work",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "العمل"
+   ]
+  },
+  {
+   "t": 728,
+   "end": 763,
+   "kind": "review",
+   "ar": "أنا لستُ في البيت الآن",
+   "tr": "ana lastu fee al-bayt al-aan",
+   "en": "I am not at home now",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "البيت",
+    "الآن"
+   ]
+  },
+  {
+   "t": 763,
+   "end": 790,
+   "kind": "phrase",
+   "ar": "أنا لستُ في البيت الآن، أنا في العمل",
+   "tr": "ana lastu fee al-bayt al-aan, ana fee al-'amal",
+   "en": "I am not at home now, I am at work (the answer to 'where are you now?')",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "في",
+    "البيت",
+    "الآن",
+    "أنا",
+    "في",
+    "العمل"
+   ],
+   "note": "Final goal: answer the question with a full two-part reply."
+  }
+ ],
+ "dialogue": [
+  {
+   "who": "A",
+   "ar": "أين أنتَ الآن؟",
+   "tr": "ayna anta al-aan?",
+   "en": "Where are you now?"
+  },
+  {
+   "who": "B",
+   "ar": "أنا لستُ في البيت الآن، أنا في العمل.",
+   "tr": "ana lastu fee al-bayt al-aan, ana fee al-'amal.",
+   "en": "I am not at home now, I am at work."
+  },
+  {
+   "who": "A",
+   "ar": "أنتَ تذهبُ إلى العمل كل يوم؟",
+   "tr": "anta tadh-habu ilaa al-'amal kull yawm?",
+   "en": "You go to work every day?"
+  },
+  {
+   "who": "B",
+   "ar": "لا، أنا في البيت كل صباح.",
+   "tr": "laa, ana fee al-bayt kull sabaah.",
+   "en": "No, I am at home every morning."
+  }
+ ]
+}

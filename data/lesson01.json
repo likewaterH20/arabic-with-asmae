@@ -1,0 +1,251 @@
+{
+ "n": 1,
+ "id": "NapGLT3WFX8",
+ "title": "I want to learn Arabic",
+ "duration": 607,
+ "goal": "Build the sentence 'I want to learn Arabic' from five blocks, and negate it.",
+ "items": [
+  {
+   "t": 51,
+   "end": 66,
+   "kind": "word",
+   "ar": "أنا",
+   "tr": "ana",
+   "en": "I",
+   "syll": [
+    "a",
+    "na"
+   ],
+   "mnemonic": "ANA = 'I' — think 'ANA is me'."
+  },
+  {
+   "t": 66,
+   "end": 109,
+   "kind": "word",
+   "ar": "أريد",
+   "tr": "ureed",
+   "en": "want (I want)",
+   "syll": [
+    "u",
+    "reed"
+   ],
+   "mnemonic": "u-REED: 'you READ what you WANT'."
+  },
+  {
+   "t": 109,
+   "end": 123,
+   "kind": "phrase",
+   "ar": "أنا أريد",
+   "tr": "ana ureed",
+   "en": "I want",
+   "parts": [
+    "أنا",
+    "أريد"
+   ]
+  },
+  {
+   "t": 123,
+   "end": 148,
+   "kind": "rule",
+   "ar": "أريدُ",
+   "tr": "ureedu",
+   "en": "want + a following word → add an 'u' sound",
+   "note": "When another word comes right after أريد, hook an 'u' (she says 'o') to the end: ureedu."
+  },
+  {
+   "t": 148,
+   "end": 174,
+   "kind": "word",
+   "ar": "هذا",
+   "tr": "haadha",
+   "en": "this / it",
+   "syll": [
+    "haa",
+    "dha"
+   ],
+   "mnemonic": "HAA-dha: point at it and say 'HA, THAt one'."
+  },
+  {
+   "t": 174,
+   "end": 191,
+   "kind": "phrase",
+   "ar": "أنا أريدُ هذا",
+   "tr": "ana ureedu haadha",
+   "en": "I want this / I want it",
+   "parts": [
+    "أنا",
+    "أريدُ",
+    "هذا"
+   ]
+  },
+  {
+   "t": 200,
+   "end": 213,
+   "kind": "word",
+   "ar": "لا",
+   "tr": "laa",
+   "en": "no / don't",
+   "syll": [
+    "laa"
+   ],
+   "mnemonic": "LAA = no. 'LAA-ter, not now.'"
+  },
+  {
+   "t": 213,
+   "end": 232,
+   "kind": "phrase",
+   "ar": "أنا لا أريد",
+   "tr": "ana laa ureed",
+   "en": "I don't want",
+   "parts": [
+    "أنا",
+    "لا",
+    "أريد"
+   ]
+  },
+  {
+   "t": 271,
+   "end": 292,
+   "kind": "phrase",
+   "ar": "أنا لا أريدُ هذا",
+   "tr": "ana laa ureedu haadha",
+   "en": "I don't want this",
+   "parts": [
+    "أنا",
+    "لا",
+    "أريدُ",
+    "هذا"
+   ]
+  },
+  {
+   "t": 302,
+   "end": 355,
+   "kind": "word",
+   "ar": "تَعَلَّم",
+   "tr": "ta'allam",
+   "en": "learn",
+   "syll": [
+    "ta",
+    "'al",
+    "lam"
+   ],
+   "mnemonic": "ta-'AL-lam: 'TALL LAMb learns'."
+  },
+  {
+   "t": 355,
+   "end": 390,
+   "kind": "rule",
+   "ar": "أن أتعلّم",
+   "tr": "an ata'allam",
+   "en": "to learn",
+   "note": "أن (an) works like English 'to'. 'to learn' = an ata'allam."
+  },
+  {
+   "t": 390,
+   "end": 427,
+   "kind": "phrase",
+   "ar": "أنا أريدُ أن أتعلّم",
+   "tr": "ana ureedu an ata'allam",
+   "en": "I want to learn",
+   "parts": [
+    "أنا",
+    "أريدُ",
+    "أن",
+    "أتعلّم"
+   ]
+  },
+  {
+   "t": 427,
+   "end": 447,
+   "kind": "review",
+   "ar": "أنا أريدُ هذا",
+   "tr": "ana ureedu haadha",
+   "en": "I want this",
+   "parts": [
+    "أنا",
+    "أريدُ",
+    "هذا"
+   ]
+  },
+  {
+   "t": 447,
+   "end": 469,
+   "kind": "review",
+   "ar": "أنا لا أريدُ هذا",
+   "tr": "ana laa ureedu haadha",
+   "en": "I don't want this",
+   "parts": [
+    "أنا",
+    "لا",
+    "أريدُ",
+    "هذا"
+   ]
+  },
+  {
+   "t": 482,
+   "end": 530,
+   "kind": "word",
+   "ar": "العربية",
+   "tr": "al-'arabiyya",
+   "en": "Arabic (the Arabic language)",
+   "syll": [
+    "al",
+    "'a",
+    "ra",
+    "biy",
+    "ya"
+   ],
+   "note": "ال (al) = 'the'. Arabic says 'the Arabic'.",
+   "mnemonic": "al-ARABIYYA: 'the ARAB-ia'."
+  },
+  {
+   "t": 530,
+   "end": 568,
+   "kind": "review",
+   "ar": "أنا أريدُ أن أتعلّم",
+   "tr": "ana ureedu an ata'allam",
+   "en": "I want to learn",
+   "parts": [
+    "أنا",
+    "أريدُ",
+    "أن",
+    "أتعلّم"
+   ]
+  },
+  {
+   "t": 568,
+   "end": 595,
+   "kind": "phrase",
+   "ar": "أنا أريدُ أن أتعلّم العربية",
+   "tr": "ana ureedu an ata'allam al-'arabiyya",
+   "en": "I want to learn Arabic",
+   "parts": [
+    "أنا",
+    "أريدُ",
+    "أن",
+    "أتعلّم",
+    "العربية"
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "who": "A",
+   "ar": "أنا أريدُ أن أتعلّم العربية.",
+   "tr": "ana ureedu an ata'allam al-'arabiyya.",
+   "en": "I want to learn Arabic."
+  },
+  {
+   "who": "B",
+   "ar": "أنا أريدُ هذا.",
+   "tr": "ana ureedu haadha.",
+   "en": "I want this (too)."
+  },
+  {
+   "who": "A",
+   "ar": "لا، أنا لا أريدُ هذا.",
+   "tr": "laa, ana laa ureedu haadha.",
+   "en": "No, I don't want this."
+  }
+ ]
+}

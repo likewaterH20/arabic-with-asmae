@@ -1,0 +1,23 @@
+{
+  "channel": "Learn Arabic with Asmae",
+  "channelUrl": "https://www.youtube.com/@learnarabicwithasmae1",
+  "lessons": [
+    {"n": 1,  "id": "NapGLT3WFX8", "duration": 607,  "yt": "Lesson 1"},
+    {"n": 2,  "id": "vZYV5tTIZTI", "duration": 702,  "yt": "Lesson 2"},
+    {"n": 3,  "id": "OrQZZPKeqNM", "duration": 676,  "yt": "Lesson 3"},
+    {"n": 4,  "id": "NjJ3fvqDTi4", "duration": 1027, "yt": "Lesson 4"},
+    {"n": 5,  "id": "q6koiC3tXSw", "duration": 886,  "yt": "Lesson 5"},
+    {"n": 6,  "id": "f_0Hf-SZOPw", "duration": 925,  "yt": "Lesson 6"},
+    {"n": 7,  "id": "f-rEj7EQmYI", "duration": 916,  "yt": "Lesson 7"},
+    {"n": 8,  "id": "xN_4GxmZwc0", "duration": 763,  "yt": "Lesson 8"},
+    {"n": 9,  "id": "yfu6BkIHcJo", "duration": 1131, "yt": "Lesson 9"},
+    {"n": 10, "id": "VmXp9Q4l84I", "duration": 801,  "yt": "Lesson 10"},
+    {"n": 11, "id": "gl88KeHSXrs", "duration": 805,  "yt": "Lesson 11"}
+  ],
+  "bonus": [
+    {"n": 101, "id": "9_Dhb9ibaDA", "title": "Conversation practice for total beginners (repeat after me)"},
+    {"n": 102, "id": "IJTtZmy0j0A", "title": "Arabic conversations for beginners, 100 basic phrases"},
+    {"n": 103, "id": "9nyixqCm7GU", "title": "5 Arabic conversations for beginners"},
+    {"n": 104, "id": "LwmMLfre58k", "title": "Memorize the 100 most important phrases, part 1"}
+  ]
+}

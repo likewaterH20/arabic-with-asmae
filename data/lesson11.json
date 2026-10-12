@@ -1,0 +1,399 @@
+{
+ "n": 11,
+ "id": "gl88KeHSXrs",
+ "title": "I am a student at the university",
+ "duration": 805,
+ "goal": "Use adjectives and nouns in their male and female forms (happy, student), add 'today', and build 'Today I am also very happy' and 'I am a student at the university'.",
+ "items": [
+  {
+   "t": 37,
+   "end": 60,
+   "kind": "word",
+   "ar": "سعيد",
+   "tr": "sa'eed",
+   "en": "happy (said by a male)",
+   "syll": [
+    "sa",
+    "'eed"
+   ],
+   "note": "This is the male form of 'happy'.",
+   "mnemonic": "sa-'EED: 'he SAID he's HAPPY'."
+  },
+  {
+   "t": 60,
+   "end": 87,
+   "kind": "phrase",
+   "ar": "أنا سعيد",
+   "tr": "ana sa'eed",
+   "en": "I am happy (male)",
+   "parts": [
+    "أنا",
+    "سعيد"
+   ],
+   "note": "No word for 'am': Arabic just says 'I happy'."
+  },
+  {
+   "t": 87,
+   "end": 117,
+   "kind": "word",
+   "ar": "سعيدة",
+   "tr": "sa'eeda",
+   "en": "happy (said by a female)",
+   "syll": [
+    "sa",
+    "'ee",
+    "da"
+   ],
+   "note": "Female form: same word with an 'a' sound (ة) added at the end.",
+   "mnemonic": "sa-'EE-da: 'she SAID: AH, HAPPY!' (the -a ending = female)."
+  },
+  {
+   "t": 87,
+   "end": 117,
+   "kind": "rule",
+   "ar": "ة",
+   "tr": "-a",
+   "en": "Adjectives get an extra -a (ة) at the end when a female speaks or is described",
+   "note": "سعيد sa'eed (male) becomes سعيدة sa'eeda (female); the same ending will mark other female forms."
+  },
+  {
+   "t": 117,
+   "end": 129,
+   "kind": "phrase",
+   "ar": "أنا سعيدة",
+   "tr": "ana sa'eeda",
+   "en": "I am happy (female)",
+   "parts": [
+    "أنا",
+    "سعيدة"
+   ]
+  },
+  {
+   "t": 129,
+   "end": 147,
+   "kind": "word",
+   "ar": "اليوم",
+   "tr": "al-yawm",
+   "en": "today",
+   "syll": [
+    "al",
+    "yawm"
+   ],
+   "note": "Literally 'the day' (ال al = the, يوم yawm = day, from كل يوم 'every day').",
+   "mnemonic": "al-YAWM: 'ALL I did was YAWN TODAY'."
+  },
+  {
+   "t": 147,
+   "end": 182,
+   "kind": "phrase",
+   "ar": "اليوم أنا سعيد",
+   "tr": "al-yawm ana sa'eed",
+   "en": "Today I am happy (male)",
+   "parts": [
+    "اليوم",
+    "أنا",
+    "سعيد"
+   ],
+   "note": "اليوم goes at the front of the sentence."
+  },
+  {
+   "t": 182,
+   "end": 224,
+   "kind": "phrase",
+   "ar": "اليوم أنا سعيدة",
+   "tr": "al-yawm ana sa'eeda",
+   "en": "Today I am happy (female)",
+   "parts": [
+    "اليوم",
+    "أنا",
+    "سعيدة"
+   ]
+  },
+  {
+   "t": 224,
+   "end": 247,
+   "kind": "review",
+   "ar": "جداً",
+   "tr": "jiddan",
+   "en": "very",
+   "syll": [
+    "jid",
+    "dan"
+   ],
+   "note": "Already known from 'very well' (جيداً جداً); it comes after the adjective."
+  },
+  {
+   "t": 247,
+   "end": 273,
+   "kind": "phrase",
+   "ar": "أنا سعيد جداً",
+   "tr": "ana sa'eed jiddan",
+   "en": "I am very happy (male)",
+   "parts": [
+    "أنا",
+    "سعيد",
+    "جداً"
+   ],
+   "note": "'Very' comes AFTER 'happy' in Arabic: 'happy very'."
+  },
+  {
+   "t": 273,
+   "end": 290,
+   "kind": "phrase",
+   "ar": "اليوم أنا سعيد جداً",
+   "tr": "al-yawm ana sa'eed jiddan",
+   "en": "Today I am very happy (male)",
+   "parts": [
+    "اليوم",
+    "أنا",
+    "سعيد",
+    "جداً"
+   ]
+  },
+  {
+   "t": 290,
+   "end": 326,
+   "kind": "review",
+   "ar": "أنا أيضاً",
+   "tr": "ana aydan",
+   "en": "me too / I also",
+   "parts": [
+    "أنا",
+    "أيضاً"
+   ],
+   "note": "أيضاً (also) sits right after أنا."
+  },
+  {
+   "t": 326,
+   "end": 364,
+   "kind": "phrase",
+   "ar": "أنا أيضاً سعيدة جداً",
+   "tr": "ana aydan sa'eeda jiddan",
+   "en": "I am also very happy (female)",
+   "parts": [
+    "أنا",
+    "أيضاً",
+    "سعيدة",
+    "جداً"
+   ]
+  },
+  {
+   "t": 364,
+   "end": 375,
+   "kind": "phrase",
+   "ar": "اليوم أنا أيضاً سعيدة جداً",
+   "tr": "al-yawm ana aydan sa'eeda jiddan",
+   "en": "Today I am also very happy (female)",
+   "parts": [
+    "اليوم",
+    "أنا",
+    "أيضاً",
+    "سعيدة",
+    "جداً"
+   ]
+  },
+  {
+   "t": 375,
+   "end": 409,
+   "kind": "word",
+   "ar": "طالب",
+   "tr": "taalib",
+   "en": "student (male)",
+   "syll": [
+    "taa",
+    "lib"
+   ],
+   "mnemonic": "TAA-lib: 'a TALL LIBrary student'."
+  },
+  {
+   "t": 409,
+   "end": 430,
+   "kind": "word",
+   "ar": "طالبة",
+   "tr": "taaliba",
+   "en": "student (female)",
+   "syll": [
+    "taa",
+    "li",
+    "ba"
+   ],
+   "note": "Same -a (ة) female ending as سعيدة: طالب taalib → طالبة taaliba.",
+   "mnemonic": "taa-LI-ba: 'the TALL LIBrary student, with the -a = she'."
+  },
+  {
+   "t": 430,
+   "end": 448,
+   "kind": "phrase",
+   "ar": "أنا طالبة",
+   "tr": "ana taaliba",
+   "en": "I am a student (female)",
+   "parts": [
+    "أنا",
+    "طالبة"
+   ],
+   "note": "No 'am' and no 'a': just 'I student'."
+  },
+  {
+   "t": 439,
+   "end": 454,
+   "kind": "phrase",
+   "ar": "أنا طالب",
+   "tr": "ana taalib",
+   "en": "I am a student (male)",
+   "parts": [
+    "أنا",
+    "طالب"
+   ]
+  },
+  {
+   "t": 454,
+   "end": 474,
+   "kind": "word",
+   "ar": "جامعة",
+   "tr": "jaami'a",
+   "en": "university",
+   "syll": [
+    "jaa",
+    "mi",
+    "'a"
+   ],
+   "mnemonic": "JAA-mi-'a: 'JAM-ming at the UNIVERSITY'."
+  },
+  {
+   "t": 474,
+   "end": 530,
+   "kind": "rule",
+   "ar": "الجامعة",
+   "tr": "al-jaami'a",
+   "en": "the university",
+   "note": "Add ال (al) = 'the': Arabic says 'the university' where English says 'university'."
+  },
+  {
+   "t": 542,
+   "end": 559,
+   "kind": "review",
+   "ar": "في",
+   "tr": "fee",
+   "en": "in / at",
+   "syll": [
+    "fee"
+   ],
+   "note": "Known from 'I live in Dubai'."
+  },
+  {
+   "t": 559,
+   "end": 591,
+   "kind": "phrase",
+   "ar": "في الجامعة",
+   "tr": "fee al-jaami'a",
+   "en": "at the university",
+   "parts": [
+    "في",
+    "الجامعة"
+   ]
+  },
+  {
+   "t": 591,
+   "end": 648,
+   "kind": "review",
+   "ar": "أنا طالب / أنا طالبة",
+   "tr": "ana taalib / ana taaliba",
+   "en": "I am a student (male / female)"
+  },
+  {
+   "t": 648,
+   "end": 686,
+   "kind": "phrase",
+   "ar": "أنا طالب في الجامعة",
+   "tr": "ana taalib fee al-jaami'a",
+   "en": "I am a student at the university (male)",
+   "parts": [
+    "أنا",
+    "طالب",
+    "في",
+    "الجامعة"
+   ]
+  },
+  {
+   "t": 686,
+   "end": 715,
+   "kind": "phrase",
+   "ar": "أنا طالبة في الجامعة",
+   "tr": "ana taaliba fee al-jaami'a",
+   "en": "I am a student at the university (female)",
+   "parts": [
+    "أنا",
+    "طالبة",
+    "في",
+    "الجامعة"
+   ]
+  },
+  {
+   "t": 715,
+   "end": 745,
+   "kind": "review",
+   "ar": "لستُ",
+   "tr": "lastu",
+   "en": "I am not",
+   "syll": [
+    "las",
+    "tu"
+   ],
+   "note": "Known from 'I am not from here'; it replaces the missing 'am' in the negative."
+  },
+  {
+   "t": 745,
+   "end": 758,
+   "kind": "phrase",
+   "ar": "أنا لستُ طالبة",
+   "tr": "ana lastu taaliba",
+   "en": "I am not a student (female)",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "طالبة"
+   ]
+  },
+  {
+   "t": 758,
+   "end": 775,
+   "kind": "phrase",
+   "ar": "أنا لستُ طالب",
+   "tr": "ana lastu taalib",
+   "en": "I am not a student (male)",
+   "parts": [
+    "أنا",
+    "لستُ",
+    "طالب"
+   ],
+   "note": "She ends with the male form; formal MSA would say لستُ طالباً, but the course keeps it simple.",
+   "uncertain": true
+  }
+ ],
+ "dialogue": [
+  {
+   "who": "A",
+   "ar": "اليوم أنا سعيد جداً.",
+   "tr": "al-yawm ana sa'eed jiddan.",
+   "en": "Today I am very happy."
+  },
+  {
+   "who": "B",
+   "ar": "أنا أيضاً سعيدة جداً. أنا طالبة في الجامعة.",
+   "tr": "ana aydan sa'eeda jiddan. ana taaliba fee al-jaami'a.",
+   "en": "I am also very happy. I am a student at the university."
+  },
+  {
+   "who": "A",
+   "ar": "أنا لستُ طالب. أنا أذهبُ إلى العمل كل يوم.",
+   "tr": "ana lastu taalib. ana adh-habu ilaa al-'amal kull yawm.",
+   "en": "I am not a student. I go to work every day."
+  },
+  {
+   "who": "B",
+   "ar": "أنا أريدُ أن أتعلّم العربية في الجامعة.",
+   "tr": "ana ureedu an ata'allam al-'arabiyya fee al-jaami'a.",
+   "en": "I want to learn Arabic at the university."
+  }
+ ]
+}

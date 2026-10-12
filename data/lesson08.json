@@ -1,0 +1,385 @@
+{
+ "n": 8,
+ "id": "xN_4GxmZwc0",
+ "title": "What is your name?",
+ "duration": 763,
+ "goal": "Introduce yourself with 'my name is', ask 'what is your name?', answer 'nice to meet you' with أهلاً, and bounce the question back with 'and you?'.",
+ "items": [
+  {
+   "t": 26,
+   "end": 56,
+   "kind": "phrase",
+   "ar": "أنا جولي",
+   "tr": "ana Julie",
+   "en": "I am Julie",
+   "parts": [
+    "أنا",
+    "جولي"
+   ],
+   "note": "She opens with the simplest introduction: أنا (I / I am) + her name, no verb 'to be' needed."
+  },
+  {
+   "t": 56,
+   "end": 71,
+   "kind": "word",
+   "ar": "اسم",
+   "tr": "ism",
+   "en": "name",
+   "syll": [
+    "ism"
+   ],
+   "mnemonic": "ISM: every NAME ends up an '-ISM' (Tom-ism, Julie-ism)."
+  },
+  {
+   "t": 71,
+   "end": 110,
+   "kind": "rule",
+   "ar": "اسمي",
+   "tr": "ismee",
+   "en": "my name (name + ee = belongs to me)",
+   "note": "The 'ee' sound hooked on the end of a word means it belongs to me: ism (name) → ismee (my name)."
+  },
+  {
+   "t": 92,
+   "end": 110,
+   "kind": "word",
+   "ar": "اسمي",
+   "tr": "ismee",
+   "en": "my name",
+   "syll": [
+    "is",
+    "mee"
+   ],
+   "mnemonic": "is-MEE: 'this name IS ME' = MY name."
+  },
+  {
+   "t": 107,
+   "end": 133,
+   "kind": "phrase",
+   "ar": "اسمي جولي",
+   "tr": "ismee Julie",
+   "en": "my name is Julie",
+   "parts": [
+    "اسمي",
+    "جولي"
+   ],
+   "note": "No word for 'is': my-name Julie."
+  },
+  {
+   "t": 146,
+   "end": 168,
+   "kind": "word",
+   "ar": "أهلاً",
+   "tr": "ahlan",
+   "en": "nice to meet you (literally: welcome)",
+   "syll": [
+    "ah",
+    "lan"
+   ],
+   "note": "أهلاً literally means 'welcome'; it is what you say when you meet someone, so it works as 'nice to meet you'.",
+   "mnemonic": "AH-lan: 'AH, LAND here, welcome!' nice to meet you."
+  },
+  {
+   "t": 168,
+   "end": 223,
+   "kind": "word",
+   "ar": "اسمُكَ",
+   "tr": "ismuka",
+   "en": "your name (to a male)",
+   "syll": [
+    "is",
+    "mu",
+    "ka"
+   ],
+   "note": "Swap the -ee (my) for -uka (your, to a man): ismee → ismuka.",
+   "mnemonic": "is-mu-KA: 'is it KArl? YOUR NAME?'"
+  },
+  {
+   "t": 223,
+   "end": 247,
+   "kind": "word",
+   "ar": "ما",
+   "tr": "maa",
+   "en": "what",
+   "syll": [
+    "maa"
+   ],
+   "mnemonic": "MAA: 'MA, WHAT?'"
+  },
+  {
+   "t": 226,
+   "end": 247,
+   "kind": "phrase",
+   "ar": "ما اسمُكَ؟",
+   "tr": "maa ismuka?",
+   "en": "what is your name? (to a male)",
+   "parts": [
+    "ما",
+    "اسمُكَ"
+   ],
+   "note": "Word for word: what your-name? No 'is'."
+  },
+  {
+   "t": 247,
+   "end": 266,
+   "kind": "phrase",
+   "ar": "اسمي توم",
+   "tr": "ismee Tom",
+   "en": "my name is Tom",
+   "parts": [
+    "اسمي",
+    "توم"
+   ]
+  },
+  {
+   "t": 266,
+   "end": 283,
+   "kind": "review",
+   "ar": "ما اسمُكَ؟",
+   "tr": "maa ismuka?",
+   "en": "what is your name?",
+   "parts": [
+    "ما",
+    "اسمُكَ"
+   ]
+  },
+  {
+   "t": 283,
+   "end": 302,
+   "kind": "phrase",
+   "ar": "اسمي أحمد",
+   "tr": "ismee Ahmad",
+   "en": "my name is Ahmad",
+   "parts": [
+    "اسمي",
+    "أحمد"
+   ]
+  },
+  {
+   "t": 302,
+   "end": 312,
+   "kind": "phrase",
+   "ar": "أهلاً أحمد",
+   "tr": "ahlan Ahmad",
+   "en": "nice to meet you, Ahmad",
+   "parts": [
+    "أهلاً",
+    "أحمد"
+   ],
+   "note": "أهلاً + the person's name is the natural reply once someone tells you their name."
+  },
+  {
+   "t": 312,
+   "end": 332,
+   "kind": "review",
+   "ar": "اسم / اسمي / اسمُكَ",
+   "tr": "ism / ismee / ismuka",
+   "en": "name / my name / your name",
+   "note": "Quick recap of the three forms before the practice round."
+  },
+  {
+   "t": 358,
+   "end": 412,
+   "kind": "phrase",
+   "ar": "ما اسمُكَ؟ اسمي جولي. أهلاً جولي",
+   "tr": "maa ismuka? ismee Julie. ahlan Julie",
+   "en": "What is your name? My name is Julie. Nice to meet you, Julie",
+   "parts": [
+    "ما",
+    "اسمُكَ",
+    "اسمي",
+    "جولي",
+    "أهلاً",
+    "جولي"
+   ],
+   "note": "First full mini-exchange: question, answer, welcome."
+  },
+  {
+   "t": 415,
+   "end": 440,
+   "kind": "review",
+   "ar": "أنتَ",
+   "tr": "anta",
+   "en": "you (to a male)",
+   "note": "She contrasts أنا (I) with أنتَ (you) again."
+  },
+  {
+   "t": 439,
+   "end": 467,
+   "kind": "phrase",
+   "ar": "وأنتَ؟",
+   "tr": "wa anta?",
+   "en": "and you? (to a male)",
+   "parts": [
+    "وأنتَ"
+   ],
+   "note": "و (and) sticks to the front of أنتَ: wa-anta, said with question intonation."
+  },
+  {
+   "t": 451,
+   "end": 467,
+   "kind": "phrase",
+   "ar": "اسمي جولي، وأنتَ؟",
+   "tr": "ismee Julie, wa anta?",
+   "en": "my name is Julie, and you?",
+   "parts": [
+    "اسمي",
+    "جولي",
+    "وأنتَ"
+   ]
+  },
+  {
+   "t": 467,
+   "end": 499,
+   "kind": "phrase",
+   "ar": "اسمي توم. أهلاً توم",
+   "tr": "ismee Tom. ahlan Tom",
+   "en": "my name is Tom. Nice to meet you, Tom",
+   "parts": [
+    "اسمي",
+    "توم",
+    "أهلاً",
+    "توم"
+   ]
+  },
+  {
+   "t": 499,
+   "end": 535,
+   "kind": "rule",
+   "ar": "أنتَ",
+   "tr": "anta",
+   "en": "the word for 'you' (talking to a man)",
+   "note": "She reminds you أنتَ (anta) is 'you' for a male listener; the female form comes later in the lesson."
+  },
+  {
+   "t": 535,
+   "end": 561,
+   "kind": "phrase",
+   "ar": "وأنتَ، ما اسمُكَ؟",
+   "tr": "wa anta, maa ismuka?",
+   "en": "and you, what is your name?",
+   "parts": [
+    "وأنتَ",
+    "ما",
+    "اسمُكَ"
+   ]
+  },
+  {
+   "t": 561,
+   "end": 620,
+   "kind": "phrase",
+   "ar": "اسمي جولي، وأنتَ، ما اسمُكَ؟ اسمي توم. أهلاً توم",
+   "tr": "ismee Julie, wa anta, maa ismuka? ismee Tom. ahlan Tom",
+   "en": "My name is Julie, and you, what is your name? My name is Tom. Nice to meet you, Tom",
+   "parts": [
+    "اسمي",
+    "جولي",
+    "وأنتَ",
+    "ما",
+    "اسمُكَ",
+    "اسمي",
+    "توم",
+    "أهلاً",
+    "توم"
+   ],
+   "note": "The full exchange of the lesson, practised both ways."
+  },
+  {
+   "t": 626,
+   "end": 640,
+   "kind": "review",
+   "ar": "أنتَ",
+   "tr": "anta",
+   "en": "you (to a male), with the -a ending",
+   "note": "She asks which of two endings is right for a man: أنتَ (anta)."
+  },
+  {
+   "t": 640,
+   "end": 655,
+   "kind": "word",
+   "ar": "أنتِ",
+   "tr": "anti",
+   "en": "you (to a female)",
+   "syll": [
+    "an",
+    "ti"
+   ],
+   "note": "Same word as أنتَ but the ending becomes 'i' when you talk to a woman: anta → anti.",
+   "mnemonic": "AN-ti: 'AUNTIE, YOU' (said to a woman)."
+  },
+  {
+   "t": 655,
+   "end": 683,
+   "kind": "review",
+   "ar": "اسم / اسمي / اسمُكَ",
+   "tr": "ism / ismee / ismuka",
+   "en": "name / my name / your name",
+   "note": "She asks for 'name', then 'my name', and checks you do not confuse اسمي with اسمُكَ."
+  },
+  {
+   "t": 696,
+   "end": 740,
+   "kind": "word",
+   "ar": "اسمُكِ",
+   "tr": "ismuki",
+   "en": "your name (to a female)",
+   "syll": [
+    "is",
+    "mu",
+    "ki"
+   ],
+   "note": "To a woman the ending is -ki instead of -ka: ما اسمُكِ؟ (maa ismuki?).",
+   "mnemonic": "is-mu-KI: 'KIm, YOUR NAME?' (to a woman).",
+   "uncertain": true
+  },
+  {
+   "t": 736,
+   "end": 751,
+   "kind": "review",
+   "ar": "ما اسمُكَ؟ / ما اسمُكِ؟",
+   "tr": "maa ismuka? / maa ismuki?",
+   "en": "what is your name? (to a male / to a female)",
+   "uncertain": true
+  },
+  {
+   "t": 751,
+   "end": 763,
+   "kind": "review",
+   "ar": "أهلاً",
+   "tr": "ahlan",
+   "en": "nice to meet you / welcome"
+  }
+ ],
+ "dialogue": [
+  {
+   "who": "A",
+   "ar": "أهلاً. أنا جولي. ما اسمُكَ؟",
+   "tr": "ahlan. ana Julie. maa ismuka?",
+   "en": "Hello. I am Julie. What is your name?"
+  },
+  {
+   "who": "B",
+   "ar": "اسمي أحمد. أهلاً جولي.",
+   "tr": "ismee Ahmad. ahlan Julie.",
+   "en": "My name is Ahmad. Nice to meet you, Julie."
+  },
+  {
+   "who": "A",
+   "ar": "أنا لستُ من هنا. أنا أتعلّمُ العربية.",
+   "tr": "ana lastu min huna. ana ata'allamu al-'arabiyya.",
+   "en": "I am not from here. I am learning Arabic."
+  },
+  {
+   "who": "B",
+   "ar": "أنتَ تفهم جيداً جداً. وأنتِ؟",
+   "tr": "anta tafham jayyidan jiddan. wa anti?",
+   "en": "You understand very well. And you (f.)?"
+  },
+  {
+   "who": "A",
+   "ar": "أنا أفهمُ قليلاً، وأريدُ أن أتكلّم معك.",
+   "tr": "ana afhamu qaleelan, wa ureedu an atakallam ma'aka.",
+   "en": "I understand a little, and I want to speak with you."
+  }
+ ]
+}
