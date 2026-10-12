@@ -261,6 +261,7 @@ function buildPlayer(left, L) {
   function toggle() { if (!P) return; coach.hidden = true; P.playing() ? P.pause() : P.play(); }
   function onState(s) { box.classList.toggle('playing', s === 'playing'); playBtn.textContent = s === 'playing' ? 'Pause' : 'Play'; if (s === 'ended') { if (items.length) finishLesson(L); else if (S.settings.autonext) nextLesson(L); } }
   function onTime(t) {
+    if (!P) return; // a late timeupdate after the player was torn down
     const d = P.dur() || L.duration; fill.style.width = (100 * t / d) + '%'; time.textContent = `${fmt(t)} / ${fmt(d)}`;
     if (Math.floor(t) % 5 === 0) { S.pos[L.n] = Math.max(S.pos[L.n] || 0, t); save(); }
     if (loop && t >= loop.b) P.seek(loop.a);
