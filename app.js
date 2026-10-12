@@ -119,7 +119,7 @@ function loadYT() {
   ytReady = new Promise(res => {
     if (window.YT && YT.Player) return res();
     window.onYouTubeIframeAPIReady = () => res();
-    document.add(document.head, h('script', { src: 'https://www.youtube.com/iframe_api' }));
+    add(document.head, h('script', { src: 'https://www.youtube.com/iframe_api' }));
   });
   return ytReady;
 }
