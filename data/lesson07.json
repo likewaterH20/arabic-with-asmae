@@ -3,11 +3,11 @@
  "id": "f-rEj7EQmYI",
  "title": "You go there every day",
  "duration": 916,
- "goal": "Address a man with 'you' (anta), turn I-verbs into you-verbs by swapping a- for ta-, and build 'I/you go there every day', 'to work', 'every morning' and 'you understand everything very well'.",
+ "goal": "Address a man with 'you' (anta), turn I-verbs into you-verbs by swapping the opening a- for ta-, and build 'I/you go there every day', 'I go to work', 'every morning' and 'you understand every thing very well'.",
  "items": [
   {
-   "t": 33,
-   "end": 54,
+   "t": 38,
+   "end": 58,
    "kind": "word",
    "ar": "أنتَ",
    "tr": "anta",
@@ -20,8 +20,8 @@
    "mnemonic": "AN-ta: 'ANT, YOU over there!' (said to a guy)."
   },
   {
-   "t": 54,
-   "end": 79,
+   "t": 62,
+   "end": 66,
    "kind": "review",
    "ar": "أنا",
    "tr": "ana",
@@ -29,380 +29,67 @@
    "note": "She contrasts أنا (I) with أنتَ (you, male)."
   },
   {
-   "t": 79,
-   "end": 115,
-   "kind": "word",
-   "ar": "تقرأ",
-   "tr": "taqra'",
-   "en": "you read (to a male)",
-   "syll": [
-    "taq",
-    "ra'"
-   ],
-   "note": "First you-verb of the lesson, repeated many times.",
-   "mnemonic": "taq-RA': 'TAKE a RAt and READ to it, YOU.'",
-   "uncertain": true
+   "t": 70,
+   "end": 80,
+   "kind": "review",
+   "ar": "أنا أريد",
+   "tr": "ana oreed",
+   "en": "I want",
+   "parts": [
+    "أنا",
+    "أريد"
+   ]
   },
   {
-   "t": 115,
-   "end": 160,
+   "t": 86,
+   "end": 102,
+   "kind": "phrase",
+   "ar": "أنتَ تريد",
+   "tr": "anta toreed",
+   "en": "you want (to a male)",
+   "parts": [
+    "أنتَ",
+    "تريد"
+   ],
+   "note": "First you-verb of the lesson: أريد oreed (I want) becomes تريد toreed (you want).",
+   "mnemonic": "to-REED: 'TO READ is what YOU WANT.'"
+  },
+  {
+   "t": 106,
+   "end": 118,
+   "kind": "review",
+   "ar": "أنتَ تريد",
+   "tr": "anta toreed",
+   "en": "you want",
+   "parts": [
+    "أنتَ",
+    "تريد"
+   ]
+  },
+  {
+   "t": 124,
+   "end": 132,
    "kind": "rule",
    "ar": "أ...",
-   "tr": "a-",
-   "en": "I-verbs in the present always start with an 'a' sound",
-   "note": "أقرأ (I read), أعيش (I live), أفهم (I understand), أعمل (I work) all open with the أ 'a' sound when conjugated with أنا."
+   "tr": "a / o",
+   "en": "I-verbs in the present always open with an 'a' or 'o' sound",
+   "note": "أريد oreed (I want), أعيش a'eesh (I live), أفهم afham (I understand), أعمل a'mal (I work): with أنا the verb starts with the أ sound."
   },
   {
-   "t": 128,
-   "end": 143,
+   "t": 132,
+   "end": 140,
    "kind": "review",
-   "ar": "أعيش",
-   "tr": "a'eesh",
+   "ar": "أنا أعيش",
+   "tr": "ana a'eesh",
    "en": "I live",
-   "syll": [
-    "as",
-    "kun"
-   ]
-  },
-  {
-   "t": 143,
-   "end": 153,
-   "kind": "review",
-   "ar": "أفهم",
-   "tr": "afham",
-   "en": "I understand",
-   "syll": [
-    "af",
-    "ham"
-   ]
-  },
-  {
-   "t": 153,
-   "end": 160,
-   "kind": "review",
-   "ar": "أعمل",
-   "tr": "a'mal",
-   "en": "I work",
-   "syll": [
-    "a'",
-    "mal"
-   ]
-  },
-  {
-   "t": 160,
-   "end": 174,
-   "kind": "rule",
-   "ar": "تَ...",
-   "tr": "ta-",
-   "en": "To say 'you' (male) with a verb, change the opening a- to ta-",
-   "note": "أ (a) at the start of the I-verb becomes تَ (ta): أقرأ aqra' → تقرأ taqra'."
-  },
-  {
-   "t": 174,
-   "end": 184,
-   "kind": "phrase",
-   "ar": "أنتَ تقرأ",
-   "tr": "anta taqra'",
-   "en": "you read",
-   "parts": [
-    "أنتَ",
-    "تقرأ"
-   ],
-   "uncertain": true
-  },
-  {
-   "t": 184,
-   "end": 208,
-   "kind": "phrase",
-   "ar": "أنتَ تعمل",
-   "tr": "anta ta'mal",
-   "en": "you work (or simply تعمل ta'mal)",
-   "parts": [
-    "أنتَ",
-    "تعمل"
-   ],
-   "note": "أعمل a'mal (I work) → تعمل ta'mal (you work); أنتَ can be dropped."
-  },
-  {
-   "t": 208,
-   "end": 217,
-   "kind": "review",
-   "ar": "هنا",
-   "tr": "huna",
-   "en": "here",
-   "syll": [
-    "hu",
-    "na"
-   ]
-  },
-  {
-   "t": 217,
-   "end": 241,
-   "kind": "word",
-   "ar": "هناك",
-   "tr": "hunaak",
-   "en": "there / over there",
-   "syll": [
-    "hu",
-    "naak"
-   ],
-   "note": "Same as هنا (here) plus a 'k' at the end.",
-   "mnemonic": "hu-NAAK: 'here' + a KNOCK on the door over THERE."
-  },
-  {
-   "t": 241,
-   "end": 266,
-   "kind": "review",
-   "ar": "أذهب",
-   "tr": "adh-hab",
-   "en": "I go",
-   "syll": [
-    "adh",
-    "hab"
-   ]
-  },
-  {
-   "t": 266,
-   "end": 285,
-   "kind": "word",
-   "ar": "إلى",
-   "tr": "ilaa",
-   "en": "to (a place)",
-   "syll": [
-    "i",
-    "laa"
-   ],
-   "note": "Arabic says 'I go TO there': the direction word إلى is needed.",
-   "mnemonic": "i-LAA: 'EEL-ah swims TO the sea.'"
-  },
-  {
-   "t": 285,
-   "end": 340,
-   "kind": "phrase",
-   "ar": "أنا أذهبُ إلى هناك",
-   "tr": "ana adh-habu ilaa hunaak",
-   "en": "I go there (literally: I go to there)",
    "parts": [
     "أنا",
-    "أذهبُ",
-    "إلى",
-    "هناك"
-   ],
-   "note": "أذهب gets the hooked 'u' because إلى follows; أنا can be dropped."
-  },
-  {
-   "t": 340,
-   "end": 362,
-   "kind": "review",
-   "ar": "أنتَ",
-   "tr": "anta",
-   "en": "you (male)"
-  },
-  {
-   "t": 350,
-   "end": 380,
-   "kind": "word",
-   "ar": "تذهب",
-   "tr": "tadh-hab",
-   "en": "you go (to a male)",
-   "syll": [
-    "tadh",
-    "hab"
-   ],
-   "note": "أذهب adh-hab (I go) with the a- replaced by ta-.",
-   "mnemonic": "tadh-HAB: 'TAD, HOP along, YOU GO!'"
-  },
-  {
-   "t": 380,
-   "end": 404,
-   "kind": "phrase",
-   "ar": "أنتَ تذهبُ إلى هناك",
-   "tr": "anta tadh-habu ilaa hunaak",
-   "en": "you go there",
-   "parts": [
-    "أنتَ",
-    "تذهبُ",
-    "إلى",
-    "هناك"
+    "أعيش"
    ]
   },
   {
-   "t": 404,
-   "end": 437,
-   "kind": "word",
-   "ar": "كل يوم",
-   "tr": "kull yawm",
-   "en": "every day",
-   "syll": [
-    "kull",
-    "yawm"
-   ],
-   "parts": [
-    "كل",
-    "يوم"
-   ],
-   "note": "كل kull = every, يوم yawm = day; word for word 'every day'.",
-   "mnemonic": "kull YAWM: 'I COOL off and YAWN every day.'"
-  },
-  {
-   "t": 437,
-   "end": 461,
-   "kind": "phrase",
-   "ar": "أنا أذهبُ إلى هناك كل يوم",
-   "tr": "ana adh-habu ilaa hunaak kull yawm",
-   "en": "I go there every day",
-   "parts": [
-    "أنا",
-    "أذهبُ",
-    "إلى",
-    "هناك",
-    "كل",
-    "يوم"
-   ]
-  },
-  {
-   "t": 461,
-   "end": 480,
-   "kind": "phrase",
-   "ar": "أنتَ تذهبُ إلى هناك كل يوم",
-   "tr": "anta tadh-habu ilaa hunaak kull yawm",
-   "en": "you go there every day",
-   "parts": [
-    "أنتَ",
-    "تذهبُ",
-    "إلى",
-    "هناك",
-    "كل",
-    "يوم"
-   ]
-  },
-  {
-   "t": 480,
-   "end": 495,
-   "kind": "review",
-   "ar": "عمل",
-   "tr": "'amal",
-   "en": "work (noun)",
-   "syll": [
-    "'a",
-    "mal"
-   ]
-  },
-  {
-   "t": 495,
-   "end": 532,
-   "kind": "rule",
-   "ar": "العمل",
-   "tr": "al-'amal",
-   "en": "the work",
-   "note": "ال (al) at the start of a word = 'the'. 'I go to work' is literally 'I go to THE work'."
-  },
-  {
-   "t": 532,
-   "end": 563,
-   "kind": "phrase",
-   "ar": "أنا أذهبُ إلى العمل",
-   "tr": "ana adh-habu ilaa al-'amal",
-   "en": "I go to work",
-   "parts": [
-    "أنا",
-    "أذهبُ",
-    "إلى",
-    "العمل"
-   ]
-  },
-  {
-   "t": 563,
-   "end": 592,
-   "kind": "phrase",
-   "ar": "أنا أذهبُ إلى العمل كل يوم",
-   "tr": "ana adh-habu ilaa al-'amal kull yawm",
-   "en": "I go to work every day",
-   "parts": [
-    "أنا",
-    "أذهبُ",
-    "إلى",
-    "العمل",
-    "كل",
-    "يوم"
-   ]
-  },
-  {
-   "t": 592,
-   "end": 624,
-   "kind": "phrase",
-   "ar": "أنتَ تذهبُ إلى العمل كل يوم",
-   "tr": "anta tadh-habu ilaa al-'amal kull yawm",
-   "en": "you go to work every day",
-   "parts": [
-    "أنتَ",
-    "تذهبُ",
-    "إلى",
-    "العمل",
-    "كل",
-    "يوم"
-   ]
-  },
-  {
-   "t": 624,
-   "end": 644,
-   "kind": "word",
-   "ar": "صباح",
-   "tr": "sabaah",
-   "en": "morning",
-   "syll": [
-    "sa",
-    "baah"
-   ],
-   "mnemonic": "sa-BAAH: the sheep says 'BAAH' in the MORNING."
-  },
-  {
-   "t": 644,
-   "end": 660,
-   "kind": "phrase",
-   "ar": "كل صباح",
-   "tr": "kull sabaah",
-   "en": "every morning",
-   "parts": [
-    "كل",
-    "صباح"
-   ]
-  },
-  {
-   "t": 660,
-   "end": 692,
-   "kind": "phrase",
-   "ar": "أنا أذهبُ إلى هناك كل صباح",
-   "tr": "ana adh-habu ilaa hunaak kull sabaah",
-   "en": "I go there every morning",
-   "parts": [
-    "أنا",
-    "أذهبُ",
-    "إلى",
-    "هناك",
-    "كل",
-    "صباح"
-   ]
-  },
-  {
-   "t": 692,
-   "end": 717,
-   "kind": "phrase",
-   "ar": "أنتَ تذهبُ إلى هناك كل صباح",
-   "tr": "anta tadh-habu ilaa hunaak kull sabaah",
-   "en": "you go there every morning",
-   "parts": [
-    "أنتَ",
-    "تذهبُ",
-    "إلى",
-    "هناك",
-    "كل",
-    "صباح"
-   ]
-  },
-  {
-   "t": 717,
-   "end": 729,
+   "t": 140,
+   "end": 146,
    "kind": "review",
    "ar": "أنا أفهم",
    "tr": "ana afham",
@@ -413,150 +100,529 @@
    ]
   },
   {
-   "t": 729,
-   "end": 761,
+   "t": 152,
+   "end": 158,
    "kind": "word",
-   "ar": "تفهم",
-   "tr": "tafham",
-   "en": "you understand (to a male)",
+   "ar": "أعمل",
+   "tr": "a'mal",
+   "en": "I work",
    "syll": [
-    "taf",
-    "ham"
+    "a'",
+    "mal"
    ],
-   "note": "She asks you to guess it: أفهم afham → تفهم tafham.",
-   "mnemonic": "taf-HAM: 'TOUGH HAM, but YOU UNDERSTAND it.'"
+   "mnemonic": "a'-MAL: 'I work at the MALL.'"
   },
   {
-   "t": 747,
-   "end": 761,
+   "t": 170,
+   "end": 176,
+   "kind": "rule",
+   "ar": "تَ...",
+   "tr": "t",
+   "en": "To say 'you' (male) with a verb, swap the opening a-/o- sound for a 't' sound",
+   "note": "أريد oreed → تريد toreed, أعمل a'mal → تعمل ta'mal: the أ at the start becomes تَ."
+  },
+  {
+   "t": 186,
+   "end": 198,
    "kind": "phrase",
-   "ar": "أنتَ تفهم",
-   "tr": "anta tafham",
-   "en": "you understand",
-   "parts": [
-    "أنتَ",
-    "تفهم"
-   ]
-  },
-  {
-   "t": 761,
-   "end": 777,
-   "kind": "review",
-   "ar": "جيداً جداً",
-   "tr": "jayyidan jiddan",
-   "en": "very well",
-   "parts": [
-    "جيداً",
-    "جداً"
-   ],
-   "uncertain": true
-  },
-  {
-   "t": 761,
-   "end": 777,
-   "kind": "phrase",
-   "ar": "أنا أفهم جيداً جداً",
-   "tr": "ana afham jayyidan jiddan",
-   "en": "I understand very well",
+   "ar": "أنا أعمل",
+   "tr": "ana a'mal",
+   "en": "I work",
    "parts": [
     "أنا",
-    "أفهم",
-    "جيداً",
-    "جداً"
-   ],
-   "uncertain": true
-  },
-  {
-   "t": 777,
-   "end": 799,
-   "kind": "phrase",
-   "ar": "أنتَ تفهم جيداً جداً",
-   "tr": "anta tafham jayyidan jiddan",
-   "en": "you understand very well",
-   "parts": [
-    "أنتَ",
-    "تفهم",
-    "جيداً",
-    "جداً"
-   ],
-   "uncertain": true
-  },
-  {
-   "t": 799,
-   "end": 833,
-   "kind": "word",
-   "ar": "كل شيء",
-   "tr": "kull shay'",
-   "en": "everything",
-   "syll": [
-    "kull",
-    "shay'"
-   ],
-   "parts": [
-    "كل",
-    "شيء"
-   ],
-   "note": "كل kull = every, شيء shay' = thing; 'every thing'.",
-   "mnemonic": "kull SHAY': 'COOL SHADE covers EVERYTHING.'"
-  },
-  {
-   "t": 833,
-   "end": 850,
-   "kind": "phrase",
-   "ar": "أنتَ تفهم كل شيء",
-   "tr": "anta tafham kull shay'",
-   "en": "you understand everything",
-   "parts": [
-    "أنتَ",
-    "تفهم",
-    "كل",
-    "شيء"
+    "أعمل"
    ]
   },
   {
-   "t": 850,
-   "end": 874,
+   "t": 198,
+   "end": 206,
    "kind": "phrase",
-   "ar": "أنتَ تفهم كل شيء جيداً جداً",
-   "tr": "anta tafham kull shay' jayyidan jiddan",
-   "en": "you understand everything very well",
+   "ar": "أنتَ تعمل",
+   "tr": "anta ta'mal",
+   "en": "you work (to a male)",
    "parts": [
     "أنتَ",
-    "تفهم",
-    "كل",
-    "شيء",
-    "جيداً",
-    "جداً"
+    "تعمل"
    ],
-   "note": "أنتَ can be dropped: تفهم كل شيء جيداً جداً."
+   "note": "أعمل a'mal (I work) → تعمل ta'mal (you work)."
   },
   {
-   "t": 882,
-   "end": 892,
+   "t": 212,
+   "end": 220,
    "kind": "review",
-   "ar": "عندي عمل لاحقاً",
-   "tr": "'indee 'amal laahiqan",
-   "en": "I have work later (answer to last lesson's question)",
+   "ar": "هنا",
+   "tr": "huna",
+   "en": "here",
+   "syll": [
+    "hu",
+    "na"
+   ]
+  },
+  {
+   "t": 222,
+   "end": 228,
+   "kind": "word",
+   "ar": "هناك",
+   "tr": "hunak",
+   "en": "there / over there",
+   "syll": [
+    "hu",
+    "nak"
+   ],
+   "note": "Same as هنا huna (here) plus a 'k' at the end.",
+   "mnemonic": "hu-NAK: 'here' + a KNOCK on the door over THERE."
+  },
+  {
+   "t": 232,
+   "end": 244,
+   "kind": "review",
+   "ar": "هناك",
+   "tr": "hunak",
+   "en": "there / over there"
+  },
+  {
+   "t": 244,
+   "end": 266,
+   "kind": "review",
+   "ar": "أنا أذهب",
+   "tr": "ana adhhab",
+   "en": "I go",
    "parts": [
-    "عندي",
-    "عمل",
-    "لاحقاً"
+    "أنا",
+    "أذهب"
    ],
-   "uncertain": true
+   "note": "She also shows it alone: أذهب adhhab = I go."
   },
   {
-   "t": 892,
-   "end": 904,
+   "t": 272,
+   "end": 288,
+   "kind": "word",
+   "ar": "إلى",
+   "tr": "ila",
+   "en": "to (a place)",
+   "syll": [
+    "i",
+    "la"
+   ],
+   "note": "Arabic says 'I go TO there': the direction word إلى is needed.",
+   "mnemonic": "i-LA: 'EEL-ah swims TO the sea.'"
+  },
+  {
+   "t": 288,
+   "end": 342,
+   "kind": "phrase",
+   "ar": "أنا أذهبُ إلى هناك",
+   "tr": "ana adhhabo ila hunak",
+   "en": "I go there (literally: I go to there)",
+   "parts": [
+    "أنا",
+    "أذهبُ",
+    "إلى",
+    "هناك"
+   ],
+   "note": "أذهب gets the hooked 'o' because إلى follows; أنا can be dropped: adhhabo ila hunak."
+  },
+  {
+   "t": 344,
+   "end": 354,
    "kind": "review",
-   "ar": "أنتَ تذهبُ إلى هناك كل يوم",
-   "tr": "anta tadh-habu ilaa hunaak kull yawm",
-   "en": "you go there every day (today's question)",
+   "ar": "أنتَ",
+   "tr": "anta",
+   "en": "you (male)"
+  },
+  {
+   "t": 356,
+   "end": 364,
+   "kind": "phrase",
+   "ar": "أنتَ تذهبُ",
+   "tr": "anta tadhhabo",
+   "en": "you go (to a male)",
+   "parts": [
+    "أنتَ",
+    "تذهبُ"
+   ],
+   "note": "أذهب adhhab (I go) with the a- replaced by ta-.",
+   "mnemonic": "tadh-HAB-o: 'TAD, HOP along, YOU GO!'"
+  },
+  {
+   "t": 370,
+   "end": 384,
+   "kind": "rule",
+   "ar": "أذهبُ / تذهبُ",
+   "tr": "adhhabo / tadhhabo",
+   "en": "I go / you go: only the first sound changes",
+   "note": "adhhabo = I go, tadhhabo = you go. The 't' is the whole difference."
+  },
+  {
+   "t": 384,
+   "end": 392,
+   "kind": "review",
+   "ar": "أنا أذهبُ إلى هناك",
+   "tr": "ana adhhabo ila hunak",
+   "en": "I go there",
+   "parts": [
+    "أنا",
+    "أذهبُ",
+    "إلى",
+    "هناك"
+   ]
+  },
+  {
+   "t": 390,
+   "end": 408,
+   "kind": "phrase",
+   "ar": "أنتَ تذهبُ إلى هناك",
+   "tr": "anta tadhhabo ila hunak",
+   "en": "you go there",
+   "parts": [
+    "أنتَ",
+    "تذهبُ",
+    "إلى",
+    "هناك"
+   ]
+  },
+  {
+   "t": 410,
+   "end": 442,
+   "kind": "word",
+   "ar": "كلَّ يوم",
+   "tr": "kulla yawm",
+   "en": "every day",
+   "syll": [
+    "kul",
+    "la",
+    "yawm"
+   ],
+   "parts": [
+    "كلَّ",
+    "يوم"
+   ],
+   "note": "كلَّ kulla = every, يوم yawm = day; word for word 'every day'.",
+   "mnemonic": "kulla YAWM: 'I COOL off and YAWN every day.'"
+  },
+  {
+   "t": 450,
+   "end": 464,
+   "kind": "phrase",
+   "ar": "أنا أذهبُ إلى هناك كلَّ يوم",
+   "tr": "ana adhhabo ila hunak kulla yawm",
+   "en": "I go there every day",
+   "parts": [
+    "أنا",
+    "أذهبُ",
+    "إلى",
+    "هناك",
+    "كلَّ",
+    "يوم"
+   ]
+  },
+  {
+   "t": 464,
+   "end": 484,
+   "kind": "phrase",
+   "ar": "أنتَ تذهبُ إلى هناك كلَّ يوم",
+   "tr": "anta tadhhabo ila hunak kulla yawm",
+   "en": "you go there every day",
    "parts": [
     "أنتَ",
     "تذهبُ",
     "إلى",
     "هناك",
-    "كل",
+    "كلَّ",
+    "يوم"
+   ]
+  },
+  {
+   "t": 484,
+   "end": 500,
+   "kind": "review",
+   "ar": "عمل",
+   "tr": "'amal",
+   "en": "work (noun)",
+   "syll": [
+    "'a",
+    "mal"
+   ],
+   "note": "Same letters as أعمل a'mal (I work), without the opening أ."
+  },
+  {
+   "t": 504,
+   "end": 536,
+   "kind": "rule",
+   "ar": "العمل",
+   "tr": "al'amal",
+   "en": "the work",
+   "note": "ال (al) at the start of a word = 'the'. 'I go to work' is literally 'I go to THE work'."
+  },
+  {
+   "t": 538,
+   "end": 566,
+   "kind": "phrase",
+   "ar": "أنا أذهبُ إلى العمل",
+   "tr": "ana adhhabo ila al'amal",
+   "en": "I go to work",
+   "parts": [
+    "أنا",
+    "أذهبُ",
+    "إلى",
+    "العمل"
+   ]
+  },
+  {
+   "t": 564,
+   "end": 572,
+   "kind": "review",
+   "ar": "كلَّ يوم",
+   "tr": "kulla yawm",
+   "en": "every day",
+   "parts": [
+    "كلَّ",
+    "يوم"
+   ]
+  },
+  {
+   "t": 574,
+   "end": 596,
+   "kind": "phrase",
+   "ar": "أنا أذهبُ إلى العمل كلَّ يوم",
+   "tr": "ana adhhabo ila al'amal kulla yawm",
+   "en": "I go to work every day",
+   "parts": [
+    "أنا",
+    "أذهبُ",
+    "إلى",
+    "العمل",
+    "كلَّ",
+    "يوم"
+   ]
+  },
+  {
+   "t": 596,
+   "end": 604,
+   "kind": "review",
+   "ar": "أنتَ تذهبُ",
+   "tr": "anta tadhhabo",
+   "en": "you go",
+   "parts": [
+    "أنتَ",
+    "تذهبُ"
+   ]
+  },
+  {
+   "t": 612,
+   "end": 628,
+   "kind": "phrase",
+   "ar": "أنتَ تذهبُ إلى العمل كلَّ يوم",
+   "tr": "anta tadhhabo ila al'amal kulla yawm",
+   "en": "you go to work every day",
+   "parts": [
+    "أنتَ",
+    "تذهبُ",
+    "إلى",
+    "العمل",
+    "كلَّ",
+    "يوم"
+   ]
+  },
+  {
+   "t": 628,
+   "end": 648,
+   "kind": "word",
+   "ar": "صباح",
+   "tr": "sabah",
+   "en": "morning",
+   "syll": [
+    "sa",
+    "bah"
+   ],
+   "mnemonic": "sa-BAH: the sheep says 'BAAH' in the MORNING."
+  },
+  {
+   "t": 646,
+   "end": 664,
+   "kind": "phrase",
+   "ar": "كلَّ صباح",
+   "tr": "kulla sabah",
+   "en": "every morning",
+   "parts": [
+    "كلَّ",
+    "صباح"
+   ]
+  },
+  {
+   "t": 670,
+   "end": 694,
+   "kind": "phrase",
+   "ar": "أنا أذهبُ إلى هناك كلَّ صباح",
+   "tr": "ana adhhabo ila hunak kulla sabah",
+   "en": "I go there every morning",
+   "parts": [
+    "أنا",
+    "أذهبُ",
+    "إلى",
+    "هناك",
+    "كلَّ",
+    "صباح"
+   ]
+  },
+  {
+   "t": 698,
+   "end": 718,
+   "kind": "phrase",
+   "ar": "أنتَ تذهبُ إلى هناك كلَّ صباح",
+   "tr": "anta tadhhabo ila hunak kulla sabah",
+   "en": "you go there every morning",
+   "parts": [
+    "أنتَ",
+    "تذهبُ",
+    "إلى",
+    "هناك",
+    "كلَّ",
+    "صباح"
+   ]
+  },
+  {
+   "t": 722,
+   "end": 732,
+   "kind": "review",
+   "ar": "أنا أفهمُ",
+   "tr": "ana afhamo",
+   "en": "I understand",
+   "parts": [
+    "أنا",
+    "أفهمُ"
+   ],
+   "note": "Now with the hooked 'o', because more words will follow."
+  },
+  {
+   "t": 736,
+   "end": 750,
+   "kind": "phrase",
+   "ar": "أنتَ تفهمُ",
+   "tr": "anta tafhamo",
+   "en": "you understand (to a male)",
+   "parts": [
+    "أنتَ",
+    "تفهمُ"
+   ],
+   "note": "She asks you to guess it: أفهم afham → تفهم tafham.",
+   "mnemonic": "taf-HAM-o: 'TOUGH HAM, but YOU UNDERSTAND it.'"
+  },
+  {
+   "t": 752,
+   "end": 764,
+   "kind": "review",
+   "ar": "أنتَ تفهمُ",
+   "tr": "anta tafhamo",
+   "en": "you understand",
+   "parts": [
+    "أنتَ",
+    "تفهمُ"
+   ],
+   "note": "Back and forth: ana afhamo / anta tafhamo."
+  },
+  {
+   "t": 766,
+   "end": 780,
+   "kind": "phrase",
+   "ar": "أنا أفهمُ جيداً",
+   "tr": "ana afhamo jayyidan",
+   "en": "I understand very well",
+   "parts": [
+    "أنا",
+    "أفهمُ",
+    "جيداً"
+   ],
+   "note": "جيداً jayyidan = well / very well. On her card it is one word."
+  },
+  {
+   "t": 790,
+   "end": 802,
+   "kind": "phrase",
+   "ar": "أنتَ تفهمُ جيداً",
+   "tr": "anta tafhamo jayyidan",
+   "en": "you understand very well",
+   "parts": [
+    "أنتَ",
+    "تفهمُ",
+    "جيداً"
+   ]
+  },
+  {
+   "t": 804,
+   "end": 836,
+   "kind": "word",
+   "ar": "كلَّ شيء",
+   "tr": "kulla shay'a",
+   "en": "every thing",
+   "syll": [
+    "kul",
+    "la",
+    "shay'a"
+   ],
+   "parts": [
+    "كلَّ",
+    "شيء"
+   ],
+   "note": "كلَّ kulla = every, شيء shay'a = thing; 'every thing'.",
+   "mnemonic": "kulla SHAY'a: 'COOL SHADE covers EVERY THING.'"
+  },
+  {
+   "t": 842,
+   "end": 852,
+   "kind": "phrase",
+   "ar": "أنتَ تفهمُ كلَّ شيء",
+   "tr": "anta tafhamo kulla shay'a",
+   "en": "you understand every thing",
+   "parts": [
+    "أنتَ",
+    "تفهمُ",
+    "كلَّ",
+    "شيء"
+   ]
+  },
+  {
+   "t": 856,
+   "end": 878,
+   "kind": "phrase",
+   "ar": "أنتَ تفهمُ جيداً كلَّ شيء",
+   "tr": "anta tafhamo jayyidan kulla shay'a",
+   "en": "you understand every thing very well",
+   "parts": [
+    "أنتَ",
+    "تفهمُ",
+    "جيداً",
+    "كلَّ",
+    "شيء"
+   ],
+   "note": "Her word order: jayyidan (very well) comes before kulla shay'a (every thing)."
+  },
+  {
+   "t": 882,
+   "end": 894,
+   "kind": "review",
+   "ar": "لديّ عمل لاحقاً",
+   "tr": "ladayya 'amal lahiqan",
+   "en": "I have work later (answer to last lesson's question)",
+   "parts": [
+    "لديّ",
+    "عمل",
+    "لاحقاً"
+   ]
+  },
+  {
+   "t": 896,
+   "end": 910,
+   "kind": "review",
+   "ar": "أنتَ تذهبُ إلى هناك كلَّ يوم",
+   "tr": "anta tadhhabo ila hunak kulla yawm",
+   "en": "you go there every day (today's question: say it in Arabic)",
+   "parts": [
+    "أنتَ",
+    "تذهبُ",
+    "إلى",
+    "هناك",
+    "كلَّ",
     "يوم"
    ]
   }
@@ -564,27 +630,27 @@
  "dialogue": [
   {
    "who": "A",
-   "ar": "أنتَ تذهبُ إلى العمل كل يوم؟",
-   "tr": "anta tadh-habu ilaa al-'amal kull yawm?",
+   "ar": "أنتَ تذهبُ إلى العمل كلَّ يوم؟",
+   "tr": "anta tadhhabo ila al'amal kulla yawm?",
    "en": "You go to work every day?"
   },
   {
    "who": "B",
-   "ar": "لا، أنا أذهبُ إلى هناك كل صباح.",
-   "tr": "laa, ana adh-habu ilaa hunaak kull sabaah.",
+   "ar": "لا، أنا أذهبُ إلى هناك كلَّ صباح.",
+   "tr": "la, ana adhhabo ila hunak kulla sabah.",
    "en": "No, I go there every morning."
   },
   {
    "who": "A",
    "ar": "أنا أريدُ أن أتعلّم العربية.",
-   "tr": "ana ureedu an ata'allam al-'arabiyya.",
+   "tr": "ana oreedo an ataa'llam al a'rabiya.",
    "en": "I want to learn Arabic."
   },
   {
    "who": "B",
-   "ar": "أنتَ تفهم كل شيء جيداً جداً.",
-   "tr": "anta tafham kull shay' jayyidan jiddan.",
-   "en": "You understand everything very well."
+   "ar": "أنتَ تفهمُ جيداً كلَّ شيء.",
+   "tr": "anta tafhamo jayyidan kulla shay'a.",
+   "en": "You understand every thing very well."
   }
  ]
 }

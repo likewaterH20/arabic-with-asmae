@@ -3,40 +3,48 @@
  "id": "NapGLT3WFX8",
  "title": "I want to learn Arabic",
  "duration": 607,
- "goal": "Build the sentence 'I want to learn Arabic' from five blocks, and negate it.",
+ "goal": "Build the sentence 'I want to learn Arabic' block by block (ana, oreed, thalek, la, taa'llam, al a'rabiya), and negate it.",
  "items": [
   {
-   "t": 51,
+   "t": 54,
    "end": 66,
    "kind": "word",
    "ar": "أنا",
    "tr": "ana",
    "en": "I",
-   "syll": [
-    "a",
-    "na"
-   ],
-   "mnemonic": "ANA = 'I' — think 'ANA is me'."
+   "mnemonic": "ANA = 'I'. Think 'ANA is me'."
   },
   {
    "t": 66,
-   "end": 109,
+   "end": 90,
    "kind": "word",
    "ar": "أريد",
-   "tr": "ureed",
-   "en": "want (I want)",
-   "syll": [
-    "u",
-    "reed"
-   ],
-   "mnemonic": "u-REED: 'you READ what you WANT'."
+   "tr": "oreed",
+   "en": "I want",
+   "mnemonic": "o-REED: 'oh, I REEDly want it'."
   },
   {
-   "t": 109,
-   "end": 123,
+   "t": 92,
+   "end": 102,
+   "kind": "review",
+   "ar": "أنا",
+   "tr": "ana",
+   "en": "I"
+  },
+  {
+   "t": 100,
+   "end": 110,
+   "kind": "review",
+   "ar": "أريد",
+   "tr": "oreed",
+   "en": "I want"
+  },
+  {
+   "t": 110,
+   "end": 124,
    "kind": "phrase",
    "ar": "أنا أريد",
-   "tr": "ana ureed",
+   "tr": "ana oreed",
    "en": "I want",
    "parts": [
     "أنا",
@@ -44,58 +52,85 @@
    ]
   },
   {
-   "t": 123,
-   "end": 148,
+   "t": 132,
+   "end": 150,
    "kind": "rule",
    "ar": "أريدُ",
-   "tr": "ureedu",
-   "en": "want + a following word → add an 'u' sound",
-   "note": "When another word comes right after أريد, hook an 'u' (she says 'o') to the end: ureedu."
+   "tr": "oreedo",
+   "en": "want + a following word: oreed becomes oreedo",
+   "note": "When another word comes right after أريد, hook an 'o' sound to its end: ana oreedo ... (the dots mean 'something follows')."
   },
   {
-   "t": 148,
-   "end": 174,
+   "t": 154,
+   "end": 166,
    "kind": "word",
-   "ar": "هذا",
-   "tr": "haadha",
-   "en": "this / it",
-   "syll": [
-    "haa",
-    "dha"
-   ],
-   "mnemonic": "HAA-dha: point at it and say 'HA, THAt one'."
+   "ar": "ذلك",
+   "tr": "thalek",
+   "en": "that / this / it",
+   "mnemonic": "THA-lek: point at it and say 'THAt one'."
   },
   {
-   "t": 174,
-   "end": 191,
+   "t": 166,
+   "end": 192,
    "kind": "phrase",
-   "ar": "أنا أريدُ هذا",
-   "tr": "ana ureedu haadha",
-   "en": "I want this / I want it",
+   "ar": "أنا أريدُ ذلك",
+   "tr": "ana oreedo thalek",
+   "en": "I want that / I want it",
    "parts": [
     "أنا",
     "أريدُ",
-    "هذا"
+    "ذلك"
    ]
   },
   {
-   "t": 200,
-   "end": 213,
-   "kind": "word",
-   "ar": "لا",
-   "tr": "laa",
-   "en": "no / don't",
-   "syll": [
-    "laa"
-   ],
-   "mnemonic": "LAA = no. 'LAA-ter, not now.'"
+   "t": 192,
+   "end": 204,
+   "kind": "review",
+   "ar": "أنا أريد",
+   "tr": "ana oreed",
+   "en": "I want",
+   "parts": [
+    "أنا",
+    "أريد"
+   ]
   },
   {
-   "t": 213,
-   "end": 232,
+   "t": 204,
+   "end": 208,
+   "kind": "word",
+   "ar": "لا",
+   "tr": "la",
+   "en": "no / not",
+   "mnemonic": "LA = no. 'LA-ter, not now.'"
+  },
+  {
+   "t": 208,
+   "end": 236,
    "kind": "phrase",
    "ar": "أنا لا أريد",
-   "tr": "ana laa ureed",
+   "tr": "ana la oreed",
+   "en": "I don't want",
+   "parts": [
+    "أنا",
+    "لا",
+    "أريد"
+   ],
+   "note": "لا (la) goes right before the verb: ana LA oreed."
+  },
+  {
+   "t": 238,
+   "end": 250,
+   "kind": "review",
+   "ar": "ذلك",
+   "tr": "thalek",
+   "en": "that / it"
+  },
+  {
+   "t": 252,
+   "end": 260,
+   "kind": "review",
+   "ar": "أنا لا أريد",
+   "tr": "ana la oreed",
    "en": "I don't want",
    "parts": [
     "أنا",
@@ -104,48 +139,65 @@
    ]
   },
   {
-   "t": 271,
-   "end": 292,
+   "t": 262,
+   "end": 270,
+   "kind": "review",
+   "ar": "أريدُ",
+   "tr": "ana oreedo...",
+   "en": "I want ... (something follows)"
+  },
+  {
+   "t": 270,
+   "end": 274,
+   "kind": "review",
+   "ar": "أنا أريدُ ذلك",
+   "tr": "ana oreedo thalek",
+   "en": "I want that",
+   "parts": [
+    "أنا",
+    "أريدُ",
+    "ذلك"
+   ]
+  },
+  {
+   "t": 284,
+   "end": 296,
    "kind": "phrase",
-   "ar": "أنا لا أريدُ هذا",
-   "tr": "ana laa ureedu haadha",
-   "en": "I don't want this",
+   "ar": "أنا لا أريدُ ذلك",
+   "tr": "ana la oreedo thalek",
+   "en": "I don't want that / I don't want this",
    "parts": [
     "أنا",
     "لا",
     "أريدُ",
-    "هذا"
-   ]
-  },
-  {
-   "t": 302,
-   "end": 355,
-   "kind": "word",
-   "ar": "تَعَلَّم",
-   "tr": "ta'allam",
-   "en": "learn",
-   "syll": [
-    "ta",
-    "'al",
-    "lam"
+    "ذلك"
    ],
-   "mnemonic": "ta-'AL-lam: 'TALL LAMb learns'."
+   "note": "Her quiz: 'I don't want this' = ana la oreedo thalek."
   },
   {
-   "t": 355,
-   "end": 390,
+   "t": 306,
+   "end": 358,
+   "kind": "word",
+   "ar": "تعلّم",
+   "tr": "taa'llam",
+   "en": "learn",
+   "mnemonic": "taa-'LLAM: 'a TALL LAMb learns'."
+  },
+  {
+   "t": 362,
+   "end": 392,
    "kind": "rule",
    "ar": "أن أتعلّم",
-   "tr": "an ata'allam",
+   "tr": "an ataa'llam",
    "en": "to learn",
-   "note": "أن (an) works like English 'to'. 'to learn' = an ata'allam."
+   "note": "أن (an) works like English 'to', and the verb takes an 'a' in front: an ataa'llam."
   },
   {
-   "t": 390,
-   "end": 427,
+   "t": 394,
+   "end": 420,
    "kind": "phrase",
    "ar": "أنا أريدُ أن أتعلّم",
-   "tr": "ana ureedu an ata'allam",
+   "tr": "ana oreedo an ataa'llam",
    "en": "I want to learn",
    "parts": [
     "أنا",
@@ -155,55 +207,56 @@
    ]
   },
   {
-   "t": 427,
-   "end": 447,
+   "t": 424,
+   "end": 432,
    "kind": "review",
-   "ar": "أنا أريدُ هذا",
-   "tr": "ana ureedu haadha",
-   "en": "I want this",
+   "ar": "ذلك",
+   "tr": "thalek",
+   "en": "that / it"
+  },
+  {
+   "t": 438,
+   "end": 450,
+   "kind": "review",
+   "ar": "أنا أريدُ ذلك",
+   "tr": "ana oreedo thalek",
+   "en": "I want that",
    "parts": [
     "أنا",
     "أريدُ",
-    "هذا"
+    "ذلك"
    ]
   },
   {
-   "t": 447,
-   "end": 469,
+   "t": 454,
+   "end": 472,
    "kind": "review",
-   "ar": "أنا لا أريدُ هذا",
-   "tr": "ana laa ureedu haadha",
-   "en": "I don't want this",
+   "ar": "أنا لا أريدُ ذلك",
+   "tr": "ana la oreedo thalek",
+   "en": "I don't want that",
    "parts": [
     "أنا",
     "لا",
     "أريدُ",
-    "هذا"
+    "ذلك"
    ]
   },
   {
-   "t": 482,
-   "end": 530,
+   "t": 486,
+   "end": 534,
    "kind": "word",
    "ar": "العربية",
-   "tr": "al-'arabiyya",
+   "tr": "al a'rabiya",
    "en": "Arabic (the Arabic language)",
-   "syll": [
-    "al",
-    "'a",
-    "ra",
-    "biy",
-    "ya"
-   ],
    "note": "ال (al) = 'the'. Arabic says 'the Arabic'.",
-   "mnemonic": "al-ARABIYYA: 'the ARAB-ia'."
+   "mnemonic": "al a'RABIYA: 'the ARAB-ia'."
   },
   {
-   "t": 530,
-   "end": 568,
+   "t": 532,
+   "end": 570,
    "kind": "review",
    "ar": "أنا أريدُ أن أتعلّم",
-   "tr": "ana ureedu an ata'allam",
+   "tr": "ana oreedo an ataa'llam",
    "en": "I want to learn",
    "parts": [
     "أنا",
@@ -214,10 +267,10 @@
   },
   {
    "t": 568,
-   "end": 595,
+   "end": 596,
    "kind": "phrase",
    "ar": "أنا أريدُ أن أتعلّم العربية",
-   "tr": "ana ureedu an ata'allam al-'arabiyya",
+   "tr": "ana oreedo an ataa'llam al a'rabiya",
    "en": "I want to learn Arabic",
    "parts": [
     "أنا",
@@ -232,20 +285,26 @@
   {
    "who": "A",
    "ar": "أنا أريدُ أن أتعلّم العربية.",
-   "tr": "ana ureedu an ata'allam al-'arabiyya.",
+   "tr": "ana oreedo an ataa'llam al a'rabiya.",
    "en": "I want to learn Arabic."
   },
   {
    "who": "B",
-   "ar": "أنا أريدُ هذا.",
-   "tr": "ana ureedu haadha.",
-   "en": "I want this (too)."
+   "ar": "أنا أريدُ ذلك.",
+   "tr": "ana oreedo thalek.",
+   "en": "I want that (too)."
   },
   {
    "who": "A",
-   "ar": "لا، أنا لا أريدُ هذا.",
-   "tr": "laa, ana laa ureedu haadha.",
-   "en": "No, I don't want this."
+   "ar": "لا، أنا لا أريدُ ذلك.",
+   "tr": "la, ana la oreedo thalek.",
+   "en": "No, I don't want that."
+  },
+  {
+   "who": "B",
+   "ar": "أنا أريدُ أن أتعلّم.",
+   "tr": "ana oreedo an ataa'llam.",
+   "en": "I want to learn."
   }
  ]
 }

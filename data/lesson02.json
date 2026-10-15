@@ -1,52 +1,61 @@
 {
  "n": 2,
  "id": "vZYV5tTIZTI",
- "title": "I understand Arabic a little",
+ "title": "I understand Arabic a little bit",
  "duration": 702,
- "goal": "Add the verb 'understand' plus 'a little' and 'well' to build 'I understand Arabic a little / very well' and 'I want to understand it'.",
+ "goal": "Add the verb 'understand' (afham) plus 'a little bit' (qaleelan) and 'well' (jayyidan), then build 'I understand Arabic a little bit / very well' and 'I want to understand it'.",
  "items": [
   {
-   "t": 9,
-   "end": 31,
+   "t": 18,
+   "end": 32,
    "kind": "review",
-   "ar": "أنا أريدُ هذا",
-   "tr": "ana ureedu haadha",
-   "en": "I want this / I want it",
+   "ar": "أنا أُريدُ ذلك",
+   "tr": "ana 'uridu dhaalik",
+   "en": "I want it",
    "parts": [
     "أنا",
-    "أريدُ",
-    "هذا"
-   ]
+    "أُريدُ",
+    "ذلك"
+   ],
+   "note": "Lesson 1 review. On this card she spells it 'uridu dhaalik; later in the lesson she writes the same words uriidu and thalek."
   },
   {
-   "t": 31,
-   "end": 56,
+   "t": 32,
+   "end": 54,
    "kind": "review",
-   "ar": "أنا لا أريدُ هذا",
-   "tr": "ana laa ureedu haadha",
-   "en": "I don't want this / I don't want it",
+   "ar": "أنا لا أُريدُ ذلك",
+   "tr": "ana la 'uridu dhaalik",
+   "en": "I don't want it",
    "parts": [
     "أنا",
     "لا",
-    "أريدُ",
-    "هذا"
+    "أُريدُ",
+    "ذلك"
    ]
   },
   {
-   "t": 58,
-   "end": 75,
+   "t": 56,
+   "end": 66,
+   "kind": "review",
+   "ar": "تَعَلَّم",
+   "tr": "ta'allam",
+   "en": "learn"
+  },
+  {
+   "t": 66,
+   "end": 76,
    "kind": "review",
    "ar": "أن أتعلّم",
    "tr": "an ata'allam",
    "en": "to learn",
-   "note": "The verb تعلّم (ta'allam) means learn; 'to learn' is an ata'allam."
+   "note": "أن (an) works like English 'to': an ata'allam = to learn."
   },
   {
-   "t": 75,
-   "end": 110,
+   "t": 76,
+   "end": 112,
    "kind": "review",
    "ar": "أنا أريدُ أن أتعلّم",
-   "tr": "ana ureedu an ata'allam",
+   "tr": "ana uriidu an ata'allam",
    "en": "I want to learn",
    "parts": [
     "أنا",
@@ -56,11 +65,11 @@
    ]
   },
   {
-   "t": 110,
-   "end": 145,
+   "t": 112,
+   "end": 146,
    "kind": "phrase",
    "ar": "أنا لا أريدُ أن أتعلّم",
-   "tr": "ana laa ureedu an ata'allam",
+   "tr": "ana la uriidu an ata'allam",
    "en": "I don't want to learn",
    "parts": [
     "أنا",
@@ -69,48 +78,34 @@
     "أن",
     "أتعلّم"
    ],
-   "note": "Same as 'I want to learn', with لا (laa) slotted in before the verb."
+   "note": "Same as 'I want to learn', with لا (la) slotted in before the verb."
   },
   {
-   "t": 145,
-   "end": 160,
+   "t": 146,
+   "end": 164,
    "kind": "review",
    "ar": "العربية",
    "tr": "al-'arabiyya",
    "en": "Arabic (the Arabic language)"
   },
   {
-   "t": 160,
-   "end": 195,
+   "t": 164,
+   "end": 196,
    "kind": "review",
-   "ar": "أنا أريدُ أن أتعلّم العربية",
-   "tr": "ana ureedu an ata'allam al-'arabiyya",
+   "ar": "أريدُ أن أتعلّمَ العربية",
+   "tr": "uriidu an ata'allama al-'arabiyya",
    "en": "I want to learn Arabic",
    "parts": [
-    "أنا",
     "أريدُ",
     "أن",
-    "أتعلّم",
+    "أتعلّمَ",
     "العربية"
-   ]
-  },
-  {
-   "t": 195,
-   "end": 244,
-   "kind": "word",
-   "ar": "أفهم",
-   "tr": "afham",
-   "en": "understand (I understand)",
-   "syll": [
-    "af",
-    "ham"
    ],
-   "note": "She breaks it into two syllables, af + ham, then says it with أنا: ana afham = I understand.",
-   "mnemonic": "af-HAM: 'I understand, HAM is food'."
+   "note": "She drops أنا here (the verb already says 'I') and marks the hooked 'a' on ata'allama because العربية follows it."
   },
   {
-   "t": 230,
-   "end": 244,
+   "t": 196,
+   "end": 248,
    "kind": "phrase",
    "ar": "أنا أفهم",
    "tr": "ana afham",
@@ -118,20 +113,30 @@
    "parts": [
     "أنا",
     "أفهم"
-   ]
+   ],
+   "note": "New verb: أفهم (afham) = I understand. Two beats, af + ham.",
+   "mnemonic": "af-HAM: 'I understand, HAM is food'."
   },
   {
-   "t": 244,
-   "end": 272,
+   "t": 248,
+   "end": 276,
    "kind": "rule",
-   "ar": "أفهمُ",
-   "tr": "afhamu",
-   "en": "understand + a following word → add an 'u' sound",
-   "note": "Same hook as أريدُ: when another word follows the verb, add an 'u' (she says 'o') at the end: afhamu."
+   "ar": "أنا أفهمُ",
+   "tr": "ana afhamu",
+   "en": "I understand (+ a following word → add an 'u' sound)",
+   "note": "Same hook as uriidu: when another word follows the verb, add an 'u' at the end: afhamu."
   },
   {
-   "t": 272,
-   "end": 311,
+   "t": 276,
+   "end": 286,
+   "kind": "review",
+   "ar": "العربية",
+   "tr": "al-'arabiyya",
+   "en": "Arabic"
+  },
+  {
+   "t": 286,
+   "end": 314,
    "kind": "phrase",
    "ar": "أنا أفهمُ العربية",
    "tr": "ana afhamu al-'arabiyya",
@@ -143,23 +148,17 @@
    ]
   },
   {
-   "t": 311,
-   "end": 341,
+   "t": 314,
+   "end": 342,
    "kind": "word",
    "ar": "قليلاً",
    "tr": "qaleelan",
    "en": "a little bit",
-   "syll": [
-    "qa",
-    "lee",
-    "lan"
-   ],
-   "mnemonic": "qa-LEE-lan: 'only a LITTLE, Qa-LEE-lan'.",
-   "uncertain": true
+   "mnemonic": "qa-LEE-lan: 'only a LITTLE, qa-LEE-lan'."
   },
   {
-   "t": 341,
-   "end": 371,
+   "t": 342,
+   "end": 374,
    "kind": "phrase",
    "ar": "أنا أفهمُ قليلاً",
    "tr": "ana afhamu qaleelan",
@@ -171,20 +170,20 @@
    ]
   },
   {
-   "t": 371,
+   "t": 374,
    "end": 390,
    "kind": "rule",
    "ar": "أن أفهم",
    "tr": "an afham",
    "en": "to understand",
-   "note": "As with 'to learn', put أن (an) before the verb: an afham = to understand."
+   "note": "As with 'to learn', put أن (an) before the verb: an afham = to understand. (Her card label says 'to learn' by mistake.)"
   },
   {
    "t": 390,
-   "end": 418,
+   "end": 420,
    "kind": "phrase",
    "ar": "أنا أريدُ أن أفهم",
-   "tr": "ana ureedu an afham",
+   "tr": "ana uriidu an afham",
    "en": "I want to understand",
    "parts": [
     "أنا",
@@ -194,11 +193,11 @@
    ]
   },
   {
-   "t": 418,
-   "end": 453,
+   "t": 420,
+   "end": 448,
    "kind": "phrase",
    "ar": "أنا أريدُ أن أفهم العربية",
-   "tr": "ana ureedu an afham al-'arabiyya",
+   "tr": "ana uriidu an afham al-'arabiyya",
    "en": "I want to understand Arabic",
    "parts": [
     "أنا",
@@ -209,48 +208,49 @@
    ]
   },
   {
-   "t": 453,
-   "end": 465,
+   "t": 454,
+   "end": 462,
    "kind": "review",
-   "ar": "هذا",
-   "tr": "haadha",
-   "en": "this / it"
+   "ar": "ذلك",
+   "tr": "thalek",
+   "en": "it / this",
+   "note": "Same word as dhaalik at the start of the lesson; this is her usual spelling."
   },
   {
-   "t": 465,
-   "end": 511,
+   "t": 462,
+   "end": 512,
    "kind": "phrase",
-   "ar": "أنا أريدُ أن أفهم هذا",
-   "tr": "ana ureedu an afham haadha",
-   "en": "I want to understand it / this",
+   "ar": "أنا أريدُ أن أفهم ذلك",
+   "tr": "ana uriidu an afham thalek",
+   "en": "I want to understand it",
    "parts": [
     "أنا",
     "أريدُ",
     "أن",
     "أفهم",
-    "هذا"
+    "ذلك"
    ]
   },
   {
-   "t": 511,
-   "end": 540,
+   "t": 512,
+   "end": 538,
    "kind": "phrase",
-   "ar": "أنا لا أفهمُ هذا",
-   "tr": "ana laa afhamu haadha",
-   "en": "I don't understand it / that",
+   "ar": "أنا لا أفهمُ ذلك",
+   "tr": "ana la afhamu thalek",
+   "en": "I don't understand it",
    "parts": [
     "أنا",
     "لا",
     "أفهمُ",
-    "هذا"
+    "ذلك"
    ]
   },
   {
-   "t": 540,
+   "t": 538,
    "end": 562,
    "kind": "phrase",
    "ar": "أنا لا أريدُ أن أفهم",
-   "tr": "ana laa ureedu an afham",
+   "tr": "ana la uriidu afham",
    "en": "I don't want to understand",
    "parts": [
     "أنا",
@@ -258,11 +258,21 @@
     "أريدُ",
     "أن",
     "أفهم"
-   ]
+   ],
+   "note": "Her card leaves out 'an' in the Latin line; the full sentence is ana la uriidu an afham.",
+   "uncertain": true
   },
   {
    "t": 562,
-   "end": 587,
+   "end": 574,
+   "kind": "review",
+   "ar": "قليلاً",
+   "tr": "qaleelan",
+   "en": "a little bit"
+  },
+  {
+   "t": 574,
+   "end": 594,
    "kind": "review",
    "ar": "أنا أفهمُ قليلاً",
    "tr": "ana afhamu qaleelan",
@@ -271,27 +281,30 @@
     "أنا",
     "أفهمُ",
     "قليلاً"
-   ]
+   ],
+   "note": "Her card's English says 'I want to understand a little bit', but the Arabic on it is 'I understand a little bit'."
   },
   {
-   "t": 587,
-   "end": 626,
+   "t": 594,
+   "end": 614,
    "kind": "word",
    "ar": "جيداً",
    "tr": "jayyidan",
    "en": "well / very well",
-   "syll": [
-    "jay",
-    "yi",
-    "dan"
-   ],
-   "note": "She uses one word for both 'well' and 'very well'.",
-   "mnemonic": "jay-YI-dan: 'JAY did it WELL'.",
-   "uncertain": true
+   "note": "She uses one word for both 'well' and 'very well'. Contrast with qaleelan (a little bit).",
+   "mnemonic": "jay-YI-dan: 'JAY did it WELL'."
+  },
+  {
+   "t": 614,
+   "end": 626,
+   "kind": "review",
+   "ar": "قليلاً",
+   "tr": "qaleelan",
+   "en": "a little bit"
   },
   {
    "t": 626,
-   "end": 650,
+   "end": 652,
    "kind": "phrase",
    "ar": "أنا أفهمُ جيداً",
    "tr": "ana afhamu jayyidan",
@@ -303,8 +316,8 @@
    ]
   },
   {
-   "t": 650,
-   "end": 678,
+   "t": 652,
+   "end": 680,
    "kind": "phrase",
    "ar": "أنا أفهمُ العربية جيداً",
    "tr": "ana afhamu al-'arabiyya jayyidan",
@@ -317,11 +330,11 @@
    ]
   },
   {
-   "t": 678,
+   "t": 684,
    "end": 690,
    "kind": "phrase",
    "ar": "أنا أريدُ أن أفهم جيداً",
-   "tr": "ana ureedu an afham jayyidan",
+   "tr": "ana uriidu an afham jayyidan",
    "en": "I want to understand very well",
    "parts": [
     "أنا",
@@ -330,14 +343,14 @@
     "أفهم",
     "جيداً"
    ],
-   "note": "Her homework question for the comments; she does not say it herself."
+   "note": "Quiz: she only shows the English and asks for the Arabic in the comments."
   }
  ],
  "dialogue": [
   {
    "who": "A",
    "ar": "أنا أريدُ أن أتعلّم العربية.",
-   "tr": "ana ureedu an ata'allam al-'arabiyya.",
+   "tr": "ana uriidu an ata'allam al-'arabiyya.",
    "en": "I want to learn Arabic."
   },
   {
@@ -348,14 +361,14 @@
   },
   {
    "who": "A",
-   "ar": "أنا لا أفهمُ هذا.",
-   "tr": "ana laa afhamu haadha.",
-   "en": "I don't understand this."
+   "ar": "أنا لا أفهمُ ذلك.",
+   "tr": "ana la afhamu thalek.",
+   "en": "I don't understand it."
   },
   {
    "who": "B",
    "ar": "أنا أريدُ أن أفهم جيداً.",
-   "tr": "ana ureedu an afham jayyidan.",
+   "tr": "ana uriidu an afham jayyidan.",
    "en": "I want to understand very well."
   }
  ]

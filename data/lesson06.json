@@ -3,25 +3,26 @@
  "id": "f_0Hf-SZOPw",
  "title": "I have work later",
  "duration": 925,
- "goal": "Say what you have (and don't have) with 'indee, add later / now / important, and build 'I can't work here anymore'.",
+ "goal": "Say what you have (and don't have) with ladayya, add later / now / important, and build 'I can't work here any more'.",
  "items": [
   {
-   "t": 34,
-   "end": 55,
+   "t": 36,
+   "end": 56,
    "kind": "word",
-   "ar": "عندي",
-   "tr": "'indee",
+   "ar": "لديّ",
+   "tr": "ladayya",
    "en": "I have",
    "syll": [
-    "'in",
-    "dee"
+    "la",
+    "day",
+    "ya"
    ],
-   "note": "You may say أنا عندي (ana 'indee) or simply عندي ('indee).",
-   "mnemonic": "'in-DEE: 'what's IN DEE bag? what I HAVE'."
+   "note": "لديّ (ladayya) = 'with me' = I have. She uses ladayya, not 'indee.",
+   "mnemonic": "la-DAY-ya: 'all DAY I HAVE it'."
   },
   {
-   "t": 55,
-   "end": 80,
+   "t": 56,
+   "end": 82,
    "kind": "word",
    "ar": "عمل",
    "tr": "'amal",
@@ -33,20 +34,20 @@
    "mnemonic": "'A-mal: 'A MALl is where I WORK'."
   },
   {
-   "t": 80,
-   "end": 106,
+   "t": 82,
+   "end": 104,
    "kind": "phrase",
-   "ar": "عندي عمل",
-   "tr": "'indee 'amal",
+   "ar": "لديّ عمل",
+   "tr": "ladayya 'amal",
    "en": "I have work",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل"
    ]
   },
   {
-   "t": 106,
-   "end": 128,
+   "t": 102,
+   "end": 130,
    "kind": "word",
    "ar": "لاحقاً",
    "tr": "laahiqan",
@@ -56,162 +57,166 @@
     "hi",
     "qan"
    ],
-   "mnemonic": "LAA-hi-qan: 'LAter, HI, Q-and-A' — see you LATER.",
-   "uncertain": true
+   "mnemonic": "LAA-hi-qan: 'LAter, HI, Q-and-A' - see you LATER."
   },
   {
    "t": 128,
-   "end": 140,
+   "end": 142,
    "kind": "review",
-   "ar": "عندي عمل",
-   "tr": "'indee 'amal",
+   "ar": "لديّ عمل",
+   "tr": "ladayya 'amal",
    "en": "I have work",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل"
    ]
   },
   {
    "t": 140,
-   "end": 178,
+   "end": 182,
    "kind": "phrase",
-   "ar": "عندي عمل لاحقاً",
-   "tr": "'indee 'amal laahiqan",
+   "ar": "لديّ عمل لاحقاً",
+   "tr": "ladayya 'amal laahiqan",
    "en": "I have work later",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل",
     "لاحقاً"
    ]
   },
   {
-   "t": 178,
-   "end": 195,
+   "t": 180,
+   "end": 198,
    "kind": "word",
    "ar": "مهم",
-   "tr": "muhimm",
+   "tr": "muhim",
    "en": "important",
    "syll": [
     "mu",
-    "himm"
+    "him"
    ],
-   "mnemonic": "mu-HIMM: 'HIM? he's IMPORTANT'."
+   "mnemonic": "mu-HIM: 'HIM? he's IMPORTANT'."
   },
   {
-   "t": 195,
-   "end": 220,
+   "t": 196,
+   "end": 222,
    "kind": "rule",
    "ar": "عمل مهم",
-   "tr": "'amal muhimm",
+   "tr": "'amal muhim",
    "en": "important work (literally 'work important')",
-   "note": "The adjective comes AFTER the noun: 'amal muhimm = work that is important."
+   "note": "The adjective comes AFTER the noun: 'amal muhim = work that is important."
   },
   {
    "t": 220,
-   "end": 237,
+   "end": 240,
    "kind": "review",
-   "ar": "عندي",
-   "tr": "'indee",
+   "ar": "لديّ",
+   "tr": "ladayya",
    "en": "I have"
   },
   {
-   "t": 237,
-   "end": 263,
+   "t": 238,
+   "end": 268,
    "kind": "phrase",
-   "ar": "عندي عمل مهم",
-   "tr": "'indee 'amal muhimm",
+   "ar": "لديّ عمل مهم",
+   "tr": "ladayya 'amal muhim",
    "en": "I have important work",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل",
     "مهم"
    ]
   },
   {
-   "t": 263,
-   "end": 274,
+   "t": 266,
+   "end": 276,
    "kind": "review",
    "ar": "لاحقاً",
    "tr": "laahiqan",
-   "en": "later",
-   "uncertain": true
+   "en": "later"
   },
   {
    "t": 274,
-   "end": 298,
+   "end": 302,
    "kind": "phrase",
-   "ar": "عندي عمل مهم لاحقاً",
-   "tr": "'indee 'amal muhimm laahiqan",
+   "ar": "لديّ عمل مهم لاحقاً",
+   "tr": "ladayya 'amal muhim laahiqan",
    "en": "I have important work later",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل",
     "مهم",
     "لاحقاً"
    ]
   },
   {
-   "t": 298,
-   "end": 315,
+   "t": 300,
+   "end": 318,
    "kind": "review",
    "ar": "الآن",
-   "tr": "al-aan",
+   "tr": "al-an",
    "en": "now / right now",
    "syll": [
     "al",
-    "aan"
+    "an"
    ]
   },
   {
-   "t": 315,
-   "end": 325,
+   "t": 316,
+   "end": 328,
    "kind": "review",
-   "ar": "عندي عمل",
-   "tr": "'indee 'amal",
+   "ar": "لديّ عمل",
+   "tr": "ladayya 'amal",
    "en": "I have work",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل"
    ]
   },
   {
-   "t": 325,
-   "end": 352,
+   "t": 326,
+   "end": 356,
    "kind": "phrase",
-   "ar": "عندي عمل الآن",
-   "tr": "'indee 'amal al-aan",
+   "ar": "لديّ عمل الآن",
+   "tr": "ladayya 'amal al-an",
    "en": "I have work now",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل",
     "الآن"
    ]
   },
   {
-   "t": 352,
-   "end": 370,
+   "t": 354,
+   "end": 372,
    "kind": "review",
    "ar": "يمكنني",
-   "tr": "yumkinunee",
-   "en": "I can",
-   "uncertain": true
+   "tr": "yumkinuni",
+   "en": "I can"
   },
   {
    "t": 370,
-   "end": 397,
+   "end": 386,
    "kind": "review",
+   "ar": "أذهب",
+   "tr": "adhhab",
+   "en": "I go"
+  },
+  {
+   "t": 384,
+   "end": 400,
+   "kind": "rule",
    "ar": "أن أذهب",
    "tr": "an adhhab",
    "en": "to go",
-   "note": "أذهب (adhhab) = I go; أن (an) + أذهب = to go.",
-   "uncertain": true
+   "note": "أذهب (adhhab) = I go; أن (an) + أذهب = to go."
   },
   {
-   "t": 397,
-   "end": 417,
+   "t": 398,
+   "end": 420,
    "kind": "phrase",
    "ar": "لا يمكنني أن أذهب",
-   "tr": "laa yumkinunee an adhhab",
+   "tr": "laa yumkinuni an adhhab",
    "en": "I can't go (literally 'I cannot to go')",
    "parts": [
     "لا",
@@ -221,154 +226,158 @@
    ]
   },
   {
-   "t": 417,
-   "end": 446,
+   "t": 418,
+   "end": 448,
    "kind": "phrase",
-   "ar": "لا يمكنني أن أذهب الآن",
-   "tr": "laa yumkinunee an adhhab al-aan",
+   "ar": "لا يمكنني أن أذهبَ الآن",
+   "tr": "laa yumkinuni an adhhaba al-an",
    "en": "I can't go now",
    "parts": [
     "لا",
     "يمكنني",
     "أن",
-    "أذهب",
+    "أذهبَ",
     "الآن"
-   ]
+   ],
+   "note": "When a word follows the verb after أن, she hooks an 'a' to its end: adhhab -> adhhaba."
   },
   {
    "t": 446,
-   "end": 458,
+   "end": 462,
    "kind": "review",
-   "ar": "عندي عمل",
-   "tr": "'indee 'amal",
+   "ar": "لديّ عمل",
+   "tr": "ladayya 'amal",
    "en": "I have work",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل"
    ]
   },
   {
-   "t": 458,
-   "end": 476,
-   "kind": "review",
-   "ar": "أعمل",
-   "tr": "a'mal",
+   "t": 460,
+   "end": 480,
+   "kind": "word",
+   "ar": "أعمل / أنا أعمل",
+   "tr": "a'mal / ana a'mal",
    "en": "I work",
-   "uncertain": true
+   "syll": [
+    "a'",
+    "mal"
+   ],
+   "note": "You may say أنا أعمل (ana a'mal) or simply أعمل (a'mal)."
   },
   {
-   "t": 476,
-   "end": 490,
+   "t": 478,
+   "end": 492,
    "kind": "rule",
-   "ar": "أعملُ",
-   "tr": "a'malu",
-   "en": "I work + a following word → add an 'u' sound",
-   "note": "As in earlier lessons, when another word follows the verb, hook an 'u' (she says 'o') to the end: a'malu."
+   "ar": "أنا أعملُ",
+   "tr": "ana a'malo",
+   "en": "I work + a following word -> add an 'o' sound",
+   "note": "As in earlier lessons, when another word follows the verb, hook an 'o' (u) to the end: a'malo."
   },
   {
-   "t": 490,
-   "end": 508,
+   "t": 492,
+   "end": 500,
    "kind": "review",
    "ar": "هنا",
-   "tr": "hunaa",
+   "tr": "huna",
    "en": "here"
   },
   {
-   "t": 508,
-   "end": 524,
+   "t": 498,
+   "end": 526,
    "kind": "phrase",
-   "ar": "أعملُ هنا",
-   "tr": "a'malu hunaa",
+   "ar": "أنا أعملُ هنا",
+   "tr": "ana a'malo huna",
    "en": "I work here",
    "parts": [
+    "أنا",
     "أعملُ",
     "هنا"
    ]
   },
   {
    "t": 524,
-   "end": 533,
+   "end": 536,
    "kind": "review",
    "ar": "لا يمكنني",
-   "tr": "laa yumkinunee",
+   "tr": "laa yumkinuni",
    "en": "I can't"
   },
   {
-   "t": 533,
+   "t": 534,
    "end": 576,
    "kind": "phrase",
-   "ar": "لا يمكنني أن أعمل هنا",
-   "tr": "laa yumkinunee an a'mal hunaa",
+   "ar": "لا يمكنني أن أعملَ هنا",
+   "tr": "laa yumkinuni an a'amala huna",
    "en": "I can't work here (literally 'I cannot to work here')",
    "parts": [
     "لا",
     "يمكنني",
     "أن",
-    "أعمل",
+    "أعملَ",
     "هنا"
    ]
   },
   {
-   "t": 576,
+   "t": 574,
    "end": 596,
    "kind": "review",
    "ar": "بعد الآن",
    "tr": "ba'da al-aan",
-   "en": "anymore (literally 'after now')",
+   "en": "any more (literally 'after now')",
    "syll": [
     "ba'",
     "da",
     "al",
     "aan"
    ],
-   "note": "بعد (ba'd) = after; بعد الآن = after now = anymore."
+   "note": "بعد (ba'd) = after; بعد الآن = after now = any more."
   },
   {
-   "t": 596,
-   "end": 616,
+   "t": 594,
+   "end": 618,
    "kind": "phrase",
-   "ar": "لا يمكنني أن أعمل هنا بعد الآن",
-   "tr": "laa yumkinunee an a'mal hunaa ba'da al-aan",
-   "en": "I can't work here anymore",
+   "ar": "لا يمكنني أن أعملَ هنا بعد الآن",
+   "tr": "laa yumkinuni an a'amala huna ba'da al-aan",
+   "en": "I can't work here any more",
    "parts": [
     "لا",
     "يمكنني",
     "أن",
-    "أعمل",
+    "أعملَ",
     "هنا",
     "بعد الآن"
    ]
   },
   {
    "t": 616,
-   "end": 634,
+   "end": 640,
    "kind": "review",
-   "ar": "أعيش",
-   "tr": "a'eesh",
-   "en": "I live",
-   "uncertain": true
+   "ar": "أنا أعيش",
+   "tr": "ana a'ish",
+   "en": "I live"
   },
   {
-   "t": 634,
-   "end": 645,
-   "kind": "review",
+   "t": 638,
+   "end": 648,
+   "kind": "rule",
    "ar": "أن أعيش",
-   "tr": "an a'eesh",
-   "en": "to live",
-   "uncertain": true
+   "tr": "an a'ish",
+   "en": "to live"
   },
   {
-   "t": 645,
-   "end": 668,
+   "t": 646,
+   "end": 670,
    "kind": "phrase",
-   "ar": "لا يمكنني أن أعيش هنا",
-   "tr": "laa yumkinunee an a'eesh hunaa",
+   "ar": "لا يمكنني أن أعيشَ هنا",
+   "tr": "laa yumkinuni an a'isha huna",
    "en": "I can't live here",
    "parts": [
     "لا",
     "يمكنني",
     "أن",
-    "أعيش",
+    "أعيشَ",
     "هنا"
    ]
   },
@@ -378,154 +387,188 @@
    "kind": "review",
    "ar": "بعد الآن",
    "tr": "ba'da al-aan",
-   "en": "anymore"
+   "en": "any more"
   },
   {
-   "t": 680,
-   "end": 699,
+   "t": 678,
+   "end": 702,
    "kind": "phrase",
-   "ar": "لا يمكنني أن أعيش هنا بعد الآن",
-   "tr": "laa yumkinunee an a'eesh hunaa ba'da al-aan",
-   "en": "I can't live here anymore",
+   "ar": "لا يمكنني أن أعيشَ هنا بعد الآن",
+   "tr": "laa yumkinuni an a'isha huna ba'da al-aan",
+   "en": "I can't live here any more",
    "parts": [
     "لا",
     "يمكنني",
     "أن",
-    "أعيش",
+    "أعيشَ",
     "هنا",
     "بعد الآن"
    ]
   },
   {
-   "t": 699,
-   "end": 721,
+   "t": 700,
+   "end": 722,
    "kind": "review",
-   "ar": "لا يمكنني أن أعمل هنا بعد الآن",
-   "tr": "laa yumkinunee an a'mal hunaa ba'da al-aan",
-   "en": "I can't work here anymore",
+   "ar": "لا يمكنني أن أعملَ هنا بعد الآن",
+   "tr": "laa yumkinuni an a'amala huna ba'da al-aan",
+   "en": "I can't work here any more",
    "parts": [
     "لا",
     "يمكنني",
     "أن",
-    "أعمل",
+    "أعملَ",
     "هنا",
     "بعد الآن"
    ]
   },
   {
-   "t": 721,
-   "end": 745,
+   "t": 720,
+   "end": 734,
+   "kind": "review",
+   "ar": "لديّ",
+   "tr": "ladayya",
+   "en": "I have"
+  },
+  {
+   "t": 732,
+   "end": 746,
    "kind": "word",
-   "ar": "ليس عندي",
-   "tr": "laysa 'indee",
+   "ar": "ليس لديّ",
+   "tr": "laysa ladayya",
    "en": "I don't have",
    "syll": [
     "lay",
     "sa",
-    "'in",
-    "dee"
+    "la",
+    "day",
+    "ya"
    ],
-   "note": "To negate 'indee (I have) use ليس (laysa), not لا.",
-   "mnemonic": "LAY-sa 'in-DEE: 'LACE? not IN DEE bag — I DON'T HAVE it'.",
-   "uncertain": true
+   "note": "To negate ladayya (I have) use ليس (laysa), not لا.",
+   "mnemonic": "LAY-sa la-DAY-ya: 'LACE? not with me all DAY - I DON'T HAVE it'."
   },
   {
-   "t": 745,
-   "end": 770,
+   "t": 744,
+   "end": 762,
    "kind": "review",
-   "ar": "عندي عمل",
-   "tr": "'indee 'amal",
+   "ar": "عمل",
+   "tr": "'amal",
+   "en": "work"
+  },
+  {
+   "t": 760,
+   "end": 772,
+   "kind": "review",
+   "ar": "لديّ عمل",
+   "tr": "ladayya 'amal",
    "en": "I have work",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل"
    ]
   },
   {
    "t": 770,
+   "end": 784,
+   "kind": "review",
+   "ar": "ليس لديّ",
+   "tr": "laysa ladayya",
+   "en": "I don't have"
+  },
+  {
+   "t": 782,
    "end": 800,
    "kind": "phrase",
-   "ar": "ليس عندي عمل",
-   "tr": "laysa 'indee 'amal",
+   "ar": "ليس لديّ عمل",
+   "tr": "laysa ladayya 'amal",
    "en": "I don't have work",
    "parts": [
     "ليس",
-    "عندي",
+    "لديّ",
     "عمل"
    ]
   },
   {
-   "t": 800,
-   "end": 807,
+   "t": 798,
+   "end": 810,
    "kind": "review",
    "ar": "الآن",
-   "tr": "al-aan",
+   "tr": "al-an",
    "en": "now"
   },
   {
-   "t": 807,
-   "end": 834,
+   "t": 808,
+   "end": 836,
    "kind": "phrase",
-   "ar": "ليس عندي عمل الآن",
-   "tr": "laysa 'indee 'amal al-aan",
+   "ar": "ليس لديّ عمل الآن",
+   "tr": "laysa ladayya 'amal al-an",
    "en": "I don't have work now",
    "parts": [
     "ليس",
-    "عندي",
+    "لديّ",
     "عمل",
     "الآن"
    ]
   },
   {
    "t": 834,
-   "end": 846,
+   "end": 848,
    "kind": "review",
    "ar": "يمكنني",
-   "tr": "yumkinunee",
+   "tr": "yumkinuni",
    "en": "I can"
   },
   {
    "t": 846,
-   "end": 879,
+   "end": 866,
    "kind": "phrase",
-   "ar": "يمكنني أن أذهب الآن، ليس عندي عمل",
-   "tr": "yumkinunee an adhhab al-aan, laysa 'indee 'amal",
-   "en": "I can go now, I don't have work",
+   "ar": "يمكنني أن أذهبَ الآن",
+   "tr": "yumkinuni an adhhaba al-an",
+   "en": "I can go now",
    "parts": [
     "يمكنني",
     "أن",
-    "أذهب",
-    "الآن",
+    "أذهبَ",
+    "الآن"
+   ]
+  },
+  {
+   "t": 864,
+   "end": 882,
+   "kind": "review",
+   "ar": "ليس لديّ عمل",
+   "tr": "laysa ladayya 'amal",
+   "en": "I don't have work",
+   "parts": [
     "ليس",
-    "عندي",
+    "لديّ",
     "عمل"
    ]
   },
   {
-   "t": 879,
-   "end": 902,
+   "t": 888,
+   "end": 906,
    "kind": "review",
-   "ar": "لا يمكنني أن أعيش هنا بعد الآن",
-   "tr": "laa yumkinunee an a'eesh hunaa ba'da al-aan",
-   "en": "I cannot live here anymore (last lesson's quiz answer)",
+   "ar": "لا يمكنني أن أعيشَ هنا بعد الآن",
+   "tr": "la yomkinoni an a'eesha huna ba'da al-an",
+   "en": "I can't live here any more (last lesson's quiz answer)",
    "parts": [
     "لا",
     "يمكنني",
     "أن",
-    "أعيش",
+    "أعيشَ",
     "هنا",
     "بعد الآن"
    ]
   },
   {
-   "t": 902,
-   "end": 912,
+   "t": 906,
+   "end": 914,
    "kind": "review",
-   "ar": "عندي عمل لاحقاً",
-   "tr": "'indee 'amal laahiqan",
+   "ar": "لديّ عمل لاحقاً",
+   "tr": "ladayya 'amal laahiqan",
    "en": "I have work later (today's quiz)",
    "parts": [
-    "عندي",
+    "لديّ",
     "عمل",
     "لاحقاً"
    ]
@@ -534,27 +577,27 @@
  "dialogue": [
   {
    "who": "A",
-   "ar": "عندي عمل مهم الآن.",
-   "tr": "'indee 'amal muhimm al-aan.",
+   "ar": "لديّ عمل مهم الآن.",
+   "tr": "ladayya 'amal muhim al-an.",
    "en": "I have important work now."
   },
   {
    "who": "B",
-   "ar": "أنا ليس عندي عمل الآن.",
-   "tr": "ana laysa 'indee 'amal al-aan.",
+   "ar": "أنا ليس لديّ عمل الآن.",
+   "tr": "ana laysa ladayya 'amal al-an.",
    "en": "I don't have work now."
   },
   {
    "who": "A",
-   "ar": "لا يمكنني أن أذهب الآن. عندي عمل لاحقاً.",
-   "tr": "laa yumkinunee an adhhab al-aan. 'indee 'amal laahiqan.",
+   "ar": "لا يمكنني أن أذهبَ الآن. لديّ عمل لاحقاً.",
+   "tr": "laa yumkinuni an adhhaba al-an. ladayya 'amal laahiqan.",
    "en": "I can't go now. I have work later."
   },
   {
    "who": "B",
-   "ar": "أنا لا يمكنني أن أعمل هنا بعد الآن.",
-   "tr": "ana laa yumkinunee an a'mal hunaa ba'da al-aan.",
-   "en": "I can't work here anymore."
+   "ar": "أنا لا يمكنني أن أعملَ هنا بعد الآن.",
+   "tr": "ana laa yumkinuni an a'amala huna ba'da al-aan.",
+   "en": "I can't work here any more."
   }
  ]
 }

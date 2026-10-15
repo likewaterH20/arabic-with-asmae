@@ -3,61 +3,54 @@
  "id": "NjJ3fvqDTi4",
  "title": "I've been living here for a long time",
  "duration": 1027,
- "goal": "Say where you are, where you are from and where you live, then stretch it with 'since a year' and 'since a long time'.",
+ "goal": "Say where you are, where you are from and where you live, negate it with lastu and laa, then stretch it with 'since a year' and 'since a long time'.",
  "items": [
   {
-   "t": 28,
+   "t": 30,
    "end": 44,
    "kind": "word",
    "ar": "هنا",
    "tr": "huna",
    "en": "here",
-   "syll": [
-    "hu",
-    "na"
-   ],
    "mnemonic": "HU-na: 'WHO? NAh, over HERE.'"
   },
   {
    "t": 44,
-   "end": 63,
+   "end": 52,
    "kind": "rule",
    "ar": "أنا",
    "tr": "ana",
    "en": "I / I am",
-   "note": "The verb 'to be' in the present tense is understood: أنا means both 'I' and 'I am', no extra word is needed."
+   "note": "'To be' in the present is understood: أنا means both 'I' and 'I am', no extra word needed. She writes it 'Ana', 'I am'."
   },
   {
-   "t": 63,
-   "end": 75,
+   "t": 64,
+   "end": 76,
    "kind": "phrase",
    "ar": "أنا هنا",
    "tr": "ana huna",
-   "en": "I am here",
+   "en": "I'm here",
    "parts": [
     "أنا",
     "هنا"
    ]
   },
   {
-   "t": 75,
-   "end": 90,
+   "t": 76,
+   "end": 88,
    "kind": "word",
    "ar": "من",
    "tr": "min",
    "en": "from",
-   "syll": [
-    "min"
-   ],
    "mnemonic": "MIN: 'where are you from? MINnesota.'"
   },
   {
-   "t": 90,
-   "end": 110,
+   "t": 88,
+   "end": 112,
    "kind": "phrase",
    "ar": "أنا من هنا",
    "tr": "ana min huna",
-   "en": "I am from here",
+   "en": "I'm from here",
    "parts": [
     "أنا",
     "من",
@@ -65,39 +58,39 @@
    ]
   },
   {
-   "t": 110,
-   "end": 135,
-   "kind": "word",
-   "ar": "لستُ",
-   "tr": "lastu",
-   "en": "I am not",
-   "syll": [
-    "las",
-    "tu"
+   "t": 112,
+   "end": 136,
+   "kind": "phrase",
+   "ar": "أنا لستُ",
+   "tr": "ana lastu",
+   "en": "I'm not",
+   "parts": [
+    "أنا",
+    "لستُ"
    ],
+   "note": "لستُ (lastu) = 'I am not'. Use it when no verb follows: I'm not here, I'm not from here.",
    "mnemonic": "LAS-tu: 'LAST TWO? no, I am NOT.'"
   },
   {
-   "t": 135,
-   "end": 162,
+   "t": 136,
+   "end": 150,
    "kind": "rule",
-   "ar": "لا + فعل",
-   "tr": "laa + verb",
-   "en": "'I am not' vs 'I don't'",
-   "note": "لستُ (lastu) means 'I am not'; لا (laa) means 'I don't' and is always followed by a verb, as in لا أفهم (laa afham, I don't understand)."
+   "ar": "أنا لا أفهم",
+   "tr": "ana laa afham",
+   "en": "I don't (understand)",
+   "note": "لستُ (lastu) = 'I am not'; لا (laa) = 'I don't' and always takes a verb after it, as in لا أفهم (laa afham, I don't understand)."
   },
   {
-   "t": 142,
-   "end": 155,
+   "t": 154,
+   "end": 162,
    "kind": "review",
-   "ar": "لا أفهم",
-   "tr": "laa afham",
-   "en": "I don't understand",
+   "ar": "أنا لستُ",
+   "tr": "ana lastu",
+   "en": "I'm not",
    "parts": [
-    "لا",
-    "أفهم"
-   ],
-   "uncertain": true
+    "أنا",
+    "لستُ"
+   ]
   },
   {
    "t": 162,
@@ -105,7 +98,7 @@
    "kind": "phrase",
    "ar": "أنا لستُ هنا",
    "tr": "ana lastu huna",
-   "en": "I am not here",
+   "en": "I'm not here",
    "parts": [
     "أنا",
     "لستُ",
@@ -114,11 +107,19 @@
   },
   {
    "t": 180,
-   "end": 200,
+   "end": 188,
+   "kind": "review",
+   "ar": "من",
+   "tr": "min",
+   "en": "from"
+  },
+  {
+   "t": 188,
+   "end": 204,
    "kind": "review",
    "ar": "أنا من هنا",
    "tr": "ana min huna",
-   "en": "I am from here",
+   "en": "I'm from here",
    "parts": [
     "أنا",
     "من",
@@ -126,12 +127,12 @@
    ]
   },
   {
-   "t": 200,
-   "end": 217,
+   "t": 204,
+   "end": 228,
    "kind": "phrase",
    "ar": "أنا لستُ من هنا",
    "tr": "ana lastu min huna",
-   "en": "I am not from here",
+   "en": "I'm not from here",
    "parts": [
     "أنا",
     "لستُ",
@@ -140,31 +141,35 @@
    ]
   },
   {
-   "t": 217,
-   "end": 258,
+   "t": 228,
+   "end": 260,
    "kind": "rule",
    "ar": "لستُ من هنا",
    "tr": "lastu min huna",
    "en": "I am not from here (pronoun dropped)",
-   "note": "Personal pronouns are not strictly necessary: أنا لستُ من هنا or simply لستُ من هنا."
+   "note": "The pronoun is optional: أنا لستُ من هنا or simply لستُ من هنا. She flashes Ana lastu, lastu, Ana, Ana min huna, Ana lastu min huna, lastu min huna to show it."
   },
   {
-   "t": 265,
-   "end": 290,
+   "t": 264,
+   "end": 286,
    "kind": "word",
    "ar": "أعيش",
    "tr": "a'eesh",
-   "en": "I live (I reside)",
-   "syll": [
-    "as",
-    "kun"
-   ],
-   "note": "أنا أعيش or simply أعيش.",
-   "mnemonic": "as-KUN: 'I live ASK UNcle where.'"
+   "en": "I live",
+   "note": "أنا أعيش or simply أعيش. She shows both 'A'eesh' and 'Ana a'eesh'.",
+   "mnemonic": "a-'EESH: 'I live where I EAT.'"
+  },
+  {
+   "t": 286,
+   "end": 290,
+   "kind": "review",
+   "ar": "هنا",
+   "tr": "huna",
+   "en": "here"
   },
   {
    "t": 290,
-   "end": 325,
+   "end": 326,
    "kind": "phrase",
    "ar": "أنا أعيشُ هنا",
    "tr": "ana a'eeshu huna",
@@ -174,11 +179,24 @@
     "أعيشُ",
     "هنا"
    ],
-   "note": "Hook an 'u' to أعيش when a word follows, like أريدُ in lesson 1."
+   "note": "Hook an 'u' to أعيش when a word follows (a'eeshu), like oreedo in lesson 1."
   },
   {
-   "t": 325,
-   "end": 363,
+   "t": 326,
+   "end": 344,
+   "kind": "phrase",
+   "ar": "أنا لا أعيشُ",
+   "tr": "ana laa a'eeshu",
+   "en": "I don't live",
+   "parts": [
+    "أنا",
+    "لا",
+    "أعيشُ"
+   ]
+  },
+  {
+   "t": 344,
+   "end": 366,
    "kind": "phrase",
    "ar": "أنا لا أعيشُ هنا",
    "tr": "ana laa a'eeshu huna",
@@ -191,37 +209,38 @@
    ]
   },
   {
-   "t": 363,
-   "end": 385,
+   "t": 366,
+   "end": 386,
    "kind": "word",
    "ar": "سنة",
    "tr": "sana",
    "en": "a year",
-   "syll": [
-    "sa",
-    "na"
-   ],
    "mnemonic": "SA-na: 'a SAuNA once a YEAR.'"
   },
   {
-   "t": 385,
-   "end": 422,
+   "t": 386,
+   "end": 404,
    "kind": "word",
    "ar": "منذ",
-   "tr": "mundhu",
+   "tr": "munthu",
    "en": "since / for (a period)",
-   "syll": [
-    "mun",
-    "dhu"
-   ],
-   "mnemonic": "MUN-dhu: 'since MONDAY, you?'"
+   "note": "She writes it 'munthu' and later 'mundhu'; same word منذ.",
+   "mnemonic": "MUN-thu: 'since MONDAY, you?'"
+  },
+  {
+   "t": 404,
+   "end": 412,
+   "kind": "review",
+   "ar": "سنة",
+   "tr": "sana",
+   "en": "a year"
   },
   {
    "t": 422,
-   "end": 491,
+   "end": 492,
    "kind": "phrase",
    "ar": "أنا أعيشُ هنا منذ سنة",
-   "tr": "ana a'eeshu huna mundhu sana",
+   "tr": "ana a'eeshu huna munthu sana",
    "en": "I've been living here for a year",
    "parts": [
     "أنا",
@@ -233,35 +252,27 @@
    "note": "Literally 'I live here since a year'; Arabic uses the present tense."
   },
   {
-   "t": 491,
-   "end": 519,
+   "t": 498,
+   "end": 508,
    "kind": "word",
    "ar": "زمن",
    "tr": "zaman",
    "en": "time (a span of time)",
-   "syll": [
-    "za",
-    "man"
-   ],
    "mnemonic": "za-MAN: 'ZA-MAN, time flies.'"
   },
   {
-   "t": 519,
-   "end": 545,
+   "t": 508,
+   "end": 520,
    "kind": "word",
    "ar": "طويل",
    "tr": "taweel",
    "en": "long",
-   "syll": [
-    "ta",
-    "weel"
-   ],
    "note": "The adjective comes after the noun: زمن طويل, literally 'time long'.",
    "mnemonic": "ta-WEEL: 'a LONG TOWEL.'"
   },
   {
-   "t": 529,
-   "end": 545,
+   "t": 520,
+   "end": 546,
    "kind": "phrase",
    "ar": "زمن طويل",
    "tr": "zaman taweel",
@@ -272,11 +283,11 @@
    ]
   },
   {
-   "t": 545,
-   "end": 556,
+   "t": 546,
+   "end": 558,
    "kind": "phrase",
    "ar": "منذ زمن طويل",
-   "tr": "mundhu zaman taweel",
+   "tr": "munthu zaman taweel",
    "en": "for a long time (since a long time)",
    "parts": [
     "منذ",
@@ -285,8 +296,21 @@
    ]
   },
   {
-   "t": 556,
-   "end": 641,
+   "t": 558,
+   "end": 570,
+   "kind": "review",
+   "ar": "أنا أعيشُ هنا",
+   "tr": "ana a'eeshu huna",
+   "en": "I live here",
+   "parts": [
+    "أنا",
+    "أعيشُ",
+    "هنا"
+   ]
+  },
+  {
+   "t": 570,
+   "end": 644,
    "kind": "phrase",
    "ar": "أنا أعيشُ هنا منذ زمن طويل",
    "tr": "ana a'eeshu huna mundhu zaman taweel",
@@ -299,14 +323,22 @@
     "زمن",
     "طويل"
    ],
-   "note": "Literally 'I live here since a long time'."
+   "note": "Literally 'I live here since a long time'. On this card she spells منذ 'mundhu'."
   },
   {
    "t": 644,
-   "end": 659,
+   "end": 652,
    "kind": "review",
+   "ar": "سنة",
+   "tr": "sana",
+   "en": "a year"
+  },
+  {
+   "t": 652,
+   "end": 660,
+   "kind": "phrase",
    "ar": "منذ سنة",
-   "tr": "mundhu sana",
+   "tr": "munthu sana",
    "en": "for a year / since a year",
    "parts": [
     "منذ",
@@ -314,11 +346,11 @@
    ]
   },
   {
-   "t": 659,
-   "end": 675,
+   "t": 660,
+   "end": 676,
    "kind": "phrase",
    "ar": "أنا هنا منذ سنة",
-   "tr": "ana huna mundhu sana",
+   "tr": "ana huna munthu sana",
    "en": "I've been here for a year",
    "parts": [
     "أنا",
@@ -328,11 +360,11 @@
    ]
   },
   {
-   "t": 675,
+   "t": 676,
    "end": 700,
    "kind": "phrase",
    "ar": "أنا هنا منذ زمن طويل",
-   "tr": "ana huna mundhu zaman taweel",
+   "tr": "ana huna munthu zaman taweel",
    "en": "I've been here for a long time",
    "parts": [
     "أنا",
@@ -345,36 +377,36 @@
   },
   {
    "t": 700,
-   "end": 724,
+   "end": 712,
    "kind": "word",
    "ar": "دبي",
-   "tr": "dubay",
+   "tr": "dubai",
    "en": "Dubai",
-   "syll": [
-    "du",
-    "bay"
-   ],
-   "mnemonic": "du-BAY: Dubai sits on a BAY."
+   "mnemonic": "du-BAI: Dubai sits on a BAY."
   },
   {
-   "t": 724,
-   "end": 745,
+   "t": 712,
+   "end": 726,
+   "kind": "review",
+   "ar": "أنا أعيش",
+   "tr": "ana a'eesh",
+   "en": "I live"
+  },
+  {
+   "t": 726,
+   "end": 736,
    "kind": "word",
    "ar": "في",
    "tr": "fee",
    "en": "in",
-   "syll": [
-    "fee"
-   ],
-   "note": "في دبي = in Dubai.",
    "mnemonic": "FEE: 'the entry FEE to get IN.'"
   },
   {
    "t": 736,
-   "end": 745,
+   "end": 748,
    "kind": "phrase",
    "ar": "في دبي",
-   "tr": "fee dubay",
+   "tr": "fee dubai",
    "en": "in Dubai",
    "parts": [
     "في",
@@ -382,11 +414,11 @@
    ]
   },
   {
-   "t": 745,
-   "end": 790,
+   "t": 748,
+   "end": 788,
    "kind": "phrase",
    "ar": "أنا أعيشُ في دبي",
-   "tr": "ana a'eeshu fee dubay",
+   "tr": "ana a'eeshu fee dubai",
    "en": "I live in Dubai",
    "parts": [
     "أنا",
@@ -394,14 +426,27 @@
     "في",
     "دبي"
    ],
-   "note": "Or simply أعيشُ في دبي."
+   "note": "Or simply أعيشُ في دبي (a'eeshu fee dubai)."
   },
   {
-   "t": 790,
+   "t": 788,
+   "end": 796,
+   "kind": "review",
+   "ar": "منذ زمن طويل",
+   "tr": "munthu zaman taweel",
+   "en": "for a long time",
+   "parts": [
+    "منذ",
+    "زمن",
+    "طويل"
+   ]
+  },
+  {
+   "t": 796,
    "end": 838,
    "kind": "phrase",
    "ar": "أنا أعيشُ في دبي منذ زمن طويل",
-   "tr": "ana a'eeshu fee dubay mundhu zaman taweel",
+   "tr": "ana a'eeshu fee dubai munthu zaman taweel",
    "en": "I've been living in Dubai for a long time",
    "parts": [
     "أنا",
@@ -415,11 +460,23 @@
   },
   {
    "t": 838,
-   "end": 871,
+   "end": 848,
+   "kind": "review",
+   "ar": "أنا لستُ",
+   "tr": "ana lastu",
+   "en": "I'm not",
+   "parts": [
+    "أنا",
+    "لستُ"
+   ]
+  },
+  {
+   "t": 848,
+   "end": 872,
    "kind": "review",
    "ar": "أنا لستُ من هنا",
    "tr": "ana lastu min huna",
-   "en": "I am not from here",
+   "en": "I'm not from here",
    "parts": [
     "أنا",
     "لستُ",
@@ -429,11 +486,26 @@
    "note": "Or simply لستُ من هنا."
   },
   {
-   "t": 871,
-   "end": 960,
+   "t": 886,
+   "end": 904,
+   "kind": "review",
+   "ar": "أنا أتكلمُ العربية قليلاً",
+   "tr": "ana atakallamu al-'arabiyyah qaleelan",
+   "en": "I speak Arabic a little bit",
+   "parts": [
+    "أنا",
+    "أتكلمُ",
+    "العربية",
+    "قليلاً"
+   ],
+   "note": "From lesson 3; here it is the second half of her quiz sentence."
+  },
+  {
+   "t": 904,
+   "end": 958,
    "kind": "phrase",
-   "ar": "أنا أعيشُ في دبي منذ زمن طويل وأنا أتكلّم العربية قليلاً",
-   "tr": "ana a'eeshu fee dubay mundhu zaman taweel wa-ana atakallam al-'arabiyya qaleelan",
+   "ar": "أنا أعيشُ في دبي منذ زمن طويل وأتكلمُ العربية قليلاً",
+   "tr": "ana a'eeshu fee dubai munthu zaman taweel wa atakallamu al-'arabiyyah qaleelan",
    "en": "I've been living in Dubai for a long time and I speak Arabic a little bit",
    "parts": [
     "أنا",
@@ -443,71 +515,70 @@
     "منذ",
     "زمن",
     "طويل",
-    "وأنا",
-    "أتكلّم",
+    "وأتكلمُ",
     "العربية",
     "قليلاً"
    ],
-   "note": "Two sentences joined with و (wa, 'and').",
-   "uncertain": true
+   "note": "Two sentences joined with و (wa, 'and'); the pronoun is not repeated after wa."
   },
   {
-   "t": 885,
-   "end": 903,
-   "kind": "review",
-   "ar": "أنا أتكلّم العربية قليلاً",
-   "tr": "ana atakallam al-'arabiyya qaleelan",
-   "en": "I speak Arabic a little bit",
-   "parts": [
-    "أنا",
-    "أتكلّم",
-    "العربية",
-    "قليلاً"
-   ],
-   "uncertain": true
-  },
-  {
-   "t": 989,
-   "end": 1005,
-   "kind": "review",
-   "ar": "أنا أيضاً أتكلّم العربية قليلاً",
-   "tr": "ana aydan atakallam al-'arabiyya qaleelan",
+   "t": 988,
+   "end": 1004,
+   "kind": "phrase",
+   "ar": "أنا أيضاً أتكلمُ العربية قليلاً",
+   "tr": "ana ayydan atakallamu al-'arabiyyah qaleelan",
    "en": "I too speak Arabic a little bit",
    "parts": [
     "أنا",
     "أيضاً",
-    "أتكلّم",
+    "أتكلمُ",
     "العربية",
     "قليلاً"
    ],
-   "note": "Answer to the previous lesson's quiz.",
-   "uncertain": true
+   "note": "Answer to the previous lesson's quiz. أيضاً (ayydan) = also / too."
+  },
+  {
+   "t": 1004,
+   "end": 1018,
+   "kind": "review",
+   "ar": "أنا أعيشُ هنا منذ زمن طويل",
+   "tr": "ana a'eeshu huna mundhu zaman taweel",
+   "en": "I've been living here for a long time",
+   "parts": [
+    "أنا",
+    "أعيشُ",
+    "هنا",
+    "منذ",
+    "زمن",
+    "طويل"
+   ],
+   "note": "Her closing quiz: say it before the next lesson."
   }
  ],
  "dialogue": [
   {
    "who": "A",
    "ar": "أنا أعيشُ في دبي منذ زمن طويل.",
-   "tr": "ana a'eeshu fee dubay mundhu zaman taweel.",
+   "tr": "ana a'eeshu fee dubai munthu zaman taweel.",
    "en": "I've been living in Dubai for a long time."
   },
   {
    "who": "B",
    "ar": "أنا لستُ من هنا. أنا هنا منذ سنة.",
-   "tr": "ana lastu min huna. ana huna mundhu sana.",
-   "en": "I am not from here. I've been here for a year."
+   "tr": "ana lastu min huna. ana huna munthu sana.",
+   "en": "I'm not from here. I've been here for a year."
   },
   {
    "who": "A",
-   "ar": "أنا أتكلّم العربية قليلاً.",
-   "tr": "ana atakallam al-'arabiyya qaleelan.",
+   "ar": "أنا أتكلمُ العربية قليلاً.",
+   "tr": "ana atakallamu al-'arabiyyah qaleelan.",
    "en": "I speak Arabic a little bit."
   },
   {
    "who": "B",
-   "ar": "أنا أريدُ أن أتعلّم العربية.",
-   "tr": "ana ureedu an ata'allam al-'arabiyya.",
-   "en": "I want to learn Arabic."
+   "ar": "أنا أيضاً أتكلمُ العربية قليلاً. أنا أريدُ أن أتعلّم العربية.",
+   "tr": "ana ayydan atakallamu al-'arabiyyah qaleelan. ana oreedo an ataa'llam al a'rabiya.",
+   "en": "I too speak Arabic a little bit. I want to learn Arabic."
   }
  ]
 }

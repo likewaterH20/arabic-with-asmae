@@ -3,20 +3,37 @@
  "id": "yfu6BkIHcJo",
  "title": "Where are you from?",
  "duration": 1131,
- "goal": "Ask 'where are you?' and 'where are you from?', answer with a country name, say 'I am not from here', and introduce yourself with 'my name is...' and 'and you?'.",
+ "goal": "Ask 'where are you?' and 'where are you from?' to a man or a woman, answer with a country, say 'I am not from here', and introduce yourself with 'my name is ...' and 'and you?'.",
  "items": [
   {
-   "t": 26,
-   "end": 39,
+   "t": 14,
+   "end": 26,
+   "kind": "review",
+   "ar": "أنتِ",
+   "tr": "anti",
+   "en": "you (female)",
+   "syll": [
+    "an",
+    "ti"
+   ],
+   "note": "Her card: Anti = you (female). The -i ending is for a woman."
+  },
+  {
+   "t": 24,
+   "end": 34,
    "kind": "review",
    "ar": "أنتَ",
    "tr": "anta",
-   "en": "you (addressing a male)",
-   "note": "She reminds you this 'you' is for one man."
+   "en": "you (male)",
+   "syll": [
+    "an",
+    "ta"
+   ],
+   "note": "Her card: Anta = you (male). The -a ending is for a man."
   },
   {
-   "t": 39,
-   "end": 65,
+   "t": 38,
+   "end": 62,
    "kind": "word",
    "ar": "أين",
    "tr": "ayna",
@@ -29,48 +46,73 @@
    "mnemonic": "AY-na: 'EYE-nah, WHERE did my eye go?'"
   },
   {
-   "t": 65,
-   "end": 117,
+   "t": 60,
+   "end": 100,
    "kind": "phrase",
    "ar": "أين أنتَ؟",
    "tr": "ayna anta?",
-   "en": "Where are you?",
+   "en": "Where are you? (to a male)",
    "parts": [
     "أين",
     "أنتَ"
    ],
-   "note": "No word for 'are': Arabic just says 'where you'. Tom and Julie practise asking each other."
+   "note": "No word for 'are': Arabic just says 'where you'."
   },
   {
-   "t": 117,
-   "end": 126,
-   "kind": "review",
-   "ar": "الآن",
-   "tr": "al-aan",
-   "en": "now / right now",
-   "syll": [
-    "al",
-    "aan"
+   "t": 98,
+   "end": 114,
+   "kind": "phrase",
+   "ar": "أين أنتِ؟",
+   "tr": "ayna anti?",
+   "en": "Where are you? (to a female)",
+   "parts": [
+    "أين",
+    "أنتِ"
    ]
   },
   {
-   "t": 126,
-   "end": 193,
-   "kind": "phrase",
-   "ar": "الآن، أين أنتَ؟",
-   "tr": "al-aan, ayna anta?",
-   "en": "Now, where are you? (Where are you now?)",
-   "parts": [
-    "الآن",
-    "أين",
-    "أنتَ"
+   "t": 112,
+   "end": 126,
+   "kind": "review",
+   "ar": "الآن",
+   "tr": "alān",
+   "en": "now",
+   "syll": [
+    "al",
+    "ān"
    ],
-   "note": "She says it both ways: الآن أين أنتَ and أين أنتَ الآن; both are fine.",
-   "uncertain": true
+   "note": "She writes it alān, with a long aa."
   },
   {
-   "t": 193,
-   "end": 202,
+   "t": 124,
+   "end": 172,
+   "kind": "phrase",
+   "ar": "أين أنتَ الآن؟",
+   "tr": "ayna anta alān?",
+   "en": "Where are you now? (to a male)",
+   "parts": [
+    "أين",
+    "أنتَ",
+    "الآن"
+   ],
+   "note": "'Now' goes at the end, after 'you'."
+  },
+  {
+   "t": 176,
+   "end": 192,
+   "kind": "phrase",
+   "ar": "أين أنتِ الآن؟",
+   "tr": "ayna anti alān?",
+   "en": "Where are you now? (to a female)",
+   "parts": [
+    "أين",
+    "أنتِ",
+    "الآن"
+   ]
+  },
+  {
+   "t": 190,
+   "end": 198,
    "kind": "review",
    "ar": "هنا",
    "tr": "huna",
@@ -81,8 +123,8 @@
    ]
   },
   {
-   "t": 202,
-   "end": 212,
+   "t": 196,
+   "end": 214,
    "kind": "phrase",
    "ar": "أنا هنا",
    "tr": "ana huna",
@@ -95,18 +137,18 @@
   },
   {
    "t": 212,
-   "end": 224,
+   "end": 220,
    "kind": "review",
-   "ar": "لستُ",
-   "tr": "lastu",
+   "ar": "أنا لستُ",
+   "tr": "ana lastu",
    "en": "I am not",
-   "syll": [
-    "las",
-    "tu"
+   "parts": [
+    "أنا",
+    "لستُ"
    ]
   },
   {
-   "t": 224,
+   "t": 218,
    "end": 232,
    "kind": "phrase",
    "ar": "أنا لستُ هنا",
@@ -119,8 +161,8 @@
    ]
   },
   {
-   "t": 232,
-   "end": 250,
+   "t": 230,
+   "end": 248,
    "kind": "review",
    "ar": "من",
    "tr": "min",
@@ -130,12 +172,12 @@
    ]
   },
   {
-   "t": 250,
-   "end": 301,
+   "t": 246,
+   "end": 300,
    "kind": "phrase",
    "ar": "من أين أنتَ؟",
    "tr": "min ayna anta?",
-   "en": "Where are you from?",
+   "en": "Where are you from? (to a male)",
    "parts": [
     "من",
     "أين",
@@ -144,51 +186,35 @@
    "note": "Word for word 'from where you?': the 'from' goes first, not last."
   },
   {
-   "t": 301,
-   "end": 315,
+   "t": 298,
+   "end": 312,
    "kind": "phrase",
-   "ar": "أنا من",
-   "tr": "ana min",
-   "en": "I am from...",
-   "parts": [
-    "أنا",
-    "من"
-   ]
+   "ar": "أنا من ...",
+   "tr": "ana min ...",
+   "en": "I am from ...",
+   "note": "Put your country after 'ana min'."
   },
   {
-   "t": 315,
-   "end": 342,
-   "kind": "word",
-   "ar": "أمريكا",
-   "tr": "amreeka",
-   "en": "America (the USA)",
-   "syll": [
-    "am",
-    "ree",
-    "ka"
-   ],
-   "mnemonic": "am-REE-ka: it just sounds like 'America' with a long REE."
-  },
-  {
-   "t": 324,
-   "end": 342,
+   "t": 310,
+   "end": 340,
    "kind": "phrase",
    "ar": "أنا من أمريكا",
    "tr": "ana min amreeka",
-   "en": "I am from America",
+   "en": "I am from the USA",
    "parts": [
     "أنا",
     "من",
     "أمريكا"
-   ]
+   ],
+   "mnemonic": "am-REE-ka: it just sounds like 'America' with a long REE."
   },
   {
-   "t": 342,
-   "end": 371,
+   "t": 338,
+   "end": 358,
    "kind": "review",
    "ar": "من أين أنتَ؟",
    "tr": "min ayna anta?",
-   "en": "Where are you from? (Tom asks, Julie answers)",
+   "en": "Where are you from?",
    "parts": [
     "من",
     "أين",
@@ -196,32 +222,31 @@
    ]
   },
   {
-   "t": 371,
-   "end": 403,
+   "t": 356,
+   "end": 376,
+   "kind": "review",
+   "ar": "أنا من أمريكا",
+   "tr": "ana min amreeka",
+   "en": "I am from the USA",
+   "parts": [
+    "أنا",
+    "من",
+    "أمريكا"
+   ]
+  },
+  {
+   "t": 374,
+   "end": 412,
    "kind": "rule",
-   "ar": "اسم بلدك",
-   "tr": "ism baladik",
-   "en": "To learn your own country's name in Arabic, type it in English into translate.google.com",
-   "note": "Her tip: look up your country name on Google Translate and use it after أنا من.",
+   "ar": "ترجمة",
+   "tr": "tarjama",
+   "en": "Translation: type your country's name into Google Translate to get it in Arabic",
+   "note": "Her tip: look up your country name on Google Translate and use it after 'ana min'.",
    "uncertain": true
   },
   {
-   "t": 403,
-   "end": 438,
-   "kind": "word",
-   "ar": "الهند",
-   "tr": "al-hind",
-   "en": "India",
-   "syll": [
-    "al",
-    "hind"
-   ],
-   "note": "Carries ال (al, 'the') like many country names.",
-   "mnemonic": "al-HIND: 'the HINDu land' = India."
-  },
-  {
-   "t": 411,
-   "end": 438,
+   "t": 412,
+   "end": 442,
    "kind": "phrase",
    "ar": "أنا من الهند",
    "tr": "ana min al-hind",
@@ -230,11 +255,13 @@
     "أنا",
     "من",
     "الهند"
-   ]
+   ],
+   "note": "الهند carries ال (al, 'the') like many country names.",
+   "mnemonic": "al-HIND: 'the HINDu land' = India."
   },
   {
-   "t": 438,
-   "end": 454,
+   "t": 440,
+   "end": 450,
    "kind": "review",
    "ar": "أنا لستُ",
    "tr": "ana lastu",
@@ -245,8 +272,8 @@
    ]
   },
   {
-   "t": 454,
-   "end": 466,
+   "t": 448,
+   "end": 470,
    "kind": "phrase",
    "ar": "أنا لستُ من هنا",
    "tr": "ana lastu min huna",
@@ -259,12 +286,12 @@
    ]
   },
   {
-   "t": 466,
-   "end": 500,
+   "t": 468,
+   "end": 496,
    "kind": "phrase",
    "ar": "أنا لستُ من أمريكا",
    "tr": "ana lastu min amreeka",
-   "en": "I am not from America",
+   "en": "I am not from the USA",
    "parts": [
     "أنا",
     "لستُ",
@@ -273,8 +300,8 @@
    ]
   },
   {
-   "t": 500,
-   "end": 517,
+   "t": 494,
+   "end": 514,
    "kind": "review",
    "ar": "أنا من الهند",
    "tr": "ana min al-hind",
@@ -286,8 +313,8 @@
    ]
   },
   {
-   "t": 517,
-   "end": 536,
+   "t": 512,
+   "end": 520,
    "kind": "review",
    "ar": "من أين أنتَ؟",
    "tr": "min ayna anta?",
@@ -299,8 +326,21 @@
    ]
   },
   {
-   "t": 536,
-   "end": 557,
+   "t": 524,
+   "end": 534,
+   "kind": "phrase",
+   "ar": "من أين أنتِ؟",
+   "tr": "min ayna anti?",
+   "en": "Where are you from? (to a female)",
+   "parts": [
+    "من",
+    "أين",
+    "أنتِ"
+   ]
+  },
+  {
+   "t": 532,
+   "end": 560,
    "kind": "phrase",
    "ar": "أنا لستُ من الهند",
    "tr": "ana lastu min al-hind",
@@ -313,38 +353,26 @@
    ]
   },
   {
-   "t": 557,
-   "end": 577,
-   "kind": "word",
-   "ar": "باكستان",
-   "tr": "baakistaan",
-   "en": "Pakistan",
-   "syll": [
-    "baa",
-    "kis",
-    "taan"
-   ],
-   "mnemonic": "baa-kis-TAAN: 'PAKISTAN' said with a soft B and long AAs."
-  },
-  {
-   "t": 577,
-   "end": 599,
+   "t": 558,
+   "end": 596,
    "kind": "phrase",
    "ar": "أنا من باكستان",
-   "tr": "ana min baakistaan",
+   "tr": "ana min bakistan",
    "en": "I am from Pakistan",
    "parts": [
     "أنا",
     "من",
     "باكستان"
-   ]
+   ],
+   "note": "Arabic has no P, so Pakistan starts with a B.",
+   "mnemonic": "ba-kis-TAN: 'PAKISTAN' said with a soft B."
   },
   {
-   "t": 599,
-   "end": 619,
+   "t": 594,
+   "end": 616,
    "kind": "review",
    "ar": "أنا أعيشُ هنا",
-   "tr": "ana a'eeshu huna",
+   "tr": "ana a'isho huna",
    "en": "I live here",
    "parts": [
     "أنا",
@@ -353,12 +381,12 @@
    ]
   },
   {
-   "t": 619,
-   "end": 642,
+   "t": 614,
+   "end": 638,
    "kind": "review",
    "ar": "منذ زمن طويل",
-   "tr": "mundhu zaman taweel",
-   "en": "for a long time",
+   "tr": "mundhu zaman tawil",
+   "en": "since a long time (for a long time)",
    "parts": [
     "منذ",
     "زمن",
@@ -366,11 +394,11 @@
    ]
   },
   {
-   "t": 642,
-   "end": 668,
+   "t": 636,
+   "end": 686,
    "kind": "phrase",
    "ar": "أنا أعيشُ هنا منذ زمن طويل",
-   "tr": "ana a'eeshu huna mundhu zaman taweel",
+   "tr": "ana a'isho huna mundhu zaman tawil",
    "en": "I have been living here for a long time",
    "parts": [
     "أنا",
@@ -382,17 +410,20 @@
    ]
   },
   {
-   "t": 668,
-   "end": 686,
-   "kind": "rule",
-   "ar": "راجع الدروس السابقة",
-   "tr": "raaji' ad-duroos as-saabiqa",
-   "en": "Rewatch the previous lessons from lesson one until every word is memorised",
-   "note": "Her study tip before moving on: repeat lessons 1 to 8 over and over."
+   "t": 684,
+   "end": 700,
+   "kind": "review",
+   "ar": "أنا لستُ",
+   "tr": "ana lastu",
+   "en": "I am not",
+   "parts": [
+    "أنا",
+    "لستُ"
+   ]
   },
   {
-   "t": 686,
-   "end": 722,
+   "t": 698,
+   "end": 718,
    "kind": "review",
    "ar": "أنا لستُ من هنا",
    "tr": "ana lastu min huna",
@@ -405,8 +436,8 @@
    ]
   },
   {
-   "t": 722,
-   "end": 749,
+   "t": 716,
+   "end": 752,
    "kind": "review",
    "ar": "أنا من الهند",
    "tr": "ana min al-hind",
@@ -418,38 +449,90 @@
    ]
   },
   {
-   "t": 749,
-   "end": 800,
+   "t": 750,
+   "end": 776,
    "kind": "phrase",
-   "ar": "لا، أنا لستُ من الهند، أنا من باكستان",
-   "tr": "laa, ana lastu min al-hind, ana min baakistaan",
-   "en": "No, I am not from India, I am from Pakistan",
+   "ar": "لا، أنا لستُ من الهند",
+   "tr": "laa, ana lastu min al-hind",
+   "en": "No, I am not from India",
    "parts": [
     "لا",
     "أنا",
     "لستُ",
     "من",
-    "الهند",
+    "الهند"
+   ]
+  },
+  {
+   "t": 774,
+   "end": 796,
+   "kind": "review",
+   "ar": "أنا من باكستان",
+   "tr": "ana min bakistan",
+   "en": "I am from Pakistan",
+   "parts": [
     "أنا",
     "من",
     "باكستان"
    ]
   },
   {
-   "t": 800,
-   "end": 812,
+   "t": 794,
+   "end": 808,
    "kind": "review",
    "ar": "أهلاً",
    "tr": "ahlan",
-   "en": "hello / hi (a warm welcome)",
+   "en": "nice to meet you (hello)",
    "syll": [
     "ah",
     "lan"
-   ]
+   ],
+   "note": "She uses أهلاً as the friendly greeting when you meet someone: 'nice to meet you'."
   },
   {
-   "t": 812,
-   "end": 880,
+   "t": 806,
+   "end": 842,
+   "kind": "review",
+   "ar": "اسمُكِ",
+   "tr": "ismuki",
+   "en": "your name (to a female)",
+   "syll": [
+    "is",
+    "mu",
+    "ki"
+   ],
+   "note": "اسم (ism) = name; ـكِ (ki) on the end = 'your' for a woman."
+  },
+  {
+   "t": 840,
+   "end": 852,
+   "kind": "review",
+   "ar": "اسمُكَ",
+   "tr": "ismuka",
+   "en": "your name (to a male)",
+   "syll": [
+    "is",
+    "mu",
+    "ka"
+   ],
+   "note": "Same word, ـكَ (ka) ending = 'your' for a man."
+  },
+  {
+   "t": 850,
+   "end": 870,
+   "kind": "phrase",
+   "ar": "ما اسمُكِ؟",
+   "tr": "maa ismuki?",
+   "en": "What is your name? (to a female)",
+   "parts": [
+    "ما",
+    "اسمُكِ"
+   ],
+   "note": "ما (maa) = what."
+  },
+  {
+   "t": 868,
+   "end": 892,
    "kind": "phrase",
    "ar": "ما اسمُكَ؟",
    "tr": "maa ismuka?",
@@ -457,57 +540,48 @@
    "parts": [
     "ما",
     "اسمُكَ"
-   ],
-   "note": "ما (maa) = what, اسمُكَ (ismuka) = your name; the captions garble the ending so the final vowel is her usual male 'you'.",
-   "uncertain": true
-  },
-  {
-   "t": 855,
-   "end": 880,
-   "kind": "review",
-   "ar": "ما",
-   "tr": "maa",
-   "en": "what",
-   "syll": [
-    "maa"
    ]
   },
   {
-   "t": 880,
-   "end": 923,
-   "kind": "review",
-   "ar": "اسمي",
-   "tr": "ismee",
-   "en": "my name (my name is...)",
-   "syll": [
-    "is",
-    "mee"
-   ],
-   "note": "ـي (ee) on the end = 'my'. اسمي توم = My name is Tom; اسمي جولي = My name is Julie."
-  },
-  {
-   "t": 894,
-   "end": 923,
+   "t": 890,
+   "end": 906,
    "kind": "phrase",
    "ar": "اسمي توم",
-   "tr": "ismee tom",
+   "tr": "ismi tom",
    "en": "My name is Tom",
    "parts": [
     "اسمي",
     "توم"
+   ],
+   "note": "ـي (i) on the end of اسم = 'my': ismi = my name."
+  },
+  {
+   "t": 904,
+   "end": 922,
+   "kind": "phrase",
+   "ar": "اسمي جولي",
+   "tr": "ismi julie",
+   "en": "My name is Julie",
+   "parts": [
+    "اسمي",
+    "جولي"
    ]
   },
   {
-   "t": 923,
-   "end": 941,
+   "t": 920,
+   "end": 930,
    "kind": "review",
    "ar": "أهلاً",
    "tr": "ahlan",
-   "en": "hello"
+   "en": "nice to meet you",
+   "syll": [
+    "ah",
+    "lan"
+   ]
   },
   {
-   "t": 941,
-   "end": 959,
+   "t": 928,
+   "end": 954,
    "kind": "review",
    "ar": "من أين أنتَ؟",
    "tr": "min ayna anta?",
@@ -519,12 +593,12 @@
    ]
   },
   {
-   "t": 959,
-   "end": 971,
+   "t": 952,
+   "end": 976,
    "kind": "review",
    "ar": "أنا من أمريكا",
    "tr": "ana min amreeka",
-   "en": "I am from America",
+   "en": "I am from the USA",
    "parts": [
     "أنا",
     "من",
@@ -532,53 +606,51 @@
    ]
   },
   {
-   "t": 971,
-   "end": 983,
+   "t": 974,
+   "end": 986,
    "kind": "phrase",
    "ar": "أهلاً توم",
    "tr": "ahlan tom",
-   "en": "Hello Tom / nice to meet you, Tom",
+   "en": "Nice to meet you, Tom",
    "parts": [
     "أهلاً",
     "توم"
-   ],
-   "note": "She uses أهلاً as the friendly greeting when you meet someone.",
-   "uncertain": true
-  },
-  {
-   "t": 983,
-   "end": 1006,
-   "kind": "word",
-   "ar": "وأنتَ؟",
-   "tr": "wa anta?",
-   "en": "and you? (to a male)",
-   "syll": [
-    "wa",
-    "an",
-    "ta"
-   ],
-   "parts": [
-    "وأنتَ"
-   ],
-   "note": "و (wa) = and, glued to أنتَ; the way to bounce a question back.",
-   "mnemonic": "wa-AN-ta: 'WHAT about you, ANT?'"
-  },
-  {
-   "t": 1006,
-   "end": 1024,
-   "kind": "phrase",
-   "ar": "وأنتَ، من أين أنتَ؟",
-   "tr": "wa anta, min ayna anta?",
-   "en": "And you, where are you from?",
-   "parts": [
-    "وأنتَ",
-    "من",
-    "أين",
-    "أنتَ"
    ]
   },
   {
-   "t": 1024,
+   "t": 984,
+   "end": 1000,
+   "kind": "word",
+   "ar": "وأنتِ؟",
+   "tr": "wa anti?",
+   "en": "And you? (to a female)",
+   "syll": [
+    "wa",
+    "an",
+    "ti"
+   ],
+   "parts": [
+    "وأنتِ"
+   ],
+   "note": "و (wa) = and, glued to أنتِ; the way to bounce a question back.",
+   "mnemonic": "wa-AN-ti: 'WHAT about you, ANTIe?'"
+  },
+  {
+   "t": 998,
+   "end": 1022,
+   "kind": "phrase",
+   "ar": "وأنتِ، من أين أنتِ؟",
+   "tr": "wa anti, min ayna anti?",
+   "en": "And you, where are you from? (to a female)",
+   "parts": [
+    "وأنتِ",
+    "من",
+    "أين",
+    "أنتِ"
+   ]
+  },
+  {
+   "t": 1020,
    "end": 1038,
    "kind": "review",
    "ar": "أنا من الهند",
@@ -591,12 +663,12 @@
    ]
   },
   {
-   "t": 1038,
-   "end": 1065,
+   "t": 1036,
+   "end": 1062,
    "kind": "review",
    "ar": "أنا لستُ من أمريكا",
    "tr": "ana lastu min amreeka",
-   "en": "I am not from America",
+   "en": "I am not from the USA",
    "parts": [
     "أنا",
     "لستُ",
@@ -605,11 +677,11 @@
    ]
   },
   {
-   "t": 1065,
-   "end": 1085,
+   "t": 1060,
+   "end": 1088,
    "kind": "review",
    "ar": "أنا أعيشُ هنا منذ زمن طويل",
-   "tr": "ana a'eeshu huna mundhu zaman taweel",
+   "tr": "ana a'isho huna mundhu zaman tawil",
    "en": "I have been living here for a long time",
    "parts": [
     "أنا",
@@ -621,13 +693,13 @@
    ]
   },
   {
-   "t": 1085,
-   "end": 1110,
-   "kind": "phrase",
-   "ar": "اسمي ... وأنا من ...",
-   "tr": "ismee ... wa ana min ...",
-   "en": "My name is [your name] and I am from [your country] (today's quiz)",
-   "note": "Quiz: fill in your own name and country, write it in the comments."
+   "t": 1086,
+   "end": 1131,
+   "kind": "rule",
+   "ar": "اسمي ... أنا من ...",
+   "tr": "ismi ... ana min ...",
+   "en": "My name is (your name). I am from (your country).",
+   "note": "Today's quiz: fill in your own name and country and write it in the comments."
   }
  ],
  "dialogue": [
@@ -639,21 +711,21 @@
   },
   {
    "who": "B",
-   "ar": "اسمي توم. وأنتَ؟",
-   "tr": "ismee tom. wa anta?",
+   "ar": "اسمي توم. وأنتِ؟",
+   "tr": "ismi tom. wa anti?",
    "en": "My name is Tom. And you?"
   },
   {
    "who": "A",
-   "ar": "اسمي سامي. من أين أنتَ؟",
-   "tr": "ismee saamee. min ayna anta?",
-   "en": "My name is Sami. Where are you from?"
+   "ar": "اسمي جولي. من أين أنتَ؟",
+   "tr": "ismi julie. min ayna anta?",
+   "en": "My name is Julie. Where are you from?"
   },
   {
    "who": "B",
    "ar": "أنا من أمريكا. أنا أعيشُ هنا منذ زمن طويل.",
-   "tr": "ana min amreeka. ana a'eeshu huna mundhu zaman taweel.",
-   "en": "I am from America. I have been living here for a long time."
+   "tr": "ana min amreeka. ana a'isho huna mundhu zaman tawil.",
+   "en": "I am from the USA. I have been living here for a long time."
   },
   {
    "who": "A",

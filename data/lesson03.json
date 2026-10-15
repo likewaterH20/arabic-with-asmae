@@ -3,138 +3,127 @@
  "id": "OrQZZPKeqNM",
  "title": "I speak English and Arabic",
  "duration": 676,
- "goal": "Say what languages you understand and speak, join them with 'and', add 'with you' and 'me too', and learn that the pronoun 'ana' is optional.",
+ "goal": "Say what languages you understand and speak, join them with 'wa' (and), add 'ma'aka' (with you), 'jayyidan' (very well), 'qaleelan' (a little) and 'ana aydan' (me too), and learn that the pronoun 'ana' can be dropped.",
  "items": [
   {
    "t": 32,
-   "end": 70,
+   "end": 72,
    "kind": "word",
    "ar": "الإنجليزية",
-   "tr": "al-injleeziyya",
+   "tr": "al-ingleeziyya",
    "en": "English (the English language)",
    "syll": [
     "al",
     "in",
-    "jlee",
+    "glee",
     "ziy",
     "ya"
    ],
-   "note": "Like العربية, Arabic says 'the English': ال (al) + injleeziyya.",
-   "mnemonic": "al-INJLEEZIYYA: 'the ENGLISH-ia', it even sounds like 'English'."
+   "note": "Like العربية, Arabic says 'the English': ال (al) + ingleeziyya.",
+   "mnemonic": "al-INGLEEZIYYA: 'the ENGLISH-ia', it even sounds like 'English'."
   },
   {
-   "t": 71,
-   "end": 90,
+   "t": 70,
+   "end": 82,
    "kind": "review",
-   "ar": "أفهم",
-   "tr": "afham",
+   "ar": "أنا أفهم",
+   "tr": "ana afham",
    "en": "I understand",
-   "syll": [
-    "af",
-    "ham"
+   "parts": [
+    "أنا",
+    "أفهم"
    ],
-   "note": "She re-asks the verb from lesson 2.",
-   "uncertain": true
+   "note": "She re-asks the verb from lesson 2."
   },
   {
-   "t": 91,
-   "end": 102,
+   "t": 80,
+   "end": 94,
+   "kind": "review",
+   "ar": "الإنجليزية",
+   "tr": "al-inglīziyyah",
+   "en": "English",
+   "note": "Same word, her second spelling on screen: al-Inglīziyyah."
+  },
+  {
+   "t": 92,
+   "end": 126,
    "kind": "phrase",
    "ar": "أنا أفهمُ الإنجليزية",
-   "tr": "ana afhamu al-injleeziyya",
+   "tr": "ana afhamu al-inglīziyya",
    "en": "I understand English",
    "parts": [
     "أنا",
     "أفهمُ",
     "الإنجليزية"
-   ]
-  },
-  {
-   "t": 102,
-   "end": 118,
-   "kind": "rule",
-   "ar": "أفهمُ",
-   "tr": "afhamu",
-   "en": "verb + a following word → hook an 'u' sound",
-   "note": "Same rule as أريدُ: when another word follows the verb, hook an 'u' (she says 'o') on the end: afhamu al-injleeziyya."
-  },
-  {
-   "t": 118,
-   "end": 124,
-   "kind": "rule",
-   "ar": "أفهم الإنجليزية",
-   "tr": "afham al-injleeziyya",
-   "en": "I understand English (alternative)",
-   "note": "She says 'you may also say' a second form and that it is correct too, most likely the same sentence with the pronoun or hooked 'u' dropped.",
-   "uncertain": true
+   ],
+   "note": "Same rule as أريدُ: when another word follows the verb, hook an 'u' on the end: afhamu al-inglīziyya."
   },
   {
    "t": 124,
-   "end": 138,
+   "end": 140,
    "kind": "review",
-   "ar": "جيداً جداً",
-   "tr": "jayyidan jiddan",
-   "en": "very well (well = jayyidan)",
-   "note": "جيداً = well, جداً = very; the order in Arabic is 'well very'.",
-   "uncertain": true
+   "ar": "جيداً",
+   "tr": "jayyidan",
+   "en": "very well",
+   "syll": [
+    "jay",
+    "yi",
+    "dan"
+   ]
   },
   {
    "t": 138,
-   "end": 163,
+   "end": 164,
    "kind": "phrase",
-   "ar": "أنا أفهمُ الإنجليزية جيداً جداً",
-   "tr": "ana afhamu al-injleeziyya jayyidan jiddan",
+   "ar": "أنا أفهمُ الإنجليزية جيداً",
+   "tr": "ana afhamu al-inglīziyya jayyidan",
    "en": "I understand English very well",
    "parts": [
     "أنا",
     "أفهمُ",
     "الإنجليزية",
-    "جيداً",
-    "جداً"
+    "جيداً"
    ]
   },
   {
-   "t": 163,
-   "end": 171,
+   "t": 162,
+   "end": 174,
    "kind": "review",
-   "ar": "أتعلّم",
-   "tr": "ata'allam",
+   "ar": "أنا أتعلّم",
+   "tr": "ana ata'allam",
    "en": "I learn",
-   "syll": [
-    "a",
-    "ta",
-    "'al",
-    "lam"
+   "parts": [
+    "أنا",
+    "أتعلّم"
    ]
   },
   {
-   "t": 171,
-   "end": 216,
+   "t": 192,
+   "end": 198,
    "kind": "rule",
-   "ar": "أنا أتعلّم / أتعلّم",
-   "tr": "ana ata'allam / ata'allam",
-   "en": "the pronoun is optional",
-   "note": "The verb ending already shows who the subject is, so أنا is only added for emphasis or clarity; 'ana ata'allam' and 'ata'allam' mean the same thing."
+   "ar": "أنا أريد / أريد",
+   "tr": "anā 'urīd / 'urīd",
+   "en": "I want: the pronoun is optional",
+   "note": "The verb ending already shows who the subject is, so أنا can be dropped: 'ana ureed' and 'ureed' both mean 'I want'. The card fades أنا away to show it."
   },
   {
    "t": 196,
-   "end": 216,
+   "end": 218,
    "kind": "phrase",
-   "ar": "أتعلّمُ العربية",
-   "tr": "ata'allamu al-'arabiyya",
-   "en": "I learn Arabic (without 'ana')",
+   "ar": "أفهمُ الإنجليزية",
+   "tr": "afhamu al-inglīziyya",
+   "en": "I understand English (without 'ana')",
    "parts": [
-    "أتعلّمُ",
-    "العربية"
+    "أفهمُ",
+    "الإنجليزية"
    ],
-   "note": "She asks you to say the sentence without أنا.",
-   "uncertain": true
+   "note": "Same sentence, أنا dropped; it still means 'I understand English'."
   },
   {
    "t": 216,
-   "end": 222,
+   "end": 226,
    "kind": "word",
-   "ar": "و",
+   "ar": "وَ",
    "tr": "wa",
    "en": "and",
    "syll": [
@@ -144,20 +133,21 @@
    "mnemonic": "WA = and. 'WAffles AND syrup.'"
   },
   {
-   "t": 222,
-   "end": 241,
+   "t": 224,
+   "end": 244,
    "kind": "phrase",
    "ar": "الإنجليزية والعربية",
-   "tr": "al-injleeziyya wa-l-'arabiyya",
+   "tr": "al-inglīziyya wal-'arabiyya",
    "en": "English and Arabic",
    "parts": [
     "الإنجليزية",
     "والعربية"
-   ]
+   ],
+   "note": "wa + al-'arabiyya is said as one word: wal-'arabiyya."
   },
   {
-   "t": 241,
-   "end": 262,
+   "t": 242,
+   "end": 266,
    "kind": "word",
    "ar": "تَكَلَّم",
    "tr": "takallam",
@@ -171,27 +161,25 @@
    "mnemonic": "ta-KAL-lam: 'TALK a LAMb into speaking'."
   },
   {
-   "t": 262,
-   "end": 276,
+   "t": 264,
+   "end": 278,
    "kind": "word",
-   "ar": "أتكلّم",
-   "tr": "atakallam",
+   "ar": "أنا أتكلّم",
+   "tr": "anā atakallam",
    "en": "I speak",
-   "syll": [
-    "a",
-    "ta",
-    "kal",
-    "lam"
+   "parts": [
+    "أنا",
+    "أتكلّم"
    ],
    "note": "Add the 'a' at the front for 'I', exactly like أتعلّم (I learn).",
    "mnemonic": "a-ta-KAL-lam: 'I TALK, LAMb.'"
   },
   {
    "t": 276,
-   "end": 317,
+   "end": 320,
    "kind": "phrase",
    "ar": "أنا أتكلّمُ الإنجليزية والعربية",
-   "tr": "ana atakallamu al-injleeziyya wa-l-'arabiyya",
+   "tr": "ana atakallamu al-inglīziyya wal-'arabiyya",
    "en": "I speak English and Arabic",
    "parts": [
     "أنا",
@@ -201,11 +189,11 @@
    ]
   },
   {
-   "t": 317,
-   "end": 358,
+   "t": 318,
+   "end": 362,
    "kind": "phrase",
-   "ar": "أنا أفهمُ الإنجليزية وأريدُ أن أتعلّم العربية",
-   "tr": "ana afhamu al-injleeziyya wa ureedu an ata'allam al-'arabiyya",
+   "ar": "أنا أفهمُ الإنجليزية وأريدُ أن أتعلّمَ العربية",
+   "tr": "ana afhamu al-inglīziyya wa ureedu an ata'allama al-'arabiyya",
    "en": "I understand English and I want to learn Arabic",
    "parts": [
     "أنا",
@@ -213,56 +201,49 @@
     "الإنجليزية",
     "وأريدُ",
     "أن",
-    "أتعلّم",
+    "أتعلّمَ",
     "العربية"
    ],
-   "note": "Two sentences joined with و; the second أنا is dropped."
+   "note": "Two sentences joined with و; the second أنا is dropped. After أن the verb takes an 'a' ending: ata'allama."
   },
   {
-   "t": 358,
-   "end": 390,
+   "t": 360,
+   "end": 392,
    "kind": "word",
    "ar": "معك",
    "tr": "ma'aka",
-   "en": "with you (to a male)",
+   "en": "with you",
    "syll": [
     "ma",
     "'a",
     "ka"
    ],
-   "note": "مع (ma'a) = with; adding -ka means you are talking to a male.",
-   "mnemonic": "ma'a-KA: 'MA, I'm with KArl' (a guy)."
-  },
-  {
-   "t": 375,
-   "end": 384,
-   "kind": "word",
-   "ar": "مع",
-   "tr": "ma'a",
-   "en": "with",
-   "syll": [
-    "ma",
-    "'a"
-   ],
-   "mnemonic": "MA'A = with. 'MAma is WITH me.'"
+   "note": "مع (ma'a) = with; -ka = you (talking to a male).",
+   "mnemonic": "ma'a-KA: 'MA, I'm with KArl'."
   },
   {
    "t": 390,
-   "end": 401,
+   "end": 398,
    "kind": "review",
-   "ar": "أتكلّم",
-   "tr": "atakallam",
+   "ar": "تَكَلَّم",
+   "tr": "takallam",
+   "en": "speak"
+  },
+  {
+   "t": 396,
+   "end": 404,
+   "kind": "review",
+   "ar": "أنا أتكلّم",
+   "tr": "anā atakallam",
    "en": "I speak",
-   "syll": [
-    "a",
-    "ta",
-    "kal",
-    "lam"
+   "parts": [
+    "أنا",
+    "أتكلّم"
    ]
   },
   {
-   "t": 401,
-   "end": 410,
+   "t": 402,
+   "end": 414,
    "kind": "rule",
    "ar": "أن أتكلّم",
    "tr": "an atakallam",
@@ -270,38 +251,39 @@
    "note": "Just like أن أتعلّم (to learn): أن (an) + the 'I' form gives 'to speak'."
   },
   {
-   "t": 410,
-   "end": 431,
+   "t": 412,
+   "end": 434,
    "kind": "phrase",
-   "ar": "أنا أريدُ أن أتكلّم العربية",
-   "tr": "ana ureedu an atakallam al-'arabiyya",
+   "ar": "أنا أريدُ أن أتكلّمَ العربية",
+   "tr": "ana ureedu an atakallama l'arabiyya",
    "en": "I want to speak Arabic",
    "parts": [
     "أنا",
     "أريدُ",
     "أن",
-    "أتكلّم",
+    "أتكلّمَ",
     "العربية"
-   ]
+   ],
+   "note": "She writes al-'arabiyya as l'arabiyya here: the 'a' of al- melts into the word before it."
   },
   {
-   "t": 431,
-   "end": 464,
+   "t": 432,
+   "end": 466,
    "kind": "phrase",
-   "ar": "أنا أريدُ أن أتكلّم معك",
-   "tr": "ana ureedu an atakallam ma'aka",
-   "en": "I want to speak with you (to a male)",
+   "ar": "أريدُ أن أتكلّمَ معك",
+   "tr": "ureedu an atakallama ma'aka",
+   "en": "I want to speak with you",
    "parts": [
-    "أنا",
     "أريدُ",
     "أن",
-    "أتكلّم",
+    "أتكلّمَ",
     "معك"
-   ]
+   ],
+   "note": "No أنا this time: the pronoun is optional."
   },
   {
-   "t": 470,
-   "end": 478,
+   "t": 472,
+   "end": 480,
    "kind": "word",
    "ar": "نعم",
    "tr": "na'am",
@@ -314,54 +296,55 @@
   },
   {
    "t": 478,
-   "end": 506,
+   "end": 510,
    "kind": "phrase",
-   "ar": "أنا أيضاً",
-   "tr": "ana aydan",
-   "en": "me too",
+   "ar": "نعم، أنا أيضاً",
+   "tr": "na'am, ana ayyidan",
+   "en": "yes, me too",
    "parts": [
+    "نعم",
     "أنا",
     "أيضاً"
    ],
-   "note": "Literally 'I also': أنا = I, أيضاً = too / also.",
-   "mnemonic": "AYDAN = too. 'I DAN-ce too.'"
+   "note": "Literally 'yes, I also': أنا = I, أيضاً = too / also. She spells it Ayyidan, aydan and Ayydan on different cards.",
+   "mnemonic": "AYYIDAN = too. 'AYE, I DAN-ce too.'"
   },
   {
-   "t": 506,
-   "end": 548,
+   "t": 526,
+   "end": 550,
    "kind": "phrase",
-   "ar": "أنا أيضاً أريدُ أن أتكلّم العربية",
-   "tr": "ana aydan ureedu an atakallam al-'arabiyya",
-   "en": "I want to speak Arabic too",
+   "ar": "أنا أيضاً أريدُ أن أتعلّمَ العربية",
+   "tr": "ana ayyidan ureedu an ata'allama l'arabiyya",
+   "en": "I want to learn Arabic too",
    "parts": [
     "أنا",
     "أيضاً",
     "أريدُ",
     "أن",
-    "أتكلّم",
+    "أتعلّمَ",
     "العربية"
    ],
-   "note": "Literally 'me too I want to speak Arabic'; say أنا only once, at the start."
+   "note": "Literally 'I too want to learn Arabic'; أيضاً goes right after أنا."
   },
   {
    "t": 548,
-   "end": 592,
+   "end": 596,
    "kind": "phrase",
-   "ar": "أنا أيضاً أتكلّمُ الإنجليزية جيداً جداً",
-   "tr": "ana aydan atakallamu al-injleeziyya jayyidan jiddan",
-   "en": "I speak English very well too",
+   "ar": "أنا أيضاً أتكلّمُ العربية جيداً",
+   "tr": "ana aydan atakallamu al-'arabiyya jayyidan",
+   "en": "I speak Arabic very well too",
    "parts": [
     "أنا",
     "أيضاً",
     "أتكلّمُ",
-    "الإنجليزية",
-    "جيداً",
-    "جداً"
-   ]
+    "العربية",
+    "جيداً"
+   ],
+   "note": "Her caption first says 'english' by mistake; the Arabic says العربية (Arabic)."
   },
   {
-   "t": 592,
-   "end": 606,
+   "t": 594,
+   "end": 610,
    "kind": "review",
    "ar": "قليلاً",
    "tr": "qaleelan",
@@ -370,15 +353,14 @@
     "qa",
     "lee",
     "lan"
-   ],
-   "uncertain": true
+   ]
   },
   {
-   "t": 606,
-   "end": 640,
+   "t": 608,
+   "end": 642,
    "kind": "phrase",
    "ar": "أنا أيضاً أتكلّمُ العربية قليلاً",
-   "tr": "ana aydan atakallamu al-'arabiyya qaleelan",
+   "tr": "ana ayydan atakallamu al-'arabiyya qaleelan",
    "en": "I speak Arabic a little bit too",
    "parts": [
     "أنا",
@@ -386,32 +368,31 @@
     "أتكلّمُ",
     "العربية",
     "قليلاً"
-   ],
-   "note": "Literally 'me too I speak Arabic a little bit'."
+   ]
   },
   {
    "t": 650,
    "end": 660,
    "kind": "review",
-   "ar": "أنا أريدُ أن أفهم جيداً جداً",
-   "tr": "ana ureedu an afham jayyidan jiddan",
-   "en": "I want to understand very well (last lesson's quiz)",
+   "ar": "أنا أريدُ أن أفهمَ جيداً",
+   "tr": "ana ureedu an afhama jayyidan",
+   "en": "I want to understand very well (last lesson's quiz answer)",
    "parts": [
     "أنا",
     "أريدُ",
     "أن",
-    "أفهم",
-    "جيداً",
-    "جداً"
+    "أفهمَ",
+    "جيداً"
    ],
+   "note": "Only the English prompt is on screen; she reads viewers' answers.",
    "uncertain": true
   },
   {
    "t": 660,
-   "end": 676,
+   "end": 672,
    "kind": "review",
    "ar": "أنا أيضاً أتكلّمُ العربية قليلاً",
-   "tr": "ana aydan atakallamu al-'arabiyya qaleelan",
+   "tr": "ana ayydan atakallamu al-'arabiyya qaleelan",
    "en": "I too speak Arabic a little bit (today's quiz)",
    "parts": [
     "أنا",
@@ -426,25 +407,25 @@
   {
    "who": "A",
    "ar": "أنا أتكلّمُ الإنجليزية والعربية.",
-   "tr": "ana atakallamu al-injleeziyya wa-l-'arabiyya.",
+   "tr": "ana atakallamu al-inglīziyya wal-'arabiyya.",
    "en": "I speak English and Arabic."
   },
   {
    "who": "B",
    "ar": "أنا أيضاً أتكلّمُ العربية قليلاً.",
-   "tr": "ana aydan atakallamu al-'arabiyya qaleelan.",
+   "tr": "ana ayyidan atakallamu al-'arabiyya qaleelan.",
    "en": "I speak Arabic a little bit too."
   },
   {
    "who": "A",
-   "ar": "أنا أريدُ أن أتكلّم معك.",
-   "tr": "ana ureedu an atakallam ma'aka.",
+   "ar": "أريدُ أن أتكلّمَ معك.",
+   "tr": "ureedu an atakallama ma'aka.",
    "en": "I want to speak with you."
   },
   {
    "who": "B",
-   "ar": "نعم! أنا أيضاً أريدُ أن أتعلّم العربية جيداً جداً.",
-   "tr": "na'am! ana aydan ureedu an ata'allam al-'arabiyya jayyidan jiddan.",
+   "ar": "نعم! أنا أيضاً أريدُ أن أتعلّمَ العربية جيداً.",
+   "tr": "na'am! ana ayyidan ureedu an ata'allama l'arabiyya jayyidan.",
    "en": "Yes! I want to learn Arabic very well too."
   }
  ]
