@@ -211,7 +211,8 @@ function viewLesson() {
   add(wrap, left, right);
   add(main, h('h1', null, lessonTitle(L)), wrap);
   buildPlayer(left, L);
-  add(right, liveCard(L), blocksList(L));
+  const lc = liveCard(L); lc.hidden = S.settings.captions === false;
+  add(right, lc, blocksList(L));
   add(main, h('h2', null, 'Course, in order'), lessonList());
 }
 function lessonList() {
@@ -243,12 +244,13 @@ function buildPlayer(left, L) {
   const time = h('div', { class: 'time' }, '0:00 / ' + fmt(L.duration));
   const playBtn = h('button', { class: 'ctl', onclick: () => toggle() }, 'Play');
   const loopBtn = h('button', { class: 'ctl', onclick: () => toggleLoop() }, 'Loop block');
+  const capBtn = h('button', { class: `ctl${S.settings.captions !== false ? ' on' : ''}`, onclick: () => { S.settings.captions = S.settings.captions === false; save(); capBtn.classList.toggle('on', S.settings.captions); const c = $('#live'); if (c) c.hidden = !S.settings.captions; } }, 'Captions');
   const coachBtn = h('button', { class: `ctl${S.settings.coach ? ' on' : ''}`, onclick: () => { S.settings.coach = !S.settings.coach; save(); coachBtn.classList.toggle('on', S.settings.coach); } }, 'Coach pauses');
   const rateBtn = h('button', { class: 'ctl', onclick: () => { S.settings.rate = S.settings.rate === 1 ? 0.75 : 1; save(); P && P.rate(S.settings.rate); rateBtn.textContent = S.settings.rate + '×'; } }, S.settings.rate + '×');
   const finishBtn = h('button', { class: 'ctl primary', onclick: () => finishLesson(L) }, items.length ? 'Finish, do the drills' : 'Mark finished');
   add(left, box, h('div', { class: 'controls' },
     playBtn, h('button', { class: 'ctl', onclick: () => seek(P.time() - 5) }, '−5 s'), h('button', { class: 'ctl', onclick: () => seek(P.time() + 5) }, '+5 s'),
-    scrub, time, loopBtn, coachBtn, finishBtn));
+    scrub, time, capBtn, loopBtn, coachBtn, finishBtn));
   for (const it of items) if (L.duration) add(marks, h('div', { class: `mark ${it.kind}`, style: `left:${100 * it.t / L.duration}%`, title: it.en }));
 
   let loop = null; // {a,b}
