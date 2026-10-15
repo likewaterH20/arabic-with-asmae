@@ -110,8 +110,8 @@ function makeLocalPlayer(box, L, onTime, onState) {
   add(box, v);
   v.addEventListener('timeupdate', () => onTime(v.currentTime));
   v.addEventListener('play', () => onState('playing')); v.addEventListener('pause', () => onState('paused')); v.addEventListener('ended', () => onState('ended'));
-  v.playbackRate = S.settings.rate;
-  return { kind: 'local', play: () => v.play(), pause: () => v.pause(), seek: t => { v.currentTime = t; }, time: () => v.currentTime, dur: () => v.duration || L.duration || 0, rate: r => v.playbackRate = r, playing: () => !v.paused, destroy: () => { v.pause(); v.remove(); } };
+  v.playbackRate = S.settings.rate; v.volume = S.settings.vol ?? 1;
+  return { kind: 'local', play: () => v.play(), pause: () => v.pause(), seek: t => { v.currentTime = t; }, time: () => v.currentTime, dur: () => v.duration || L.duration || 0, rate: r => v.playbackRate = r, vol: x => { v.volume = x; }, playing: () => !v.paused, destroy: () => { v.pause(); v.remove(); } };
 }
 let ytReady = null;
 function loadYT() {
@@ -131,7 +131,7 @@ async function makeYTPlayer(box, L, onTime, onState) {
     videoId: L.id, host: 'https://www.youtube-nocookie.com',
     playerVars: { rel: 0, modestbranding: 1, playsinline: 1, controls: 0, disablekb: 1, fs: 0, iv_load_policy: 3, origin: location.origin },
     events: {
-      onReady: () => { ready = true; yt.setPlaybackRate(S.settings.rate); },
+      onReady: () => { ready = true; yt.setPlaybackRate(S.settings.rate); yt.setVolume(Math.round((S.settings.vol ?? 1) * 100)); },
       onStateChange: e => {
         if (e.data === 1) { onState('playing'); clearInterval(timer); timer = setInterval(() => onTime(yt.getCurrentTime()), 250); }
         else if (e.data === 2) { onState('paused'); clearInterval(timer); }
@@ -139,7 +139,7 @@ async function makeYTPlayer(box, L, onTime, onState) {
       }
     }
   });
-  return { kind: 'yt', play: () => ready && yt.playVideo(), pause: () => ready && yt.pauseVideo(), seek: t => ready && yt.seekTo(t, true), time: () => ready ? yt.getCurrentTime() : 0, dur: () => (ready && yt.getDuration()) || L.duration || 0, rate: r => ready && yt.setPlaybackRate(r), playing: () => ready && yt.getPlayerState() === 1, destroy: () => { clearInterval(timer); try { yt.destroy(); } catch (e) { } } };
+  return { kind: 'yt', play: () => ready && yt.playVideo(), pause: () => ready && yt.pauseVideo(), seek: t => ready && yt.seekTo(t, true), time: () => ready ? yt.getCurrentTime() : 0, dur: () => (ready && yt.getDuration()) || L.duration || 0, rate: r => ready && yt.setPlaybackRate(r), vol: x => ready && yt.setVolume(Math.round(x * 100)), playing: () => ready && yt.getPlayerState() === 1, destroy: () => { clearInterval(timer); try { yt.destroy(); } catch (e) { } } };
 }
 
 // ---------- views ----------
@@ -244,13 +244,14 @@ function buildPlayer(left, L) {
   const time = h('div', { class: 'time' }, '0:00 / ' + fmt(L.duration));
   const playBtn = h('button', { class: 'ctl', onclick: () => toggle() }, 'Play');
   const loopBtn = h('button', { class: 'ctl', onclick: () => toggleLoop() }, 'Loop block');
+  const vol = h('input', { type: 'range', min: 0, max: 1, step: 0.05, value: S.settings.vol ?? 1, class: 'vol', title: 'Volume', oninput: e => { S.settings.vol = +e.target.value; save(); P && P.vol(S.settings.vol); } });
   const capBtn = h('button', { class: `ctl${S.settings.captions !== false ? ' on' : ''}`, onclick: () => { S.settings.captions = S.settings.captions === false; save(); capBtn.classList.toggle('on', S.settings.captions); const c = $('#live'); if (c) c.hidden = !S.settings.captions; } }, 'Captions');
   const coachBtn = h('button', { class: `ctl${S.settings.coach ? ' on' : ''}`, onclick: () => { S.settings.coach = !S.settings.coach; save(); coachBtn.classList.toggle('on', S.settings.coach); } }, 'Coach pauses');
   const rateBtn = h('button', { class: 'ctl', onclick: () => { S.settings.rate = S.settings.rate === 1 ? 0.75 : 1; save(); P && P.rate(S.settings.rate); rateBtn.textContent = S.settings.rate + '×'; } }, S.settings.rate + '×');
   const finishBtn = h('button', { class: 'ctl primary', onclick: () => finishLesson(L) }, items.length ? 'Finish, do the drills' : 'Mark finished');
   add(left, box, h('div', { class: 'controls' },
     playBtn, h('button', { class: 'ctl', onclick: () => seek(P.time() - 5) }, '−5 s'), h('button', { class: 'ctl', onclick: () => seek(P.time() + 5) }, '+5 s'),
-    scrub, time, capBtn, loopBtn, coachBtn, finishBtn));
+    scrub, time, vol, capBtn, loopBtn, coachBtn, finishBtn));
   for (const it of items) if (L.duration) add(marks, h('div', { class: `mark ${it.kind}`, style: `left:${100 * it.t / L.duration}%`, title: it.en }));
 
   let loop = null; // {a,b}
@@ -271,7 +272,7 @@ function buildPlayer(left, L) {
     let cur = null; for (const it of items) { if (it.t <= t) cur = it; else break; }
     if (cur !== live.item) { live.item = cur; renderLive(cur); highlightBlock(cur); }
     // coach: when a teachable block ends, pause and ask him to produce it before moving on
-    if (S.settings.coach && cur && teachable(cur) && cur.end && t >= cur.end - 0.3 && live.coachShownFor !== cur && !loop) {
+    if (S.settings.coach && P.playing() && cur && teachable(cur) && cur.end && t >= cur.end - 0.3 && live.coachShownFor !== cur && !loop) {
       live.coachShownFor = cur; P.pause(); showCoach(cur);
     }
   }
